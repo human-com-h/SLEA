@@ -45,6 +45,13 @@ This downloads the 2.75 MB official Parquet and reconstructs all supplied cohort
 
 The base models are `Qwen/Qwen2.5-3B-Instruct` and `Qwen/Qwen2.5-7B-Instruct`. Revisions and weight checksums are recorded in `configs/sources.json` and `configs/phase4_qwen7b_source.json`. Obtain them from the official providers under their respective licenses; the 3B model uses the Qwen Research License and the 7B model uses Apache-2.0. This repository does not redistribute base weights. The ten small frozen probe/baseline assets are already included and checked against `resources/artifacts.json`.
 
+```bash
+python scripts/download_models.py --model qwen3b
+python scripts/download_models.py --model qwen7b
+```
+
+These optional commands download several GB of official model files and verify recorded checksums. `--metadata-only` downloads the tokenizer/configuration without model shards and cannot support inference.
+
 The original confirmation entry point is:
 
 ```bash
