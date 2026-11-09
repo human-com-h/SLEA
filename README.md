@@ -21,7 +21,7 @@ python -m pip install torch==2.11.0 --index-url https://download.pytorch.org/whl
 python -m pip install -r requirements.txt
 ```
 
-The CPU build supports the following checks. GPU inference requires the CUDA-enabled PyTorch build appropriate for the machine; the archived runs used CUDA 12.8 builds. Exact recorded environments are in `resources/environments/`. Installing dependencies does not download models or start cloud experiments.
+The CPU build supports the following checks. GPU inference requires the CUDA-enabled PyTorch build appropriate for the machine; the archived runs used CUDA 12.8 builds. Exact recorded environments are in `resources/environments/`. Installing dependencies does not download models or start cloud experiments. See [SECURITY.md](SECURITY.md) for the policy on the frozen dependency environment and upstream advisories.
 
 ## Level 1: quick start
 
