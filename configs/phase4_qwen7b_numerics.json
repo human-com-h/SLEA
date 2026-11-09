@@ -1,0 +1,13 @@
+{
+  "disable_reduced_accumulation": true,
+  "query_prescale": true,
+  "implementation": {
+    "change": "Q/sqrt(head_dim) before fp16 QK matmul instead of scaling already-rounded fp16 QK output",
+    "original_source_sha256": "a09b204b27793cf4dfbdd57d08946fe2ba1a50cd2e48301b95f668da64c7e898",
+    "patched_source_sha256": "e3d5fdd5170f4e408f46e2ab071cb4edfd10b11d736035e58694b56396f30ed5",
+    "model_weights_and_activation_output_dtype": "float16",
+    "attention_backend": "eager",
+    "extra_model_calls": 0,
+    "preserves_existing_accelerate_wrappers_and_mask_hooks": true
+  }
+}

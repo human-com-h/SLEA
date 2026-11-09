@@ -1,0 +1,4342 @@
+{
+  "status": "CPU_ONLY_POSTHOC_DIAGNOSIS_COMPLETE",
+  "seed": 42,
+  "model_calls": 0,
+  "cloud_calls": 0,
+  "saved_main_json_modified": false,
+  "new_diagnostic_models_blind_evaluated": false,
+  "precision": "offline feature statistics/PCA/Logistic float64; frozen gate map evaluated fp16 on CPU for development and exact saved GPU scores for blind",
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.4.3",
+    "scipy": "1.16.2",
+    "sklearn": "1.7.2",
+    "torch": "2.11.0+cu128"
+  },
+  "bootstrap_repeats": 10000,
+  "pair_swap_repeats": 10000,
+  "statistical_unit": "fact pair; both original and substituted contexts retained together",
+  "models": {
+    "qwen3b": {
+      "layer": 10,
+      "split_counts": {
+        "calibration": {
+          "contexts": 500,
+          "facts": 250,
+          "state_counts": {
+            "ext": 214,
+            "abstain": 214,
+            "align": 36,
+            "param": 36
+          },
+          "known_facts": 36,
+          "unknown_facts": 214,
+          "unknown_fraction": 0.856,
+          "conflict_positive_fraction": 0.5
+        },
+        "validation": {
+          "contexts": 300,
+          "facts": 150,
+          "state_counts": {
+            "ext": 131,
+            "abstain": 131,
+            "align": 19,
+            "param": 19
+          },
+          "known_facts": 19,
+          "unknown_facts": 131,
+          "unknown_fraction": 0.8733333333333333,
+          "conflict_positive_fraction": 0.5
+        },
+        "blind": {
+          "contexts": 600,
+          "facts": 300,
+          "state_counts": {
+            "ext": 251,
+            "abstain": 251,
+            "align": 49,
+            "param": 49
+          },
+          "known_facts": 49,
+          "unknown_facts": 251,
+          "unknown_fraction": 0.8366666666666667,
+          "conflict_positive_fraction": 0.5
+        }
+      },
+      "frozen_subgroup_auc": {
+        "zero_shot": {
+          "calibration": {
+            "known": {
+              "conflict_probability": {
+                "facts": 36,
+                "contexts": 72,
+                "auc": 0.4996141975308642,
+                "auc_ci95": [
+                  0.466820987654321,
+                  0.5270061728395061
+                ],
+                "exploratory_p_pair_swap_vs_half": 1.0,
+                "within_fact_order_accuracy": 0.4027777777777778,
+                "within_fact_order_ci95": [
+                  0.25,
+                  0.5555555555555556
+                ],
+                "positive_score_median": 0.003073453903198242,
+                "negative_score_median": 0.0028028488159179688,
+                "score_between_fact_variance_share": 0.922521315462248,
+                "score_pair_midpoint_sd": 0.026596511480874437,
+                "score_within_pair_difference_rms": 0.01541549896552514
+              },
+              "conditional_log_odds": {
+                "facts": 36,
+                "contexts": 72,
+                "auc": 0.5084876543209876,
+                "auc_ci95": [
+                  0.47608024691358025,
+                  0.5447530864197531
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.6184381561843816,
+                "within_fact_order_accuracy": 0.5,
+                "within_fact_order_ci95": [
+                  0.3333333333333333,
+                  0.6666666666666666
+                ],
+                "positive_score_median": -4.63134765625,
+                "negative_score_median": -4.70361328125,
+                "score_between_fact_variance_share": 0.9657880458671588,
+                "score_pair_midpoint_sd": 1.3513616797023142,
+                "score_within_pair_difference_rms": 0.5086858100157722
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 214,
+                "contexts": 428,
+                "auc": 0.49225914927067865,
+                "auc_ci95": [
+                  0.48366669578129096,
+                  0.5000221089178094
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.047995200479952004,
+                "within_fact_order_accuracy": 0.42757009345794394,
+                "within_fact_order_ci95": [
+                  0.3621495327102804,
+                  0.4929906542056075
+                ],
+                "positive_score_median": 0.0008674860000610352,
+                "negative_score_median": 0.0010047852993011475,
+                "score_between_fact_variance_share": 0.9511014321659064,
+                "score_pair_midpoint_sd": 0.018225756550066217,
+                "score_within_pair_difference_rms": 0.008265139965182812
+              },
+              "conditional_log_odds": {
+                "facts": 214,
+                "contexts": 428,
+                "auc": 0.49385317494977726,
+                "auc_ci95": [
+                  0.4867122674469386,
+                  0.500317986287012
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.04609539046095391,
+                "within_fact_order_accuracy": 0.42990654205607476,
+                "within_fact_order_ci95": [
+                  0.3644859813084112,
+                  0.4953271028037383
+                ],
+                "positive_score_median": -7.462890625,
+                "negative_score_median": -7.30615234375,
+                "score_between_fact_variance_share": 0.9935646394219285,
+                "score_pair_midpoint_sd": 2.245105422229778,
+                "score_within_pair_difference_rms": 0.3613725114199721
+              }
+            }
+          },
+          "validation": {
+            "known": {
+              "conflict_probability": {
+                "facts": 19,
+                "contexts": 38,
+                "auc": 0.5013850415512465,
+                "auc_ci95": [
+                  0.45706371191135736,
+                  0.5429362880886427
+                ],
+                "exploratory_p_pair_swap_vs_half": 1.0,
+                "within_fact_order_accuracy": 0.42105263157894735,
+                "within_fact_order_ci95": [
+                  0.21052631578947367,
+                  0.631578947368421
+                ],
+                "positive_score_median": 0.0019103288650512695,
+                "negative_score_median": 0.0023836493492126465,
+                "score_between_fact_variance_share": 0.9431023471209947,
+                "score_pair_midpoint_sd": 0.014238625764536727,
+                "score_within_pair_difference_rms": 0.0069946475203925395
+              },
+              "conditional_log_odds": {
+                "facts": 19,
+                "contexts": 38,
+                "auc": 0.518005540166205,
+                "auc_ci95": [
+                  0.4709141274238227,
+                  0.5789473684210527
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.3414658534146585,
+                "within_fact_order_accuracy": 0.5789473684210527,
+                "within_fact_order_ci95": [
+                  0.3684210526315789,
+                  0.7894736842105263
+                ],
+                "positive_score_median": -4.9052734375,
+                "negative_score_median": -5.70361328125,
+                "score_between_fact_variance_share": 0.9915719205642065,
+                "score_pair_midpoint_sd": 1.6846668662523778,
+                "score_within_pair_difference_rms": 0.31063202666317896
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 131,
+                "contexts": 262,
+                "auc": 0.5053609929491288,
+                "auc_ci95": [
+                  0.49571703280694596,
+                  0.5161121146786318
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.26507349265073493,
+                "within_fact_order_accuracy": 0.5572519083969466,
+                "within_fact_order_ci95": [
+                  0.4732824427480916,
+                  0.6412213740458015
+                ],
+                "positive_score_median": 0.0018200874328613281,
+                "negative_score_median": 0.001953601837158203,
+                "score_between_fact_variance_share": 0.9680467905209034,
+                "score_pair_midpoint_sd": 0.014462786612717434,
+                "score_within_pair_difference_rms": 0.005255221707707748
+              },
+              "conditional_log_odds": {
+                "facts": 131,
+                "contexts": 262,
+                "auc": 0.5065555620301847,
+                "auc_ci95": [
+                  0.49769826933162403,
+                  0.5161135714701941
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.11278872112788721,
+                "within_fact_order_accuracy": 0.5190839694656488,
+                "within_fact_order_ci95": [
+                  0.4351145038167939,
+                  0.6030534351145038
+                ],
+                "positive_score_median": -6.62890625,
+                "negative_score_median": -6.7138671875,
+                "score_between_fact_variance_share": 0.9947571429082599,
+                "score_pair_midpoint_sd": 2.08684813332457,
+                "score_within_pair_difference_rms": 0.30300257391450336
+              }
+            }
+          },
+          "blind": {
+            "known": {
+              "conflict_probability": {
+                "facts": 49,
+                "contexts": 98,
+                "auc": 0.49062890462307374,
+                "auc_ci95": [
+                  0.46688879633486047,
+                  0.5127030403998334
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.2926707329267073,
+                "within_fact_order_accuracy": 0.46938775510204084,
+                "within_fact_order_ci95": [
+                  0.32653061224489793,
+                  0.6122448979591837
+                ],
+                "positive_score_median": 0.002411365509033203,
+                "negative_score_median": 0.00246429443359375,
+                "score_between_fact_variance_share": 0.9493439996784202,
+                "score_pair_midpoint_sd": 0.04856532744556443,
+                "score_within_pair_difference_rms": 0.022436750574811763
+              },
+              "conditional_log_odds": {
+                "facts": 49,
+                "contexts": 98,
+                "auc": 0.47688463140358184,
+                "auc_ci95": [
+                  0.4360683048729696,
+                  0.5114535610162433
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.20137986201379862,
+                "within_fact_order_accuracy": 0.4489795918367347,
+                "within_fact_order_ci95": [
+                  0.30612244897959184,
+                  0.5918367346938775
+                ],
+                "positive_score_median": -4.7373046875,
+                "negative_score_median": -4.52197265625,
+                "score_between_fact_variance_share": 0.9645895989369511,
+                "score_pair_midpoint_sd": 1.527554025726559,
+                "score_within_pair_difference_rms": 0.5853568571459385
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 251,
+                "contexts": 502,
+                "auc": 0.5018571133791527,
+                "auc_ci95": [
+                  0.4949996825447215,
+                  0.508761765686259
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.597040295970403,
+                "within_fact_order_accuracy": 0.47808764940239046,
+                "within_fact_order_ci95": [
+                  0.41832669322709165,
+                  0.5418326693227091
+                ],
+                "positive_score_median": 0.0016658306121826172,
+                "negative_score_median": 0.0016197562217712402,
+                "score_between_fact_variance_share": 0.9376059930289837,
+                "score_pair_midpoint_sd": 0.024707657255220738,
+                "score_within_pair_difference_rms": 0.012747435262110736
+              },
+              "conditional_log_odds": {
+                "facts": 251,
+                "contexts": 502,
+                "auc": 0.49900001587276394,
+                "auc_ci95": [
+                  0.4929046761162521,
+                  0.505063411691878
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.7301269873012699,
+                "within_fact_order_accuracy": 0.4760956175298805,
+                "within_fact_order_ci95": [
+                  0.41434262948207173,
+                  0.5378486055776892
+                ],
+                "positive_score_median": -6.70703125,
+                "negative_score_median": -6.748046875,
+                "score_between_fact_variance_share": 0.9949090026716128,
+                "score_pair_midpoint_sd": 2.427642963597196,
+                "score_within_pair_difference_rms": 0.34731581934524025
+              }
+            }
+          }
+        },
+        "calibrated": {
+          "calibration": {
+            "known": {
+              "conflict_probability": {
+                "facts": 36,
+                "contexts": 72,
+                "auc": 0.5455246913580247,
+                "auc_ci95": [
+                  0.4988425925925926,
+                  0.5995370370370371
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0362963703629637,
+                "within_fact_order_accuracy": 0.6805555555555556,
+                "within_fact_order_ci95": [
+                  0.5277777777777778,
+                  0.8333333333333334
+                ],
+                "positive_score_median": 0.49103546142578125,
+                "negative_score_median": 0.49212646484375,
+                "score_between_fact_variance_share": 0.9556254883589401,
+                "score_pair_midpoint_sd": 0.025026863590313763,
+                "score_within_pair_difference_rms": 0.01078597360225504
+              },
+              "conditional_log_odds": {
+                "facts": 36,
+                "contexts": 72,
+                "auc": 0.5632716049382716,
+                "auc_ci95": [
+                  0.5277777777777778,
+                  0.6234567901234568
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0014998500149985001,
+                "within_fact_order_accuracy": 0.7777777777777778,
+                "within_fact_order_ci95": [
+                  0.6388888888888888,
+                  0.9166666666666666
+                ],
+                "positive_score_median": -0.0048828125,
+                "negative_score_median": -0.055816650390625,
+                "score_between_fact_variance_share": 0.970466481589124,
+                "score_pair_midpoint_sd": 0.18518557833499064,
+                "score_within_pair_difference_rms": 0.06461070534222631
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 214,
+                "contexts": 428,
+                "auc": 0.5193139138789414,
+                "auc_ci95": [
+                  0.498700486942091,
+                  0.5405715018778933
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0700929907009299,
+                "within_fact_order_accuracy": 0.5864485981308412,
+                "within_fact_order_ci95": [
+                  0.5210280373831776,
+                  0.6518691588785047
+                ],
+                "positive_score_median": 0.5030317306518555,
+                "negative_score_median": 0.501129150390625,
+                "score_between_fact_variance_share": 0.9238218126983313,
+                "score_pair_midpoint_sd": 0.022362105308334965,
+                "score_within_pair_difference_rms": 0.012842923478930405
+              },
+              "conditional_log_odds": {
+                "facts": 214,
+                "contexts": 428,
+                "auc": 0.5226657349986898,
+                "auc_ci95": [
+                  0.5010584985588261,
+                  0.5451898091536379
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.04329567043295671,
+                "within_fact_order_accuracy": 0.5630841121495327,
+                "within_fact_order_ci95": [
+                  0.4976635514018692,
+                  0.6285046728971962
+                ],
+                "positive_score_median": 0.0029296875,
+                "negative_score_median": -0.000732421875,
+                "score_between_fact_variance_share": 0.9180647299873681,
+                "score_pair_midpoint_sd": 0.09348927285767084,
+                "score_within_pair_difference_rms": 0.055858667399067606
+              }
+            }
+          },
+          "validation": {
+            "known": {
+              "conflict_probability": {
+                "facts": 19,
+                "contexts": 38,
+                "auc": 0.481994459833795,
+                "auc_ci95": [
+                  0.4155124653739612,
+                  0.5512465373961218
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.5090490950904909,
+                "within_fact_order_accuracy": 0.5263157894736842,
+                "within_fact_order_ci95": [
+                  0.3157894736842105,
+                  0.7368421052631579
+                ],
+                "positive_score_median": 0.5056915283203125,
+                "negative_score_median": 0.5085945129394531,
+                "score_between_fact_variance_share": 0.9828145772013329,
+                "score_pair_midpoint_sd": 0.023880907403083663,
+                "score_within_pair_difference_rms": 0.0063157529884859485
+              },
+              "conditional_log_odds": {
+                "facts": 19,
+                "contexts": 38,
+                "auc": 0.518005540166205,
+                "auc_ci95": [
+                  0.46537396121883656,
+                  0.5789473684210527
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.42245775422457754,
+                "within_fact_order_accuracy": 0.631578947368421,
+                "within_fact_order_ci95": [
+                  0.42105263157894735,
+                  0.8421052631578947
+                ],
+                "positive_score_median": -0.0224609375,
+                "negative_score_median": -0.037109375,
+                "score_between_fact_variance_share": 0.9833606352682414,
+                "score_pair_midpoint_sd": 0.21966782616101158,
+                "score_within_pair_difference_rms": 0.057148970213670644
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 131,
+                "contexts": 262,
+                "auc": 0.5298059553639065,
+                "auc_ci95": [
+                  0.5076328593904784,
+                  0.5551555853388497
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.008399160083991601,
+                "within_fact_order_accuracy": 0.5687022900763359,
+                "within_fact_order_ci95": [
+                  0.4847328244274809,
+                  0.6526717557251909
+                ],
+                "positive_score_median": 0.50341796875,
+                "negative_score_median": 0.4996490478515625,
+                "score_between_fact_variance_share": 0.9504638786117082,
+                "score_pair_midpoint_sd": 0.02537337131423502,
+                "score_within_pair_difference_rms": 0.011585142012181032
+              },
+              "conditional_log_odds": {
+                "facts": 131,
+                "contexts": 262,
+                "auc": 0.5208903910028553,
+                "auc_ci95": [
+                  0.49842593671697455,
+                  0.5454526251383952
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0695930406959304,
+                "within_fact_order_accuracy": 0.549618320610687,
+                "within_fact_order_ci95": [
+                  0.46564885496183206,
+                  0.6336832061068688
+                ],
+                "positive_score_median": -0.005859375,
+                "negative_score_median": -0.017578125,
+                "score_between_fact_variance_share": 0.9512730193845933,
+                "score_pair_midpoint_sd": 0.10985595928084707,
+                "score_within_pair_difference_rms": 0.04972625781772942
+              }
+            }
+          },
+          "blind": {
+            "known": {
+              "conflict_probability": {
+                "facts": 49,
+                "contexts": 98,
+                "auc": 0.4789670970428988,
+                "auc_ci95": [
+                  0.4394002498958767,
+                  0.5145772594752187
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.24737526247375263,
+                "within_fact_order_accuracy": 0.42857142857142855,
+                "within_fact_order_ci95": [
+                  0.2857142857142857,
+                  0.5714285714285714
+                ],
+                "positive_score_median": 0.502197265625,
+                "negative_score_median": 0.503387451171875,
+                "score_between_fact_variance_share": 0.9393672243411771,
+                "score_pair_midpoint_sd": 0.022388327462648995,
+                "score_within_pair_difference_rms": 0.011375949869386861
+              },
+              "conditional_log_odds": {
+                "facts": 49,
+                "contexts": 98,
+                "auc": 0.49604331528529777,
+                "auc_ci95": [
+                  0.46897126197417743,
+                  0.5264473136193253
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.7735226477352265,
+                "within_fact_order_accuracy": 0.6122448979591837,
+                "within_fact_order_ci95": [
+                  0.46938775510204084,
+                  0.7551020408163265
+                ],
+                "positive_score_median": 0.009765625,
+                "negative_score_median": 0.023193359375,
+                "score_between_fact_variance_share": 0.9766906154409247,
+                "score_pair_midpoint_sd": 0.2192740394190436,
+                "score_within_pair_difference_rms": 0.06774919026071191
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 251,
+                "contexts": 502,
+                "auc": 0.5113648989698576,
+                "auc_ci95": [
+                  0.49404731670925855,
+                  0.5291035062935509
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.19518048195180482,
+                "within_fact_order_accuracy": 0.5298804780876494,
+                "within_fact_order_ci95": [
+                  0.4701195219123506,
+                  0.5896414342629482
+                ],
+                "positive_score_median": 0.5006103515625,
+                "negative_score_median": 0.49944305419921875,
+                "score_between_fact_variance_share": 0.9415276093627694,
+                "score_pair_midpoint_sd": 0.02420158023898933,
+                "score_within_pair_difference_rms": 0.012062369143651289
+              },
+              "conditional_log_odds": {
+                "facts": 251,
+                "contexts": 502,
+                "auc": 0.5139442231075697,
+                "auc_ci95": [
+                  0.49627783685973237,
+                  0.5319443342169172
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.12258774122587741,
+                "within_fact_order_accuracy": 0.5059760956175299,
+                "within_fact_order_ci95": [
+                  0.44621513944223107,
+                  0.5677290836653387
+                ],
+                "positive_score_median": -0.009765625,
+                "negative_score_median": -0.009765625,
+                "score_between_fact_variance_share": 0.9335143677799146,
+                "score_pair_midpoint_sd": 0.1003775817270501,
+                "score_within_pair_difference_rms": 0.05357597982124949
+              }
+            }
+          }
+        }
+      },
+      "source_popqa_frozen_reference": {
+        "known": {
+          "facts": 50,
+          "contexts": 100,
+          "auc": 1.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+          "within_fact_order_accuracy": 1.0,
+          "within_fact_order_ci95": [
+            1.0,
+            1.0
+          ],
+          "positive_score_median": 0.9939651489257812,
+          "negative_score_median": 0.0063762664794921875,
+          "score_between_fact_variance_share": 0.005558643399263637,
+          "score_pair_midpoint_sd": 0.03596773315775936,
+          "score_within_pair_difference_rms": 0.9621620980522977
+        },
+        "unknown": {
+          "facts": 100,
+          "contexts": 200,
+          "auc": 1.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+          "within_fact_order_accuracy": 1.0,
+          "within_fact_order_ci95": [
+            1.0,
+            1.0
+          ],
+          "positive_score_median": 0.993804931640625,
+          "negative_score_median": 0.006382942199707031,
+          "score_between_fact_variance_share": 0.006888297154873601,
+          "score_pair_midpoint_sd": 0.03980428472009937,
+          "score_within_pair_difference_rms": 0.9558790265363327
+        }
+      },
+      "source_popqa_development_mix": {
+        "calibration": {
+          "contexts": 704,
+          "state_counts": {
+            "abstain": 314,
+            "ext": 314,
+            "align": 38,
+            "param": 38
+          },
+          "unknown_fraction": 0.8920454545454546
+        },
+        "val": {
+          "contexts": 242,
+          "state_counts": {
+            "abstain": 108,
+            "ext": 108,
+            "align": 13,
+            "param": 13
+          },
+          "unknown_fraction": 0.8925619834710744
+        }
+      },
+      "development_exploration": {
+        "hidden_state_probes": {
+          "binary_all_same_pca32": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 428,
+            "logistic_iterations": [
+              3
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.4792243767313019,
+              "auc_ci95": [
+                0.41274238227146814,
+                0.5512465373961218
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.41025897410258977,
+              "within_fact_order_accuracy": 0.5263157894736842,
+              "within_fact_order_ci95": [
+                0.3157894736842105,
+                0.7368421052631579
+              ],
+              "positive_score_median": 0.019833943813832394,
+              "negative_score_median": 0.03403095358844447,
+              "score_between_fact_variance_share": 0.9792908813761959,
+              "score_pair_midpoint_sd": 0.07885410026415653,
+              "score_within_pair_difference_rms": 0.022933969415420613
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.523046442515005,
+              "auc_ci95": [
+                0.5020103723559233,
+                0.5467630091486511
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.033996600339966,
+              "within_fact_order_accuracy": 0.5801526717557252,
+              "within_fact_order_ci95": [
+                0.4961832061068702,
+                0.6641221374045801
+              ],
+              "positive_score_median": 0.012892774591331061,
+              "negative_score_median": -0.004603014694889798,
+              "score_between_fact_variance_share": 0.9556865904423212,
+              "score_pair_midpoint_sd": 0.0976006984193188,
+              "score_within_pair_difference_rms": 0.04203322943130436
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": -0.002770083102493104,
+              "paired_bootstrap_ci95": [
+                -0.0332409972299168,
+                0.024930747922437713
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": -0.03878116343490312,
+              "paired_bootstrap_ci95": [
+                -0.1440443213296399,
+                0.05540166204986158
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.0,
+              "paired_bootstrap_ci95": [
+                0.0,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.030470914127423865,
+              "paired_bootstrap_ci95": [
+                -0.10526315789473684,
+                0.03878116343490301
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.024930747922437657,
+              "paired_bootstrap_ci95": [
+                -0.09141274238227148,
+                0.04993074792243674
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_strata_reweighted_same_pca32": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 428,
+            "logistic_iterations": [
+              10
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.4930747922437673,
+              "auc_ci95": [
+                0.43213296398891965,
+                0.5512465373961218
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.7997200279972003,
+              "within_fact_order_accuracy": 0.47368421052631576,
+              "within_fact_order_ci95": [
+                0.2631578947368421,
+                0.6842105263157895
+              ],
+              "positive_score_median": 0.00944279287134497,
+              "negative_score_median": 0.030582429977577524,
+              "score_between_fact_variance_share": 0.9884910963600266,
+              "score_pair_midpoint_sd": 0.10150034517843631,
+              "score_within_pair_difference_rms": 0.021904236044791744
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5166365596410466,
+              "auc_ci95": [
+                0.49641629275683236,
+                0.5388380630499389
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.11358864113588642,
+              "within_fact_order_accuracy": 0.5648854961832062,
+              "within_fact_order_ci95": [
+                0.48091603053435117,
+                0.648854961832061
+              ],
+              "positive_score_median": 0.02989380819199167,
+              "negative_score_median": 0.019029259638601432,
+              "score_between_fact_variance_share": 0.9591435505392725,
+              "score_pair_midpoint_sd": 0.10438211328329705,
+              "score_within_pair_difference_rms": 0.04308683431463804
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.011080332409972304,
+              "paired_bootstrap_ci95": [
+                -0.06094182825484762,
+                0.09141274238227143
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": -0.024930747922437713,
+              "paired_bootstrap_ci95": [
+                -0.09418282548476453,
+                0.02216066481994461
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.013850415512465408,
+              "paired_bootstrap_ci95": [
+                -0.058171745152354626,
+                0.08587257617728533
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.016620498614958457,
+              "paired_bootstrap_ci95": [
+                -0.09972299168975068,
+                0.055470914127422895
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.011080332409972249,
+              "paired_bootstrap_ci95": [
+                -0.08587257617728533,
+                0.06094182825484762
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_same_pca32": {
+            "fit_contexts": 72,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              41
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.49584487534626037,
+              "auc_ci95": [
+                0.4487534626038781,
+                0.5401662049861495
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.8323167683231677,
+              "within_fact_order_accuracy": 0.47368421052631576,
+              "within_fact_order_ci95": [
+                0.2631578947368421,
+                0.6842105263157895
+              ],
+              "positive_score_median": -0.2714166591136761,
+              "negative_score_median": -0.2502660918206844,
+              "score_between_fact_variance_share": 0.9909274230196169,
+              "score_pair_midpoint_sd": 0.652493679572146,
+              "score_within_pair_difference_rms": 0.12486787246791525
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5055649437678457,
+              "auc_ci95": [
+                0.481147660392751,
+                0.5299224986888876
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.6327367263273672,
+              "within_fact_order_accuracy": 0.44274809160305345,
+              "within_fact_order_ci95": [
+                0.35877862595419846,
+                0.5267175572519084
+              ],
+              "positive_score_median": 0.0595536349995769,
+              "negative_score_median": 0.06651046067733722,
+              "score_between_fact_variance_share": 0.9526510057067613,
+              "score_pair_midpoint_sd": 0.6082288347375069,
+              "score_within_pair_difference_rms": 0.2711973647752521
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.013850415512465353,
+              "paired_bootstrap_ci95": [
+                -0.07756232686980613,
+                0.09695290858725758
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": -0.022160664819944664,
+              "paired_bootstrap_ci95": [
+                -0.07756232686980613,
+                0.008310249307479256
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.016620498614958457,
+              "paired_bootstrap_ci95": [
+                -0.07756232686980608,
+                0.09418282548476453
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.013850415512465408,
+              "paired_bootstrap_ci95": [
+                -0.09695290858725764,
+                0.06094182825484762
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.0083102493074792,
+              "paired_bootstrap_ci95": [
+                -0.07202216066481998,
+                0.05817174515235457
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_own_pca32": {
+            "fit_contexts": 72,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              3
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5346260387811634,
+              "auc_ci95": [
+                0.48476454293628807,
+                0.6066481994459834
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.16148385161483853,
+              "within_fact_order_accuracy": 0.8421052631578947,
+              "within_fact_order_ci95": [
+                0.6842105263157895,
+                1.0
+              ],
+              "positive_score_median": 0.018727055495861362,
+              "negative_score_median": 0.035204637851366606,
+              "score_between_fact_variance_share": 0.9776480209740992,
+              "score_pair_midpoint_sd": 0.08515545617191955,
+              "score_within_pair_difference_rms": 0.025751895617792727
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.4972903676941903,
+              "auc_ci95": [
+                0.477418273993357,
+                0.5156459413787076
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.7778222177782221,
+              "within_fact_order_accuracy": 0.5114503816793893,
+              "within_fact_order_ci95": [
+                0.42748091603053434,
+                0.5954198473282443
+              ],
+              "positive_score_median": 0.04439481785209471,
+              "negative_score_median": 0.048888706451918805,
+              "score_between_fact_variance_share": 0.9626574122463014,
+              "score_pair_midpoint_sd": 0.0868815264573299,
+              "score_within_pair_difference_rms": 0.034223448110464905
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.05263157894736842,
+              "paired_bootstrap_ci95": [
+                -0.03324099722991686,
+                0.16620498614958445
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.0166204986149584,
+              "paired_bootstrap_ci95": [
+                -0.01939058171745156,
+                0.08033240997229918
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.05540166204986152,
+              "paired_bootstrap_ci95": [
+                -0.03601108033240996,
+                0.16343490304709146
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.024930747922437657,
+              "paired_bootstrap_ci95": [
+                -0.06094182825484762,
+                0.12465373961218834
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.030470914127423865,
+              "paired_bootstrap_ci95": [
+                -0.04155124653739617,
+                0.1274238227146814
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_all_full_all_scaler": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 428,
+            "logistic_iterations": [
+              791
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5041551246537396,
+              "auc_ci95": [
+                0.44598337950138506,
+                0.5623268698060941
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.8632136786321368,
+              "within_fact_order_accuracy": 0.5263157894736842,
+              "within_fact_order_ci95": [
+                0.3157894736842105,
+                0.7368421052631579
+              ],
+              "positive_score_median": 1.6485918145230443,
+              "negative_score_median": 2.1360018528385236,
+              "score_between_fact_variance_share": 0.9776246070878691,
+              "score_pair_midpoint_sd": 6.327624297009558,
+              "score_within_pair_difference_rms": 1.9145642870407928
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5330691684633763,
+              "auc_ci95": [
+                0.5160538430161412,
+                0.552008915564361
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00019998000199980003,
+              "within_fact_order_accuracy": 0.648854961832061,
+              "within_fact_order_ci95": [
+                0.5648854961832062,
+                0.732824427480916
+              ],
+              "positive_score_median": 1.6024266749136258,
+              "negative_score_median": 0.9987924637730471,
+              "score_between_fact_variance_share": 0.9662904831237124,
+              "score_pair_midpoint_sd": 5.991960799856356,
+              "score_within_pair_difference_rms": 2.2383158609008893
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.022160664819944553,
+              "paired_bootstrap_ci95": [
+                -0.05817174515235457,
+                0.09141274238227143
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": -0.013850415512465464,
+              "paired_bootstrap_ci95": [
+                -0.10526315789473678,
+                0.06094182825484762
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.024930747922437657,
+              "paired_bootstrap_ci95": [
+                -0.049930747922437686,
+                0.09141274238227148
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.005540166204986208,
+              "paired_bootstrap_ci95": [
+                -0.052631578947368474,
+                0.02216066481994461
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.0,
+              "paired_bootstrap_ci95": [
+                0.0,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_full_all_scaler": {
+            "fit_contexts": 72,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              495
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5595567867036011,
+              "auc_ci95": [
+                0.481994459833795,
+                0.6648199445983379
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.09979002099790021,
+              "within_fact_order_accuracy": 0.6842105263157895,
+              "within_fact_order_ci95": [
+                0.47368421052631576,
+                0.8947368421052632
+              ],
+              "positive_score_median": -1.403944023463363,
+              "negative_score_median": -2.6293944851479063,
+              "score_between_fact_variance_share": 0.9272735162643626,
+              "score_pair_midpoint_sd": 8.353312264586897,
+              "score_within_pair_difference_rms": 4.678763350074942
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5171027329409708,
+              "auc_ci95": [
+                0.4962997494318513,
+                0.5394790513373346
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.08919108089191082,
+              "within_fact_order_accuracy": 0.6030534351145038,
+              "within_fact_order_ci95": [
+                0.5190839694656488,
+                0.6870229007633588
+              ],
+              "positive_score_median": 3.1194334330882403,
+              "negative_score_median": 1.3965310044911443,
+              "score_between_fact_variance_share": 0.95662790802323,
+              "score_pair_midpoint_sd": 9.198452251312819,
+              "score_within_pair_difference_rms": 3.9172240817311086
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.07756232686980608,
+              "paired_bootstrap_ci95": [
+                -0.04432132963988911,
+                0.22160664819944598
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.04155124653739606,
+              "paired_bootstrap_ci95": [
+                -0.013850415512465353,
+                0.10526315789473684
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.08033240997229918,
+              "paired_bootstrap_ci95": [
+                -0.03878116343490312,
+                0.22160664819944598
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.049861495844875314,
+              "paired_bootstrap_ci95": [
+                -0.052631578947368474,
+                0.16897506925207756
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.05540166204986152,
+              "paired_bootstrap_ci95": [
+                -0.047091412742382266,
+                0.17728531855955681
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_all_full_known_scaler": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 428,
+            "logistic_iterations": [
+              900
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5096952908587258,
+              "auc_ci95": [
+                0.44321329639889195,
+                0.5789473684210527
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.6716328367163283,
+              "within_fact_order_accuracy": 0.631578947368421,
+              "within_fact_order_ci95": [
+                0.42105263157894735,
+                0.8421052631578947
+              ],
+              "positive_score_median": 1.8979253687221218,
+              "negative_score_median": 2.263052114008508,
+              "score_between_fact_variance_share": 0.9789469119975494,
+              "score_pair_midpoint_sd": 7.01766053724364,
+              "score_within_pair_difference_rms": 2.058262135106478
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.534467688363149,
+              "auc_ci95": [
+                0.5166365596410466,
+                0.5546296835848726
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00019998000199980003,
+              "within_fact_order_accuracy": 0.6641221374045801,
+              "within_fact_order_ci95": [
+                0.5801526717557252,
+                0.7404580152671756
+              ],
+              "positive_score_median": 1.697371494981237,
+              "negative_score_median": 0.80559216213822,
+              "score_between_fact_variance_share": 0.9669791336112734,
+              "score_pair_midpoint_sd": 6.420076626674294,
+              "score_within_pair_difference_rms": 2.3727713397433865
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.02770083102493076,
+              "paired_bootstrap_ci95": [
+                -0.04709141274238232,
+                0.1053324099722982
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": -0.008310249307479256,
+              "paired_bootstrap_ci95": [
+                -0.10526315789473678,
+                0.07756232686980613
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.030470914127423865,
+              "paired_bootstrap_ci95": [
+                -0.03878116343490301,
+                0.10526315789473684
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.0,
+              "paired_bootstrap_ci95": [
+                0.0,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.005540166204986208,
+              "paired_bootstrap_ci95": [
+                -0.02216066481994461,
+                0.052631578947368474
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_strata_reweighted_full_known_scaler": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 428,
+            "logistic_iterations": [
+              856
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5263157894736842,
+              "auc_ci95": [
+                0.4626038781163435,
+                0.6038781163434903
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.27247275272472754,
+              "within_fact_order_accuracy": 0.6842105263157895,
+              "within_fact_order_ci95": [
+                0.47368421052631576,
+                0.8947368421052632
+              ],
+              "positive_score_median": 0.4996070517857268,
+              "negative_score_median": 1.4191320681376334,
+              "score_between_fact_variance_share": 0.9808939967268904,
+              "score_pair_midpoint_sd": 7.25619872261734,
+              "score_within_pair_difference_rms": 2.0254104638943495
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5356331216129596,
+              "auc_ci95": [
+                0.5158775712371074,
+                0.5580108968008858
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0004999500049995,
+              "within_fact_order_accuracy": 0.5954198473282443,
+              "within_fact_order_ci95": [
+                0.5114503816793893,
+                0.6793893129770993
+              ],
+              "positive_score_median": 1.494663070844316,
+              "negative_score_median": 1.1004918975753615,
+              "score_between_fact_variance_share": 0.9581132570374757,
+              "score_pair_midpoint_sd": 6.335795036536798,
+              "score_within_pair_difference_rms": 2.6494820782612276
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.04432132963988916,
+              "paired_bootstrap_ci95": [
+                -0.027770083102493077,
+                0.12742382271468145
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.008310249307479145,
+              "paired_bootstrap_ci95": [
+                -0.06925207756232687,
+                0.08310249307479228
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.047091412742382266,
+              "paired_bootstrap_ci95": [
+                -0.02216066481994461,
+                0.12465373961218834
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.0166204986149584,
+              "paired_bootstrap_ci95": [
+                -0.04432132963988927,
+                0.07756232686980608
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.02216066481994461,
+              "paired_bootstrap_ci95": [
+                -0.03601108033240996,
+                0.08864265927977838
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_full_l2": {
+            "fit_contexts": 72,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              267
+            ],
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.556786703601108,
+              "auc_ci95": [
+                0.47368421052631576,
+                0.6620498614958449
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.10678932106789321,
+              "within_fact_order_accuracy": 0.6842105263157895,
+              "within_fact_order_ci95": [
+                0.47368421052631576,
+                0.8947368421052632
+              ],
+              "positive_score_median": -1.366801355618228,
+              "negative_score_median": -3.1385665773586866,
+              "score_between_fact_variance_share": 0.9335927410026874,
+              "score_pair_midpoint_sd": 9.340330569919987,
+              "score_within_pair_difference_rms": 4.982201485142251
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5179768078783288,
+              "auc_ci95": [
+                0.49775654099411454,
+                0.5398869529747684
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0756924307569243,
+              "within_fact_order_accuracy": 0.6030534351145038,
+              "within_fact_order_ci95": [
+                0.5190839694656488,
+                0.6870229007633588
+              ],
+              "positive_score_median": 2.7965575164721064,
+              "negative_score_median": 1.7341547987959132,
+              "score_between_fact_variance_share": 0.9584516061977795,
+              "score_pair_midpoint_sd": 10.072981622065374,
+              "score_within_pair_difference_rms": 4.194498680696576
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.07479224376731303,
+              "paired_bootstrap_ci95": [
+                -0.047091412742382266,
+                0.21883656509695287
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.03878116343490301,
+              "paired_bootstrap_ci95": [
+                -0.019390581717451505,
+                0.10249307479224379
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.07756232686980613,
+              "paired_bootstrap_ci95": [
+                -0.04432132963988922,
+                0.21883656509695287
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.047091412742382266,
+              "paired_bootstrap_ci95": [
+                -0.060941828254847674,
+                0.1662049861495845
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.052631578947368474,
+              "paired_bootstrap_ci95": [
+                -0.05263157894736836,
+                0.17451523545706377
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_known_only_own_pca32": {
+              "delta_auc": 0.02216066481994461,
+              "paired_bootstrap_ci95": [
+                -0.05817174515235457,
+                0.08587257617728533
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_paired_mean_direction": {
+            "fit_contexts": 72,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 0,
+            "fit_pairs": 36,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5457063711911357,
+              "auc_ci95": [
+                0.47368421052631576,
+                0.6371191135734072
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.20757924207579243,
+              "within_fact_order_accuracy": 0.6842105263157895,
+              "within_fact_order_ci95": [
+                0.47368421052631576,
+                0.8947368421052632
+              ],
+              "positive_score_median": 0.32375230797974575,
+              "negative_score_median": -0.9638602508948877,
+              "score_between_fact_variance_share": 0.9402843341659723,
+              "score_pair_midpoint_sd": 5.582434259173034,
+              "score_within_pair_difference_rms": 2.8136375564605594
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5108093933919935,
+              "auc_ci95": [
+                0.491113571470194,
+                0.530854845288736
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.2702729727027297,
+              "within_fact_order_accuracy": 0.6106870229007634,
+              "within_fact_order_ci95": [
+                0.5267175572519084,
+                0.6946564885496184
+              ],
+              "positive_score_median": 1.2120418159949882,
+              "negative_score_median": 0.5400481759398195,
+              "score_between_fact_variance_share": 0.9575777166350222,
+              "score_pair_midpoint_sd": 7.385011582576686,
+              "score_within_pair_difference_rms": 3.108788531459261
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.06371191135734072,
+              "paired_bootstrap_ci95": [
+                -0.04709141274238232,
+                0.19113573407202217
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.027700831024930705,
+              "paired_bootstrap_ci95": [
+                -0.024930747922437657,
+                0.08587257617728539
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.06648199445983383,
+              "paired_bootstrap_ci95": [
+                -0.047091412742382266,
+                0.18559556786703602
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.03601108033240996,
+              "paired_bootstrap_ci95": [
+                -0.06371191135734072,
+                0.1357340720221607
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.04155124653739617,
+              "paired_bootstrap_ci95": [
+                -0.05263157894736836,
+                0.1440443213296399
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_paired_difference_l2": {
+            "fit_contexts": 72,
+            "fit_known_contexts": 72,
+            "fit_unknown_contexts": 0,
+            "fit_pairs": 36,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.5678670360110804,
+              "auc_ci95": [
+                0.48753462603878117,
+                0.667590027700831
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.07779222077792221,
+              "within_fact_order_accuracy": 0.7368421052631579,
+              "within_fact_order_ci95": [
+                0.5263157894736842,
+                0.8947368421052632
+              ],
+              "positive_score_median": -4.10533538133668,
+              "negative_score_median": -6.267579513752516,
+              "score_between_fact_variance_share": 0.944859429578016,
+              "score_pair_midpoint_sd": 9.814520263392252,
+              "score_within_pair_difference_rms": 4.7418858826671935
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5130819882291242,
+              "auc_ci95": [
+                0.4993298758813589,
+                0.5277096323058097
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.04839516048395161,
+              "within_fact_order_accuracy": 0.5954198473282443,
+              "within_fact_order_ci95": [
+                0.5114503816793893,
+                0.6793893129770993
+              ],
+              "positive_score_median": 0.850458747660402,
+              "negative_score_median": 1.011205311239214,
+              "score_between_fact_variance_share": 0.9792879478954574,
+              "score_pair_midpoint_sd": 12.730029975305087,
+              "score_within_pair_difference_rms": 3.7026766054090547
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.08587257617728533,
+              "paired_bootstrap_ci95": [
+                -0.02770083102493076,
+                0.22160664819944592
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.049861495844875314,
+              "paired_bootstrap_ci95": [
+                -0.008310249307479256,
+                0.11911357340720219
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.08864265927977844,
+              "paired_bootstrap_ci95": [
+                -0.03047091412742381,
+                0.21606648199445982
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.05817174515235457,
+              "paired_bootstrap_ci95": [
+                -0.04986149584487537,
+                0.1689750692520775
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.06371191135734078,
+              "paired_bootstrap_ci95": [
+                -0.03601108033240996,
+                0.1745152354570637
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          }
+        },
+        "vanilla_first_token": {
+          "full_vocab_entropy": {
+            "calibration_known_raw_auc": 0.6882716049382716,
+            "calibration_frozen_sign": 1,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.6592797783933518,
+              "auc_ci95": [
+                0.5512465373961218,
+                0.7811634349030471
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0163983601639836,
+              "within_fact_order_accuracy": 0.7368421052631579,
+              "within_fact_order_ci95": [
+                0.5263157894736842,
+                0.8947368421052632
+              ],
+              "positive_score_median": 0.008535327389836311,
+              "negative_score_median": 8.314356819028035e-05,
+              "score_between_fact_variance_share": 0.6150239658402865,
+              "score_pair_midpoint_sd": 0.30366578431781793,
+              "score_within_pair_difference_rms": 0.4805036416504943
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.586387739642212,
+              "auc_ci95": [
+                0.5398869529747684,
+                0.6350445778218052
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00039996000399960006,
+              "within_fact_order_accuracy": 0.5801526717557252,
+              "within_fact_order_ci95": [
+                0.4961832061068702,
+                0.6641221374045801
+              ],
+              "positive_score_median": 0.013814613223075867,
+              "negative_score_median": 0.0015586147783324122,
+              "score_between_fact_variance_share": 0.7319876337758283,
+              "score_pair_midpoint_sd": 0.417562625044802,
+              "score_within_pair_difference_rms": 0.5053324172543292
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.17728531855955681,
+              "paired_bootstrap_ci95": [
+                0.060941828254847674,
+                0.3047091412742382
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "probability_margin": {
+            "calibration_known_raw_auc": 0.32060185185185186,
+            "calibration_frozen_sign": -1,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.6592797783933518,
+              "auc_ci95": [
+                0.5429362880886427,
+                0.7867036011080333
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0211978802119788,
+              "within_fact_order_accuracy": 0.7631578947368421,
+              "within_fact_order_ci95": [
+                0.5789473684210527,
+                0.9210526315789473
+              ],
+              "positive_score_median": -0.9983471632003784,
+              "negative_score_median": -0.9999902844429016,
+              "score_between_fact_variance_share": 0.6125040580298942,
+              "score_pair_midpoint_sd": 0.2433789974388641,
+              "score_within_pair_difference_rms": 0.38716152122459746
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5792785968183672,
+              "auc_ci95": [
+                0.5320494143697919,
+                0.6283156575957112
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0013998600139986002,
+              "within_fact_order_accuracy": 0.5687022900763359,
+              "within_fact_order_ci95": [
+                0.4847328244274809,
+                0.6526717557251909
+              ],
+              "positive_score_median": -0.9969415068626404,
+              "negative_score_median": -0.9997361898422241,
+              "score_between_fact_variance_share": 0.6538967467847095,
+              "score_pair_midpoint_sd": 0.19686420041692307,
+              "score_within_pair_difference_rms": 0.28644747299063666
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.17728531855955681,
+              "paired_bootstrap_ci95": [
+                0.055401662049861466,
+                0.3074792243767313
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "top1_probability": {
+            "calibration_known_raw_auc": 0.31790123456790126,
+            "calibration_frozen_sign": -1,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.6537396121883656,
+              "auc_ci95": [
+                0.5318559556786704,
+                0.7811634349030471
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.027097290270972903,
+              "within_fact_order_accuracy": 0.7105263157894737,
+              "within_fact_order_ci95": [
+                0.5,
+                0.8947368421052632
+              ],
+              "positive_score_median": -0.9990241527557373,
+              "negative_score_median": -0.9999939203262329,
+              "score_between_fact_variance_share": 0.6187982118040133,
+              "score_pair_midpoint_sd": 0.13304400492619375,
+              "score_within_pair_difference_rms": 0.20884700179842625
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5805897092244042,
+              "auc_ci95": [
+                0.5334756133092478,
+                0.6300922149058913
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0011998800119988001,
+              "within_fact_order_accuracy": 0.5725190839694656,
+              "within_fact_order_ci95": [
+                0.49236641221374045,
+                0.6526717557251909
+              ],
+              "positive_score_median": -0.9981404542922974,
+              "negative_score_median": -0.9998478889465332,
+              "score_between_fact_variance_share": 0.668468993778691,
+              "score_pair_midpoint_sd": 0.12565633547412708,
+              "score_within_pair_difference_rms": 0.1769847423084259
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.1717451523545706,
+              "paired_bootstrap_ci95": [
+                0.047091412742382266,
+                0.30193905817174516
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "top10_renormalized_entropy": {
+            "calibration_known_raw_auc": 0.6859567901234568,
+            "calibration_frozen_sign": 1,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.6648199445983379,
+              "auc_ci95": [
+                0.554016620498615,
+                0.7839335180055401
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.011898810118988102,
+              "within_fact_order_accuracy": 0.7368421052631579,
+              "within_fact_order_ci95": [
+                0.5263157894736842,
+                0.8947368421052632
+              ],
+              "positive_score_median": 0.008466685404269475,
+              "negative_score_median": 8.306138376414624e-05,
+              "score_between_fact_variance_share": 0.6231545078817956,
+              "score_pair_midpoint_sd": 0.29071025473679324,
+              "score_within_pair_difference_rms": 0.45214125880407663
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5852223063924014,
+              "auc_ci95": [
+                0.538661791270905,
+                0.6338208729095041
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00039996000399960006,
+              "within_fact_order_accuracy": 0.5801526717557252,
+              "within_fact_order_ci95": [
+                0.4961832061068702,
+                0.6641221374045801
+              ],
+              "positive_score_median": 0.01380878042362502,
+              "negative_score_median": 0.00155412338813558,
+              "score_between_fact_variance_share": 0.692834055715091,
+              "score_pair_midpoint_sd": 0.3071265691532592,
+              "score_within_pair_difference_rms": 0.40899622761307525
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.1828254847645429,
+              "paired_bootstrap_ci95": [
+                0.06648199445983383,
+                0.30747922437673136
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "top12_logit_gap": {
+            "calibration_known_raw_auc": 0.31983024691358025,
+            "calibration_frozen_sign": -1,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.6759002770083102,
+              "auc_ci95": [
+                0.5734072022160664,
+                0.7950138504155124
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.006399360063993601,
+              "within_fact_order_accuracy": 0.7894736842105263,
+              "within_fact_order_ci95": [
+                0.5789473684210527,
+                0.9473684210526315
+              ],
+              "positive_score_median": -7.296875,
+              "negative_score_median": -12.40625,
+              "score_between_fact_variance_share": 0.7345543658624101,
+              "score_pair_midpoint_sd": 6.384107097013516,
+              "score_within_pair_difference_rms": 7.675487713267031
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.5745003204941437,
+              "auc_ci95": [
+                0.5273578171435231,
+                0.6236524678049065
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0030996900309969004,
+              "within_fact_order_accuracy": 0.5648854961832062,
+              "within_fact_order_ci95": [
+                0.48091603053435117,
+                0.648854961832061
+              ],
+              "positive_score_median": -6.59375,
+              "negative_score_median": -9.078125,
+              "score_between_fact_variance_share": 0.7633252629876718,
+              "score_pair_midpoint_sd": 5.138783175091599,
+              "score_within_pair_difference_rms": 5.722837612004476
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.19390581717451522,
+              "paired_bootstrap_ci95": [
+                0.07756232686980613,
+                0.3185595567867036
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "five_features_l2": {
+            "fit_contexts": 72,
+            "known_validation": {
+              "facts": 19,
+              "contexts": 38,
+              "auc": 0.6703601108033241,
+              "auc_ci95": [
+                0.5734072022160664,
+                0.7811634349030471
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.005499450054994501,
+              "within_fact_order_accuracy": 0.7894736842105263,
+              "within_fact_order_ci95": [
+                0.5789473684210527,
+                0.9473684210526315
+              ],
+              "positive_score_median": -0.09545439487657564,
+              "negative_score_median": -0.4134573368183705,
+              "score_between_fact_variance_share": 0.7212917493267667,
+              "score_pair_midpoint_sd": 0.7459572469841906,
+              "score_within_pair_difference_rms": 0.9273920393909493
+            },
+            "unknown_validation": {
+              "facts": 131,
+              "contexts": 262,
+              "auc": 0.578812423518443,
+              "auc_ci95": [
+                0.5313778334595886,
+                0.6278188916729794
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0014998500149985001,
+              "within_fact_order_accuracy": 0.5877862595419847,
+              "within_fact_order_ci95": [
+                0.5038167938931297,
+                0.6717557251908397
+              ],
+              "positive_score_median": 0.20717870407665123,
+              "negative_score_median": -0.06368968351159691,
+              "score_between_fact_variance_share": 0.7421890659131787,
+              "score_pair_midpoint_sd": 0.7804978937868933,
+              "score_within_pair_difference_rms": 0.9200154515266943
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.18836565096952912,
+              "paired_bootstrap_ci95": [
+                0.08587257617728533,
+                0.30470914127423826
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          }
+        },
+        "known_fit_fact_ids": [
+          "nqswap_1102",
+          "nqswap_1183",
+          "nqswap_1239",
+          "nqswap_1460",
+          "nqswap_15",
+          "nqswap_1605",
+          "nqswap_192",
+          "nqswap_2132",
+          "nqswap_2233",
+          "nqswap_2443",
+          "nqswap_2579",
+          "nqswap_2795",
+          "nqswap_2862",
+          "nqswap_2914",
+          "nqswap_3025",
+          "nqswap_320",
+          "nqswap_3211",
+          "nqswap_3297",
+          "nqswap_34",
+          "nqswap_3612",
+          "nqswap_3789",
+          "nqswap_3851",
+          "nqswap_3877",
+          "nqswap_3966",
+          "nqswap_4017",
+          "nqswap_4102",
+          "nqswap_4188",
+          "nqswap_4201",
+          "nqswap_4422",
+          "nqswap_4429",
+          "nqswap_4495",
+          "nqswap_4671",
+          "nqswap_613",
+          "nqswap_785",
+          "nqswap_830",
+          "nqswap_833"
+        ],
+        "validation_fact_ids": [
+          "nqswap_102",
+          "nqswap_1033",
+          "nqswap_105",
+          "nqswap_1058",
+          "nqswap_108",
+          "nqswap_1089",
+          "nqswap_1199",
+          "nqswap_1240",
+          "nqswap_1245",
+          "nqswap_1257",
+          "nqswap_1260",
+          "nqswap_127",
+          "nqswap_1287",
+          "nqswap_1300",
+          "nqswap_1349",
+          "nqswap_1352",
+          "nqswap_1357",
+          "nqswap_1397",
+          "nqswap_1420",
+          "nqswap_1468",
+          "nqswap_1480",
+          "nqswap_1503",
+          "nqswap_1511",
+          "nqswap_1539",
+          "nqswap_1554",
+          "nqswap_158",
+          "nqswap_1602",
+          "nqswap_1616",
+          "nqswap_1642",
+          "nqswap_1646",
+          "nqswap_1694",
+          "nqswap_1713",
+          "nqswap_1773",
+          "nqswap_1787",
+          "nqswap_1816",
+          "nqswap_1820",
+          "nqswap_1824",
+          "nqswap_1856",
+          "nqswap_1892",
+          "nqswap_1903",
+          "nqswap_1935",
+          "nqswap_1963",
+          "nqswap_1968",
+          "nqswap_1992",
+          "nqswap_2",
+          "nqswap_2009",
+          "nqswap_2010",
+          "nqswap_2041",
+          "nqswap_2088",
+          "nqswap_210",
+          "nqswap_2136",
+          "nqswap_2139",
+          "nqswap_2164",
+          "nqswap_2206",
+          "nqswap_2209",
+          "nqswap_229",
+          "nqswap_2315",
+          "nqswap_2337",
+          "nqswap_2361",
+          "nqswap_238",
+          "nqswap_2409",
+          "nqswap_2435",
+          "nqswap_2480",
+          "nqswap_2600",
+          "nqswap_2623",
+          "nqswap_2627",
+          "nqswap_267",
+          "nqswap_2681",
+          "nqswap_2723",
+          "nqswap_2750",
+          "nqswap_2757",
+          "nqswap_2792",
+          "nqswap_2842",
+          "nqswap_2847",
+          "nqswap_2848",
+          "nqswap_2912",
+          "nqswap_2938",
+          "nqswap_2961",
+          "nqswap_2991",
+          "nqswap_3011",
+          "nqswap_3013",
+          "nqswap_3153",
+          "nqswap_3160",
+          "nqswap_3219",
+          "nqswap_3226",
+          "nqswap_3247",
+          "nqswap_3264",
+          "nqswap_3265",
+          "nqswap_3266",
+          "nqswap_328",
+          "nqswap_3338",
+          "nqswap_334",
+          "nqswap_3352",
+          "nqswap_3420",
+          "nqswap_3442",
+          "nqswap_3491",
+          "nqswap_3564",
+          "nqswap_360",
+          "nqswap_3664",
+          "nqswap_3686",
+          "nqswap_3695",
+          "nqswap_3748",
+          "nqswap_3750",
+          "nqswap_3770",
+          "nqswap_3782",
+          "nqswap_3799",
+          "nqswap_3810",
+          "nqswap_3816",
+          "nqswap_3833",
+          "nqswap_3882",
+          "nqswap_3900",
+          "nqswap_3937",
+          "nqswap_4030",
+          "nqswap_4036",
+          "nqswap_4064",
+          "nqswap_4067",
+          "nqswap_4068",
+          "nqswap_408",
+          "nqswap_411",
+          "nqswap_419",
+          "nqswap_420",
+          "nqswap_4350",
+          "nqswap_4369",
+          "nqswap_4419",
+          "nqswap_444",
+          "nqswap_4448",
+          "nqswap_4460",
+          "nqswap_4500",
+          "nqswap_4586",
+          "nqswap_4642",
+          "nqswap_4665",
+          "nqswap_494",
+          "nqswap_521",
+          "nqswap_53",
+          "nqswap_586",
+          "nqswap_62",
+          "nqswap_684",
+          "nqswap_71",
+          "nqswap_711",
+          "nqswap_728",
+          "nqswap_760",
+          "nqswap_762",
+          "nqswap_763",
+          "nqswap_765",
+          "nqswap_772",
+          "nqswap_784",
+          "nqswap_79",
+          "nqswap_796",
+          "nqswap_821",
+          "nqswap_931"
+        ],
+        "pca_all_variance_ratio": 0.7936733701486347,
+        "pca_known_variance_ratio": 0.9799796950410681,
+        "pca_all_retained_energy_known_mean_difference_direction": 0.41575328267339545,
+        "classifier_spec": "C1 L2 Logistic, lbfgs, tol1e-7, max_iter1500, seed42; all scalers/PCA/signs/coefficients fitted only on calibration",
+        "diagnostic_model_count": 17,
+        "blind_scored_with_new_diagnostic_models": false
+      }
+    },
+    "qwen7b": {
+      "layer": 11,
+      "split_counts": {
+        "calibration": {
+          "contexts": 500,
+          "facts": 250,
+          "state_counts": {
+            "ext": 209,
+            "abstain": 209,
+            "align": 41,
+            "param": 41
+          },
+          "known_facts": 41,
+          "unknown_facts": 209,
+          "unknown_fraction": 0.836,
+          "conflict_positive_fraction": 0.5
+        },
+        "validation": {
+          "contexts": 300,
+          "facts": 150,
+          "state_counts": {
+            "align": 25,
+            "param": 25,
+            "ext": 125,
+            "abstain": 125
+          },
+          "known_facts": 25,
+          "unknown_facts": 125,
+          "unknown_fraction": 0.8333333333333334,
+          "conflict_positive_fraction": 0.5
+        },
+        "blind": {
+          "contexts": 600,
+          "facts": 300,
+          "state_counts": {
+            "ext": 238,
+            "abstain": 238,
+            "align": 62,
+            "param": 62
+          },
+          "known_facts": 62,
+          "unknown_facts": 238,
+          "unknown_fraction": 0.7933333333333333,
+          "conflict_positive_fraction": 0.5
+        }
+      },
+      "frozen_subgroup_auc": {
+        "zero_shot": {
+          "calibration": {
+            "known": {
+              "conflict_probability": {
+                "facts": 41,
+                "contexts": 82,
+                "auc": 0.5014872099940512,
+                "auc_ci95": [
+                  0.48007138607971445,
+                  0.5217132659131469
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.8799120087991201,
+                "within_fact_order_accuracy": 0.4878048780487805,
+                "within_fact_order_ci95": [
+                  0.34146341463414637,
+                  0.6341463414634146
+                ],
+                "positive_score_median": 0.00965118408203125,
+                "negative_score_median": 0.010746002197265625,
+                "score_between_fact_variance_share": 0.967978810328832,
+                "score_pair_midpoint_sd": 0.04210986765480255,
+                "score_within_pair_difference_rms": 0.015317915818580309
+              },
+              "conditional_log_odds": {
+                "facts": 41,
+                "contexts": 82,
+                "auc": 0.5086258179654968,
+                "auc_ci95": [
+                  0.4818560380725758,
+                  0.5365853658536586
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.47515248475152483,
+                "within_fact_order_accuracy": 0.4878048780487805,
+                "within_fact_order_ci95": [
+                  0.34146341463414637,
+                  0.6341463414634146
+                ],
+                "positive_score_median": -2.45556640625,
+                "negative_score_median": -2.48388671875,
+                "score_between_fact_variance_share": 0.9849714618966058,
+                "score_pair_midpoint_sd": 1.2414965264066888,
+                "score_within_pair_difference_rms": 0.30670584249127103
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 209,
+                "contexts": 418,
+                "auc": 0.4979396076097159,
+                "auc_ci95": [
+                  0.48961733934662666,
+                  0.5059179048098715
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.5854414558544145,
+                "within_fact_order_accuracy": 0.44976076555023925,
+                "within_fact_order_ci95": [
+                  0.3827751196172249,
+                  0.5167464114832536
+                ],
+                "positive_score_median": 0.0070552825927734375,
+                "negative_score_median": 0.007094383239746094,
+                "score_between_fact_variance_share": 0.9849732188959271,
+                "score_pair_midpoint_sd": 0.03781621876678028,
+                "score_within_pair_difference_rms": 0.009341763455168836
+              },
+              "conditional_log_odds": {
+                "facts": 209,
+                "contexts": 418,
+                "auc": 0.4842036583411552,
+                "auc_ci95": [
+                  0.4755382775119617,
+                  0.4907056271605504
+                ],
+                "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+                "within_fact_order_accuracy": 0.31100478468899523,
+                "within_fact_order_ci95": [
+                  0.2511961722488038,
+                  0.37559808612440193
+                ],
+                "positive_score_median": -6.7109375,
+                "negative_score_median": -6.623046875,
+                "score_between_fact_variance_share": 0.9931074026858085,
+                "score_pair_midpoint_sd": 1.7184877806162384,
+                "score_within_pair_difference_rms": 0.2863319346982011
+              }
+            }
+          },
+          "validation": {
+            "known": {
+              "conflict_probability": {
+                "facts": 25,
+                "contexts": 50,
+                "auc": 0.512,
+                "auc_ci95": [
+                  0.4768,
+                  0.552
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.29317068293170684,
+                "within_fact_order_accuracy": 0.56,
+                "within_fact_order_ci95": [
+                  0.36,
+                  0.76
+                ],
+                "positive_score_median": 0.014856815338134766,
+                "negative_score_median": 0.017507553100585938,
+                "score_between_fact_variance_share": 0.9695029571433136,
+                "score_pair_midpoint_sd": 0.037030022053652585,
+                "score_within_pair_difference_rms": 0.01313524756005442
+              },
+              "conditional_log_odds": {
+                "facts": 25,
+                "contexts": 50,
+                "auc": 0.5024,
+                "auc_ci95": [
+                  0.4592,
+                  0.5472
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.9088091190880911,
+                "within_fact_order_accuracy": 0.4,
+                "within_fact_order_ci95": [
+                  0.2,
+                  0.6
+                ],
+                "positive_score_median": -1.9775390625,
+                "negative_score_median": -1.8720703125,
+                "score_between_fact_variance_share": 0.9948890320739606,
+                "score_pair_midpoint_sd": 1.2718028969712651,
+                "score_within_pair_difference_rms": 0.18231149893689524
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 125,
+                "contexts": 250,
+                "auc": 0.50272,
+                "auc_ci95": [
+                  0.4920944,
+                  0.513408
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.5723427657234277,
+                "within_fact_order_accuracy": 0.512,
+                "within_fact_order_ci95": [
+                  0.424,
+                  0.6
+                ],
+                "positive_score_median": 0.006341457366943359,
+                "negative_score_median": 0.0068206787109375,
+                "score_between_fact_variance_share": 0.9889979035450098,
+                "score_pair_midpoint_sd": 0.0435256093968602,
+                "score_within_pair_difference_rms": 0.009181526553118848
+              },
+              "conditional_log_odds": {
+                "facts": 125,
+                "contexts": 250,
+                "auc": 0.488032,
+                "auc_ci95": [
+                  0.47811119999999996,
+                  0.496064
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0036996300369963003,
+                "within_fact_order_accuracy": 0.368,
+                "within_fact_order_ci95": [
+                  0.288,
+                  0.456
+                ],
+                "positive_score_median": -6.587890625,
+                "negative_score_median": -6.5625,
+                "score_between_fact_variance_share": 0.9920584130487365,
+                "score_pair_midpoint_sd": 1.680046744304847,
+                "score_within_pair_difference_rms": 0.30063281709337886
+              }
+            }
+          },
+          "blind": {
+            "known": {
+              "conflict_probability": {
+                "facts": 62,
+                "contexts": 124,
+                "auc": 0.49895941727367327,
+                "auc_ci95": [
+                  0.48100936524453697,
+                  0.5161290322580645
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.9017098290170983,
+                "within_fact_order_accuracy": 0.4032258064516129,
+                "within_fact_order_ci95": [
+                  0.2903225806451613,
+                  0.532258064516129
+                ],
+                "positive_score_median": 0.007757902145385742,
+                "negative_score_median": 0.008198261260986328,
+                "score_between_fact_variance_share": 0.9874918962749398,
+                "score_pair_midpoint_sd": 0.04756810945202479,
+                "score_within_pair_difference_rms": 0.01070717383497962
+              },
+              "conditional_log_odds": {
+                "facts": 62,
+                "contexts": 124,
+                "auc": 0.5022112382934444,
+                "auc_ci95": [
+                  0.4803590010405827,
+                  0.5236732570239334
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.8058194180581941,
+                "within_fact_order_accuracy": 0.5080645161290323,
+                "within_fact_order_ci95": [
+                  0.3870967741935484,
+                  0.6290322580645161
+                ],
+                "positive_score_median": -2.041015625,
+                "negative_score_median": -1.984375,
+                "score_between_fact_variance_share": 0.9872409887108765,
+                "score_pair_midpoint_sd": 1.3502022003797434,
+                "score_within_pair_difference_rms": 0.30699106025566353
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 238,
+                "contexts": 476,
+                "auc": 0.49696349127886447,
+                "auc_ci95": [
+                  0.4898665348492338,
+                  0.5036367488171739
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.3528647135286471,
+                "within_fact_order_accuracy": 0.44537815126050423,
+                "within_fact_order_ci95": [
+                  0.38235294117647056,
+                  0.5084033613445378
+                ],
+                "positive_score_median": 0.010113716125488281,
+                "negative_score_median": 0.009713172912597656,
+                "score_between_fact_variance_share": 0.9860082856225381,
+                "score_pair_midpoint_sd": 0.05358557327347569,
+                "score_within_pair_difference_rms": 0.01276653558868771
+              },
+              "conditional_log_odds": {
+                "facts": 238,
+                "contexts": 476,
+                "auc": 0.48402302097309513,
+                "auc_ci95": [
+                  0.4759019048795989,
+                  0.49093460913777276
+                ],
+                "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+                "within_fact_order_accuracy": 0.39915966386554624,
+                "within_fact_order_ci95": [
+                  0.33613445378151263,
+                  0.4579831932773109
+                ],
+                "positive_score_median": -6.42578125,
+                "negative_score_median": -6.3193359375,
+                "score_between_fact_variance_share": 0.9919525149534266,
+                "score_pair_midpoint_sd": 1.7724622817348283,
+                "score_within_pair_difference_rms": 0.3192946528133206
+              }
+            }
+          }
+        },
+        "calibrated": {
+          "calibration": {
+            "known": {
+              "conflict_probability": {
+                "facts": 41,
+                "contexts": 82,
+                "auc": 0.6103509815585961,
+                "auc_ci95": [
+                  0.5496728138013087,
+                  0.6870910172516359
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0011998800119988001,
+                "within_fact_order_accuracy": 0.8292682926829268,
+                "within_fact_order_ci95": [
+                  0.7073170731707317,
+                  0.926829268292683
+                ],
+                "positive_score_median": 0.4830322265625,
+                "negative_score_median": 0.4622802734375,
+                "score_between_fact_variance_share": 0.8210494357558433,
+                "score_pair_midpoint_sd": 0.03591448414656105,
+                "score_within_pair_difference_rms": 0.033533702808928666
+              },
+              "conditional_log_odds": {
+                "facts": 41,
+                "contexts": 82,
+                "auc": 0.6264128494943486,
+                "auc_ci95": [
+                  0.5568114217727543,
+                  0.7079119571683522
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0011998800119988001,
+                "within_fact_order_accuracy": 0.7560975609756098,
+                "within_fact_order_ci95": [
+                  0.6097560975609756,
+                  0.8780487804878049
+                ],
+                "positive_score_median": 0.035400390625,
+                "negative_score_median": -0.0838470458984375,
+                "score_between_fact_variance_share": 0.7653458620580709,
+                "score_pair_midpoint_sd": 0.24841657765016723,
+                "score_within_pair_difference_rms": 0.2751033059045831
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 209,
+                "contexts": 418,
+                "auc": 0.5561800325084133,
+                "auc_ci95": [
+                  0.5399595934159016,
+                  0.5745524369863327
+                ],
+                "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+                "within_fact_order_accuracy": 0.6794258373205742,
+                "within_fact_order_ci95": [
+                  0.6172248803827751,
+                  0.7416267942583732
+                ],
+                "positive_score_median": 0.503753662109375,
+                "negative_score_median": 0.49716949462890625,
+                "score_between_fact_variance_share": 0.9557690266376377,
+                "score_pair_midpoint_sd": 0.04408989036328133,
+                "score_within_pair_difference_rms": 0.018969495757489793
+              },
+              "conditional_log_odds": {
+                "facts": 209,
+                "contexts": 418,
+                "auc": 0.55365032851812,
+                "auc_ci95": [
+                  0.5401659188205398,
+                  0.569744282411117
+                ],
+                "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+                "within_fact_order_accuracy": 0.7320574162679426,
+                "within_fact_order_ci95": [
+                  0.6722488038277512,
+                  0.7918660287081339
+                ],
+                "positive_score_median": 0.00390625,
+                "negative_score_median": -0.029296875,
+                "score_between_fact_variance_share": 0.9648970603819461,
+                "score_pair_midpoint_sd": 0.19020448932235362,
+                "score_within_pair_difference_rms": 0.07255744991646251
+              }
+            }
+          },
+          "validation": {
+            "known": {
+              "conflict_probability": {
+                "facts": 25,
+                "contexts": 50,
+                "auc": 0.5504,
+                "auc_ci95": [
+                  0.5024,
+                  0.6176
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0425957404259574,
+                "within_fact_order_accuracy": 0.72,
+                "within_fact_order_ci95": [
+                  0.52,
+                  0.88
+                ],
+                "positive_score_median": 0.4995574951171875,
+                "negative_score_median": 0.490966796875,
+                "score_between_fact_variance_share": 0.9830801663254872,
+                "score_pair_midpoint_sd": 0.051710907515520856,
+                "score_within_pair_difference_rms": 0.01356799681286221
+              },
+              "conditional_log_odds": {
+                "facts": 25,
+                "contexts": 50,
+                "auc": 0.5264,
+                "auc_ci95": [
+                  0.4432,
+                  0.6112
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.5248475152484752,
+                "within_fact_order_accuracy": 0.56,
+                "within_fact_order_ci95": [
+                  0.36,
+                  0.76
+                ],
+                "positive_score_median": 0.1689453125,
+                "negative_score_median": 0.17919921875,
+                "score_between_fact_variance_share": 0.9131288052216157,
+                "score_pair_midpoint_sd": 0.35430895946464425,
+                "score_within_pair_difference_rms": 0.21856670542615322
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 125,
+                "contexts": 250,
+                "auc": 0.5304,
+                "auc_ci95": [
+                  0.5138231999999999,
+                  0.5503368000000001
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0007999200079992001,
+                "within_fact_order_accuracy": 0.66,
+                "within_fact_order_ci95": [
+                  0.576,
+                  0.74
+                ],
+                "positive_score_median": 0.49853515625,
+                "negative_score_median": 0.49521636962890625,
+                "score_between_fact_variance_share": 0.971103572433066,
+                "score_pair_midpoint_sd": 0.0498289590083197,
+                "score_within_pair_difference_rms": 0.017190998856459323
+              },
+              "conditional_log_odds": {
+                "facts": 125,
+                "contexts": 250,
+                "auc": 0.536832,
+                "auc_ci95": [
+                  0.5202552,
+                  0.5564168
+                ],
+                "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+                "within_fact_order_accuracy": 0.656,
+                "within_fact_order_ci95": [
+                  0.572,
+                  0.736
+                ],
+                "positive_score_median": -0.0126953125,
+                "negative_score_median": -0.05810546875,
+                "score_between_fact_variance_share": 0.969131481786567,
+                "score_pair_midpoint_sd": 0.18192382523126724,
+                "score_within_pair_difference_rms": 0.06493608706155074
+              }
+            }
+          },
+          "blind": {
+            "known": {
+              "conflict_probability": {
+                "facts": 62,
+                "contexts": 124,
+                "auc": 0.5434443288241415,
+                "auc_ci95": [
+                  0.5163891779396462,
+                  0.5822060353798127
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0024997500249975004,
+                "within_fact_order_accuracy": 0.7419354838709677,
+                "within_fact_order_ci95": [
+                  0.6290322580645161,
+                  0.8548387096774194
+                ],
+                "positive_score_median": 0.49066162109375,
+                "negative_score_median": 0.4765625,
+                "score_between_fact_variance_share": 0.947661180350877,
+                "score_pair_midpoint_sd": 0.04836354413833302,
+                "score_within_pair_difference_rms": 0.02273178455931282
+              },
+              "conditional_log_odds": {
+                "facts": 62,
+                "contexts": 124,
+                "auc": 0.5282258064516129,
+                "auc_ci95": [
+                  0.5031217481789803,
+                  0.5606139438085328
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.029997000299970003,
+                "within_fact_order_accuracy": 0.6612903225806451,
+                "within_fact_order_ci95": [
+                  0.532258064516129,
+                  0.7741935483870968
+                ],
+                "positive_score_median": 0.21826171875,
+                "negative_score_median": 0.13409423828125,
+                "score_between_fact_variance_share": 0.9633256030049105,
+                "score_pair_midpoint_sd": 0.47052702238962163,
+                "score_within_pair_difference_rms": 0.1836155699760813
+              }
+            },
+            "unknown": {
+              "conflict_probability": {
+                "facts": 238,
+                "contexts": 476,
+                "auc": 0.5257750158887085,
+                "auc_ci95": [
+                  0.509524177317986,
+                  0.5427231922180636
+                ],
+                "exploratory_p_pair_swap_vs_half": 0.0008999100089991,
+                "within_fact_order_accuracy": 0.6512605042016807,
+                "within_fact_order_ci95": [
+                  0.5882352941176471,
+                  0.7100840336134454
+                ],
+                "positive_score_median": 0.4967498779296875,
+                "negative_score_median": 0.492828369140625,
+                "score_between_fact_variance_share": 0.9584299758374766,
+                "score_pair_midpoint_sd": 0.04407428768233452,
+                "score_within_pair_difference_rms": 0.018357994782064582
+              },
+              "conditional_log_odds": {
+                "facts": 238,
+                "contexts": 476,
+                "auc": 0.5269666690205494,
+                "auc_ci95": [
+                  0.5149263381823318,
+                  0.5405519560765483
+                ],
+                "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+                "within_fact_order_accuracy": 0.680672268907563,
+                "within_fact_order_ci95": [
+                  0.6197478991596639,
+                  0.7373949579831933
+                ],
+                "positive_score_median": -0.0478515625,
+                "negative_score_median": -0.06494140625,
+                "score_between_fact_variance_share": 0.9785692915700365,
+                "score_pair_midpoint_sd": 0.19058378359021852,
+                "score_within_pair_difference_rms": 0.05640770267953233
+              }
+            }
+          }
+        }
+      },
+      "source_popqa_frozen_reference": {
+        "known": {
+          "facts": 48,
+          "contexts": 96,
+          "auc": 1.0,
+          "auc_ci95": [
+            1.0,
+            1.0
+          ],
+          "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+          "within_fact_order_accuracy": 1.0,
+          "within_fact_order_ci95": [
+            1.0,
+            1.0
+          ],
+          "positive_score_median": 0.9963760375976562,
+          "negative_score_median": 0.0060613155364990234,
+          "score_between_fact_variance_share": 0.002500861471387695,
+          "score_pair_midpoint_sd": 0.024392150497078963,
+          "score_within_pair_difference_rms": 0.9742973769560926
+        },
+        "unknown": {
+          "facts": 552,
+          "contexts": 1104,
+          "auc": 0.9999770268851081,
+          "auc_ci95": [
+            0.9999212350346566,
+            1.0
+          ],
+          "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+          "within_fact_order_accuracy": 1.0,
+          "within_fact_order_ci95": [
+            1.0,
+            1.0
+          ],
+          "positive_score_median": 0.9985504150390625,
+          "negative_score_median": 0.004359006881713867,
+          "score_between_fact_variance_share": 0.004748945970359021,
+          "score_pair_midpoint_sd": 0.03371269089919362,
+          "score_within_pair_difference_rms": 0.9760928311966133
+        }
+      },
+      "source_popqa_development_mix": {
+        "calibration": {
+          "contexts": 800,
+          "state_counts": {
+            "abstain": 364,
+            "ext": 364,
+            "align": 36,
+            "param": 36
+          },
+          "unknown_fraction": 0.91
+        },
+        "val": {
+          "contexts": 400,
+          "state_counts": {
+            "abstain": 191,
+            "ext": 191,
+            "align": 9,
+            "param": 9
+          },
+          "unknown_fraction": 0.955
+        }
+      },
+      "development_exploration": {
+        "hidden_state_probes": {
+          "binary_all_same_pca32": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 418,
+            "logistic_iterations": [
+              3
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.5408,
+              "auc_ci95": [
+                0.4992,
+                0.5984399999999994
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.025997400259974,
+              "within_fact_order_accuracy": 0.72,
+              "within_fact_order_ci95": [
+                0.56,
+                0.88
+              ],
+              "positive_score_median": -0.032822178730528506,
+              "negative_score_median": -0.03189789844677281,
+              "score_between_fact_variance_share": 0.9778793148258104,
+              "score_pair_midpoint_sd": 0.1739748079546013,
+              "score_within_pair_difference_rms": 0.05233268520306906
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.536704,
+              "auc_ci95": [
+                0.5197423999999999,
+                0.557824
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.672,
+              "within_fact_order_ci95": [
+                0.592,
+                0.752
+              ],
+              "positive_score_median": -0.0012283635017224805,
+              "negative_score_median": -0.03368432518092147,
+              "score_between_fact_variance_share": 0.9656824072349905,
+              "score_pair_midpoint_sd": 0.16007825647271057,
+              "score_within_pair_difference_rms": 0.06035365687928336
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": -0.009600000000000053,
+              "paired_bootstrap_ci95": [
+                -0.054400000000000004,
+                0.030399999999999983
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.014399999999999968,
+              "paired_bootstrap_ci95": [
+                -0.05120000000000002,
+                0.0928
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.0,
+              "paired_bootstrap_ci95": [
+                0.0,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.10720000000000007,
+              "paired_bootstrap_ci95": [
+                -0.19200000000000006,
+                -0.028800000000000048
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.10560000000000003,
+              "paired_bootstrap_ci95": [
+                -0.19199999999999995,
+                -0.027200000000000002
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_strata_reweighted_same_pca32": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 418,
+            "logistic_iterations": [
+              10
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.528,
+              "auc_ci95": [
+                0.464,
+                0.6016
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.36266373362663734,
+              "within_fact_order_accuracy": 0.6,
+              "within_fact_order_ci95": [
+                0.4,
+                0.8
+              ],
+              "positive_score_median": 0.047637259440954774,
+              "negative_score_median": 0.029302088698206503,
+              "score_between_fact_variance_share": 0.9284853297288709,
+              "score_pair_midpoint_sd": 0.19164751653662992,
+              "score_within_pair_difference_rms": 0.10637589784792888
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.526784,
+              "auc_ci95": [
+                0.505152,
+                0.5514256
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.016698330166983303,
+              "within_fact_order_accuracy": 0.632,
+              "within_fact_order_ci95": [
+                0.552,
+                0.712
+              ],
+              "positive_score_median": 0.011643358536479097,
+              "negative_score_median": -0.02401931918552864,
+              "score_between_fact_variance_share": 0.9479038346827247,
+              "score_pair_midpoint_sd": 0.22383025746798701,
+              "score_within_pair_difference_rms": 0.10494687916132288
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": -0.022399999999999975,
+              "paired_bootstrap_ci95": [
+                -0.08639999999999998,
+                0.02400000000000002
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.0016000000000000458,
+              "paired_bootstrap_ci95": [
+                -0.04640000000000005,
+                0.05120000000000002
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": -0.012799999999999923,
+              "paired_bootstrap_ci95": [
+                -0.07199999999999995,
+                0.03520000000000001
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.12,
+              "paired_bootstrap_ci95": [
+                -0.23040000000000005,
+                -0.028800000000000048
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.11839999999999995,
+              "paired_bootstrap_ci95": [
+                -0.2304,
+                -0.025599999999999956
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_same_pca32": {
+            "fit_contexts": 82,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              39
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.5072,
+              "auc_ci95": [
+                0.4384,
+                0.5728
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.8302169783021698,
+              "within_fact_order_accuracy": 0.52,
+              "within_fact_order_ci95": [
+                0.32,
+                0.72
+              ],
+              "positive_score_median": 0.8433129693269318,
+              "negative_score_median": 0.905783517680837,
+              "score_between_fact_variance_share": 0.9546548899367199,
+              "score_pair_midpoint_sd": 1.2181941806296173,
+              "score_within_pair_difference_rms": 0.5309926940564615
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.506496,
+              "auc_ci95": [
+                0.485504,
+                0.52864
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.5391460853914608,
+              "within_fact_order_accuracy": 0.616,
+              "within_fact_order_ci95": [
+                0.528,
+                0.696
+              ],
+              "positive_score_median": 0.7072069965559821,
+              "negative_score_median": 0.8070327577154228,
+              "score_between_fact_variance_share": 0.9566380049726028,
+              "score_pair_midpoint_sd": 1.4978036555913705,
+              "score_within_pair_difference_rms": 0.6377723609134517
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": -0.043200000000000016,
+              "paired_bootstrap_ci95": [
+                -0.12000000000000005,
+                0.008000000000000007
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": -0.019199999999999995,
+              "paired_bootstrap_ci95": [
+                -0.06720000000000004,
+                0.022400000000000087
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": -0.03359999999999996,
+              "paired_bootstrap_ci95": [
+                -0.10399999999999998,
+                0.012800000000000034
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.14080000000000004,
+              "paired_bootstrap_ci95": [
+                -0.2704,
+                -0.043200000000000016
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.1392,
+              "paired_bootstrap_ci95": [
+                -0.26880000000000004,
+                -0.04159999999999997
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_own_pca32": {
+            "fit_contexts": 82,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              3
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.5392,
+              "auc_ci95": [
+                0.464,
+                0.6224
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.32496750324967505,
+              "within_fact_order_accuracy": 0.56,
+              "within_fact_order_ci95": [
+                0.36,
+                0.76
+              ],
+              "positive_score_median": -0.01571222816877151,
+              "negative_score_median": -0.017578723600714993,
+              "score_between_fact_variance_share": 0.9248841706093672,
+              "score_pair_midpoint_sd": 0.08423710904711643,
+              "score_within_pair_difference_rms": 0.048012631494345565
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.530816,
+              "auc_ci95": [
+                0.505088,
+                0.558272
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0188981101889811,
+              "within_fact_order_accuracy": 0.592,
+              "within_fact_order_ci95": [
+                0.504,
+                0.672
+              ],
+              "positive_score_median": 0.00820228411863624,
+              "negative_score_median": -0.014931398570399056,
+              "score_between_fact_variance_share": 0.9422396476934939,
+              "score_pair_midpoint_sd": 0.11742937432193555,
+              "score_within_pair_difference_rms": 0.058148828826910595
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": -0.011199999999999988,
+              "paired_bootstrap_ci95": [
+                -0.1008,
+                0.060800000000000076
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.012800000000000034,
+              "paired_bootstrap_ci95": [
+                -0.043200000000000016,
+                0.06560000000000005
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": -0.0015999999999999348,
+              "paired_bootstrap_ci95": [
+                -0.07999999999999996,
+                0.05920000000000003
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.10880000000000001,
+              "paired_bootstrap_ci95": [
+                -0.23999999999999994,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.10719999999999996,
+              "paired_bootstrap_ci95": [
+                -0.24,
+                0.0016000000000000458
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_all_full_all_scaler": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 418,
+            "logistic_iterations": [
+              704
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6464,
+              "auc_ci95": [
+                0.5808,
+                0.7344
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00019998000199980003,
+              "within_fact_order_accuracy": 0.8,
+              "within_fact_order_ci95": [
+                0.64,
+                0.92
+              ],
+              "positive_score_median": 2.6908416877706234,
+              "negative_score_median": -2.17780805217954,
+              "score_between_fact_variance_share": 0.7998000516767472,
+              "score_pair_midpoint_sd": 8.32518698216551,
+              "score_within_pair_difference_rms": 8.330388555089497
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.60096,
+              "auc_ci95": [
+                0.576512,
+                0.6311695999999999
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.808,
+              "within_fact_order_ci95": [
+                0.736,
+                0.872
+              ],
+              "positive_score_median": 3.8310546483008965,
+              "negative_score_median": -0.649334871089289,
+              "score_between_fact_variance_share": 0.914395349470989,
+              "score_pair_midpoint_sd": 9.761990851920071,
+              "score_within_pair_difference_rms": 5.973791588497931
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.09599999999999997,
+              "paired_bootstrap_ci95": [
+                0.02399999999999991,
+                0.16799999999999993
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.12,
+              "paired_bootstrap_ci95": [
+                0.009600000000000053,
+                0.25279999999999997
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.10560000000000003,
+              "paired_bootstrap_ci95": [
+                0.027200000000000002,
+                0.19199999999999995
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.0016000000000000458,
+              "paired_bootstrap_ci95": [
+                -0.019199999999999995,
+                0.016000000000000014
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.0,
+              "paired_bootstrap_ci95": [
+                0.0,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_full_all_scaler": {
+            "fit_contexts": 82,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              825
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.616,
+              "auc_ci95": [
+                0.5648,
+                0.7008
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00029997000299970003,
+              "within_fact_order_accuracy": 0.84,
+              "within_fact_order_ci95": [
+                0.68,
+                0.96
+              ],
+              "positive_score_median": 5.035905625404189,
+              "negative_score_median": 1.1532735193954862,
+              "score_between_fact_variance_share": 0.9367585358849928,
+              "score_pair_midpoint_sd": 9.139925803803383,
+              "score_within_pair_difference_rms": 4.749630165937632
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.565632,
+              "auc_ci95": [
+                0.543552,
+                0.591616
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.688,
+              "within_fact_order_ci95": [
+                0.608,
+                0.768
+              ],
+              "positive_score_median": 7.306009855278555,
+              "negative_score_median": 5.543007248544014,
+              "score_between_fact_variance_share": 0.9409580842795697,
+              "score_pair_midpoint_sd": 8.810813973336952,
+              "score_within_pair_difference_rms": 4.414089237827187
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.06559999999999999,
+              "paired_bootstrap_ci95": [
+                0.014399999999999968,
+                0.128
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.08960000000000001,
+              "paired_bootstrap_ci95": [
+                0.017559999999999985,
+                0.2
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.07520000000000004,
+              "paired_bootstrap_ci95": [
+                0.009600000000000053,
+                0.15360000000000001
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.03200000000000003,
+              "paired_bootstrap_ci95": [
+                -0.09599999999999997,
+                0.040000000000000036
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.030399999999999983,
+              "paired_bootstrap_ci95": [
+                -0.09599999999999997,
+                0.04479999999999995
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_all_full_known_scaler": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 418,
+            "logistic_iterations": [
+              762
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.648,
+              "auc_ci95": [
+                0.576,
+                0.736
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00029997000299970003,
+              "within_fact_order_accuracy": 0.8,
+              "within_fact_order_ci95": [
+                0.64,
+                0.92
+              ],
+              "positive_score_median": 3.177169273423466,
+              "negative_score_median": -2.5339266365206767,
+              "score_between_fact_variance_share": 0.7971432682315709,
+              "score_pair_midpoint_sd": 8.282065432211917,
+              "score_within_pair_difference_rms": 8.355937321890318
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.601152,
+              "auc_ci95": [
+                0.576,
+                0.63168
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.808,
+              "within_fact_order_ci95": [
+                0.736,
+                0.872
+              ],
+              "positive_score_median": 3.356304226051624,
+              "negative_score_median": -0.6727049756739354,
+              "score_between_fact_variance_share": 0.9156896908361297,
+              "score_pair_midpoint_sd": 9.873657333078611,
+              "score_within_pair_difference_rms": 5.992033394511709
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.09760000000000002,
+              "paired_bootstrap_ci95": [
+                0.027200000000000002,
+                0.16799999999999993
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.12160000000000004,
+              "paired_bootstrap_ci95": [
+                0.011199999999999988,
+                0.2528
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.10720000000000007,
+              "paired_bootstrap_ci95": [
+                0.028800000000000048,
+                0.19200000000000006
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.0,
+              "paired_bootstrap_ci95": [
+                0.0,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.0016000000000000458,
+              "paired_bootstrap_ci95": [
+                -0.016000000000000014,
+                0.019199999999999995
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "binary_strata_reweighted_full_known_scaler": {
+            "fit_contexts": 500,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 418,
+            "logistic_iterations": [
+              716
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6496,
+              "auc_ci95": [
+                0.5824,
+                0.736
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00019998000199980003,
+              "within_fact_order_accuracy": 0.8,
+              "within_fact_order_ci95": [
+                0.64,
+                0.92
+              ],
+              "positive_score_median": 3.1558798318039925,
+              "negative_score_median": -3.0643200693240877,
+              "score_between_fact_variance_share": 0.7982394218214958,
+              "score_pair_midpoint_sd": 8.381362307256568,
+              "score_within_pair_difference_rms": 8.427449934557131
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.597248,
+              "auc_ci95": [
+                0.5731183999999999,
+                0.62592
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.8,
+              "within_fact_order_ci95": [
+                0.728,
+                0.864
+              ],
+              "positive_score_median": 2.102276309405268,
+              "negative_score_median": -1.1043330787088181,
+              "score_between_fact_variance_share": 0.9148625325490912,
+              "score_pair_midpoint_sd": 9.673162296240243,
+              "score_within_pair_difference_rms": 5.901751414950895
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.09919999999999995,
+              "paired_bootstrap_ci95": [
+                0.027200000000000002,
+                0.16960000000000003
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.12319999999999998,
+              "paired_bootstrap_ci95": [
+                0.016000000000000014,
+                0.2528
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.10880000000000001,
+              "paired_bootstrap_ci95": [
+                0.033600000000000074,
+                0.18879999999999997
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": 0.0015999999999999348,
+              "paired_bootstrap_ci95": [
+                -0.030399999999999983,
+                0.03839999999999999
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": 0.0031999999999999806,
+              "paired_bootstrap_ci95": [
+                -0.025600000000000067,
+                0.03839999999999999
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_only_full_l2": {
+            "fit_contexts": 82,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 0,
+            "logistic_iterations": [
+              346
+            ],
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.616,
+              "auc_ci95": [
+                0.5664,
+                0.6992
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00019998000199980003,
+              "within_fact_order_accuracy": 0.84,
+              "within_fact_order_ci95": [
+                0.68,
+                0.96
+              ],
+              "positive_score_median": 5.573205527631773,
+              "negative_score_median": 1.0079742804615508,
+              "score_between_fact_variance_share": 0.936288051724832,
+              "score_pair_midpoint_sd": 9.137768837480518,
+              "score_within_pair_difference_rms": 4.767337134072798
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.564224,
+              "auc_ci95": [
+                0.5425264,
+                0.589632
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.68,
+              "within_fact_order_ci95": [
+                0.6,
+                0.76
+              ],
+              "positive_score_median": 7.473523945871311,
+              "negative_score_median": 5.6816276923985685,
+              "score_between_fact_variance_share": 0.9419656244729213,
+              "score_pair_midpoint_sd": 9.01218467990931,
+              "score_within_pair_difference_rms": 4.473889045448195
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.06559999999999999,
+              "paired_bootstrap_ci95": [
+                0.014399999999999968,
+                0.12639999999999996
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.08960000000000001,
+              "paired_bootstrap_ci95": [
+                0.014399999999999968,
+                0.2
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.07520000000000004,
+              "paired_bootstrap_ci95": [
+                0.011199999999999988,
+                0.15200000000000002
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.03200000000000003,
+              "paired_bootstrap_ci95": [
+                -0.0928,
+                0.03520000000000001
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.030399999999999983,
+              "paired_bootstrap_ci95": [
+                -0.0928,
+                0.04159999999999997
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_known_only_own_pca32": {
+              "delta_auc": 0.07679999999999998,
+              "paired_bootstrap_ci95": [
+                -0.0015999999999999348,
+                0.18080000000000007
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_paired_mean_direction": {
+            "fit_contexts": 82,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 0,
+            "fit_pairs": 41,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.5312,
+              "auc_ci95": [
+                0.44316,
+                0.6304
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.5136486351364864,
+              "within_fact_order_accuracy": 0.68,
+              "within_fact_order_ci95": [
+                0.48,
+                0.84
+              ],
+              "positive_score_median": -5.309176380399796,
+              "negative_score_median": -6.192618533293182,
+              "score_between_fact_variance_share": 0.847321436529138,
+              "score_pair_midpoint_sd": 11.718117044488386,
+              "score_within_pair_difference_rms": 9.948389096941982
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.538752,
+              "auc_ci95": [
+                0.5121264,
+                0.5679375999999999
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.005099490050994901,
+              "within_fact_order_accuracy": 0.68,
+              "within_fact_order_ci95": [
+                0.6,
+                0.76
+              ],
+              "positive_score_median": -1.3172767006290522,
+              "negative_score_median": -3.271920375886477,
+              "score_between_fact_variance_share": 0.9194067361516014,
+              "score_pair_midpoint_sd": 17.4093091663785,
+              "score_within_pair_difference_rms": 10.308775097359716
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": -0.019199999999999995,
+              "paired_bootstrap_ci95": [
+                -0.11199999999999999,
+                0.05600000000000005
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.0048000000000000265,
+              "paired_bootstrap_ci95": [
+                -0.03520000000000001,
+                0.052800000000000014
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": -0.009599999999999942,
+              "paired_bootstrap_ci95": [
+                -0.09439999999999993,
+                0.06720000000000004
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.11680000000000001,
+              "paired_bootstrap_ci95": [
+                -0.2592,
+                0.0
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.11519999999999997,
+              "paired_bootstrap_ci95": [
+                -0.25604000000000005,
+                0.0016000000000000458
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "known_paired_difference_l2": {
+            "fit_contexts": 82,
+            "fit_known_contexts": 82,
+            "fit_unknown_contexts": 0,
+            "fit_pairs": 41,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.576,
+              "auc_ci95": [
+                0.5456,
+                0.6448
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00019998000199980003,
+              "within_fact_order_accuracy": 0.88,
+              "within_fact_order_ci95": [
+                0.76,
+                1.0
+              ],
+              "positive_score_median": -3.043998200478558,
+              "negative_score_median": -7.112544322217319,
+              "score_between_fact_variance_share": 0.9747651073679684,
+              "score_pair_midpoint_sd": 13.321449864817733,
+              "score_within_pair_difference_rms": 4.28679024284642
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.546432,
+              "auc_ci95": [
+                0.530624,
+                0.567296
+              ],
+              "exploratory_p_pair_swap_vs_half": 9.999000099990002e-05,
+              "within_fact_order_accuracy": 0.704,
+              "within_fact_order_ci95": [
+                0.624,
+                0.784
+              ],
+              "positive_score_median": 1.3271100206148008,
+              "negative_score_median": -0.8046566257621774,
+              "score_between_fact_variance_share": 0.9769476585884648,
+              "score_pair_midpoint_sd": 13.979002050723658,
+              "score_within_pair_difference_rms": 4.294652586310494
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.025599999999999956,
+              "paired_bootstrap_ci95": [
+                -0.025600000000000067,
+                0.08960000000000001
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_frozen_calibrated_known_log_odds": {
+              "delta_auc": 0.04959999999999998,
+              "paired_bootstrap_ci95": [
+                -0.028799999999999937,
+                0.16799999999999998
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_same_pca": {
+              "delta_auc": 0.03520000000000001,
+              "paired_bootstrap_ci95": [
+                -0.019199999999999995,
+                0.10720000000000002
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_known_scaler": {
+              "delta_auc": -0.07200000000000006,
+              "paired_bootstrap_ci95": [
+                -0.12480000000000002,
+                -0.0047999999999999154
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            },
+            "delta_vs_all_binary_full_all_scaler": {
+              "delta_auc": -0.07040000000000002,
+              "paired_bootstrap_ci95": [
+                -0.12319999999999998,
+                -0.0047999999999999154
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          }
+        },
+        "vanilla_first_token": {
+          "full_vocab_entropy": {
+            "calibration_known_raw_auc": 0.5960737656157049,
+            "calibration_frozen_sign": 1,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6752,
+              "auc_ci95": [
+                0.56,
+                0.7856
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0037996200379962005,
+              "within_fact_order_accuracy": 0.64,
+              "within_fact_order_ci95": [
+                0.44,
+                0.84
+              ],
+              "positive_score_median": 0.07402153313159943,
+              "negative_score_median": 5.674580097547732e-05,
+              "score_between_fact_variance_share": 0.6102155687744856,
+              "score_pair_midpoint_sd": 0.2025780341835386,
+              "score_within_pair_difference_rms": 0.3238120084975468
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.599296,
+              "auc_ci95": [
+                0.543936,
+                0.6547856
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0005999400059994001,
+              "within_fact_order_accuracy": 0.648,
+              "within_fact_order_ci95": [
+                0.56,
+                0.728
+              ],
+              "positive_score_median": 0.028666600584983826,
+              "negative_score_median": 0.002374485367909074,
+              "score_between_fact_variance_share": 0.5456300733894907,
+              "score_pair_midpoint_sd": 0.23101033416293262,
+              "score_within_pair_difference_rms": 0.4216159613830165
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.12480000000000002,
+              "paired_bootstrap_ci95": [
+                0.008000000000000007,
+                0.21920000000000006
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "probability_margin": {
+            "calibration_known_raw_auc": 0.4182034503271862,
+            "calibration_frozen_sign": -1,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6808,
+              "auc_ci95": [
+                0.56638,
+                0.792
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0044995500449955,
+              "within_fact_order_accuracy": 0.68,
+              "within_fact_order_ci95": [
+                0.5,
+                0.84
+              ],
+              "positive_score_median": -0.9718664884567261,
+              "negative_score_median": -0.9999939799308777,
+              "score_between_fact_variance_share": 0.49928667335465543,
+              "score_pair_midpoint_sd": 0.12632010977295272,
+              "score_within_pair_difference_rms": 0.253000907017996
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.59984,
+              "auc_ci95": [
+                0.5440632,
+                0.6548808
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0004999500049995,
+              "within_fact_order_accuracy": 0.628,
+              "within_fact_order_ci95": [
+                0.544,
+                0.708
+              ],
+              "positive_score_median": -0.9930199980735779,
+              "negative_score_median": -0.9995039105415344,
+              "score_between_fact_variance_share": 0.5582442607705305,
+              "score_pair_midpoint_sd": 0.18237897533421488,
+              "score_within_pair_difference_rms": 0.3244768624235538
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.13039999999999996,
+              "paired_bootstrap_ci95": [
+                0.01200000000000001,
+                0.22721999999999978
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "top1_probability": {
+            "calibration_known_raw_auc": 0.41493158834027366,
+            "calibration_frozen_sign": -1,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6768,
+              "auc_ci95": [
+                0.56,
+                0.7888
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0046995300469953,
+              "within_fact_order_accuracy": 0.66,
+              "within_fact_order_ci95": [
+                0.48,
+                0.84
+              ],
+              "positive_score_median": -0.9859300255775452,
+              "negative_score_median": -0.9999961853027344,
+              "score_between_fact_variance_share": 0.5224768448386814,
+              "score_pair_midpoint_sd": 0.07405274495217905,
+              "score_within_pair_difference_rms": 0.1415907397285538
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.600672,
+              "auc_ci95": [
+                0.5453112,
+                0.6555863999999999
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.00039996000399960006,
+              "within_fact_order_accuracy": 0.632,
+              "within_fact_order_ci95": [
+                0.548,
+                0.7120999999999985
+              ],
+              "positive_score_median": -0.9960504174232483,
+              "negative_score_median": -0.9997466206550598,
+              "score_between_fact_variance_share": 0.544211688109116,
+              "score_pair_midpoint_sd": 0.09809584433028314,
+              "score_within_pair_difference_rms": 0.17954704621945938
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.12639999999999996,
+              "paired_bootstrap_ci95": [
+                0.007979999999999916,
+                0.22239999999999993
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "top10_renormalized_entropy": {
+            "calibration_known_raw_auc": 0.594883997620464,
+            "calibration_frozen_sign": 1,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6768,
+              "auc_ci95": [
+                0.5616,
+                0.7872399999999994
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0034996500349965005,
+              "within_fact_order_accuracy": 0.64,
+              "within_fact_order_ci95": [
+                0.44,
+                0.84
+              ],
+              "positive_score_median": 0.07401917956445316,
+              "negative_score_median": 5.5631011980261045e-05,
+              "score_between_fact_variance_share": 0.6001225406818809,
+              "score_pair_midpoint_sd": 0.1985065929656846,
+              "score_within_pair_difference_rms": 0.32407715944854143
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.599936,
+              "auc_ci95": [
+                0.544576,
+                0.6552975999999999
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0004999500049995,
+              "within_fact_order_accuracy": 0.648,
+              "within_fact_order_ci95": [
+                0.56,
+                0.728
+              ],
+              "positive_score_median": 0.028660980739178915,
+              "negative_score_median": 0.002354545155205375,
+              "score_between_fact_variance_share": 0.5604784714951435,
+              "score_pair_midpoint_sd": 0.2149159951119905,
+              "score_within_pair_difference_rms": 0.3806355462419903
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.12639999999999996,
+              "paired_bootstrap_ci95": [
+                0.008000000000000007,
+                0.2208
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "top12_logit_gap": {
+            "calibration_known_raw_auc": 0.41582391433670435,
+            "calibration_frozen_sign": -1,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6776,
+              "auc_ci95": [
+                0.564,
+                0.7904
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0040995900409959,
+              "within_fact_order_accuracy": 0.68,
+              "within_fact_order_ci95": [
+                0.48,
+                0.84
+              ],
+              "positive_score_median": -4.25,
+              "negative_score_median": -13.015625,
+              "score_between_fact_variance_share": 0.7197201064067531,
+              "score_pair_midpoint_sd": 5.411064817661816,
+              "score_within_pair_difference_rms": 6.753468618340227
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.597728,
+              "auc_ci95": [
+                0.5420152,
+                0.6522248
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0005999400059994001,
+              "within_fact_order_accuracy": 0.608,
+              "within_fact_order_ci95": [
+                0.52,
+                0.688
+              ],
+              "positive_score_median": -5.796875,
+              "negative_score_median": -8.5,
+              "score_between_fact_variance_share": 0.6591257983699164,
+              "score_pair_midpoint_sd": 4.345773694960714,
+              "score_within_pair_difference_rms": 6.250431703840543
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.12719999999999998,
+              "paired_bootstrap_ci95": [
+                0.00880000000000003,
+                0.22719999999999996
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          },
+          "five_features_l2": {
+            "fit_contexts": 82,
+            "known_validation": {
+              "facts": 25,
+              "contexts": 50,
+              "auc": 0.6528,
+              "auc_ci95": [
+                0.5344,
+                0.7696
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.0168983101689831,
+              "within_fact_order_accuracy": 0.68,
+              "within_fact_order_ci95": [
+                0.48,
+                0.84
+              ],
+              "positive_score_median": -0.09715299781991855,
+              "negative_score_median": -0.206151513874119,
+              "score_between_fact_variance_share": 0.7493264567600969,
+              "score_pair_midpoint_sd": 0.300716303763406,
+              "score_within_pair_difference_rms": 0.3478609565472851
+            },
+            "unknown_validation": {
+              "facts": 125,
+              "contexts": 250,
+              "auc": 0.579072,
+              "auc_ci95": [
+                0.5170543999999999,
+                0.6405792
+              ],
+              "exploratory_p_pair_swap_vs_half": 0.014598540145985401,
+              "within_fact_order_accuracy": 0.608,
+              "within_fact_order_ci95": [
+                0.52,
+                0.688
+              ],
+              "positive_score_median": -0.05006063996658136,
+              "negative_score_median": -0.10589262660897412,
+              "score_between_fact_variance_share": 0.5723770742189636,
+              "score_pair_midpoint_sd": 0.29453745694865324,
+              "score_within_pair_difference_rms": 0.5091665955900607
+            },
+            "delta_vs_frozen_calibrated_conflict": {
+              "delta_auc": 0.10240000000000005,
+              "paired_bootstrap_ci95": [
+                -0.027200000000000002,
+                0.2128
+              ],
+              "inference": "exploratory validation estimate, no deployment selection or confirmatory claim"
+            }
+          }
+        },
+        "known_fit_fact_ids": [
+          "nqswap_1026",
+          "nqswap_1102",
+          "nqswap_1183",
+          "nqswap_1460",
+          "nqswap_1497",
+          "nqswap_15",
+          "nqswap_1874",
+          "nqswap_2132",
+          "nqswap_2233",
+          "nqswap_2264",
+          "nqswap_2309",
+          "nqswap_2443",
+          "nqswap_2491",
+          "nqswap_2795",
+          "nqswap_2834",
+          "nqswap_3063",
+          "nqswap_320",
+          "nqswap_3211",
+          "nqswap_3297",
+          "nqswap_3567",
+          "nqswap_3612",
+          "nqswap_3681",
+          "nqswap_3789",
+          "nqswap_3831",
+          "nqswap_3851",
+          "nqswap_4017",
+          "nqswap_4021",
+          "nqswap_403",
+          "nqswap_4056",
+          "nqswap_4101",
+          "nqswap_4102",
+          "nqswap_4188",
+          "nqswap_4197",
+          "nqswap_4201",
+          "nqswap_4422",
+          "nqswap_4494",
+          "nqswap_4495",
+          "nqswap_4671",
+          "nqswap_59",
+          "nqswap_830",
+          "nqswap_962"
+        ],
+        "validation_fact_ids": [
+          "nqswap_102",
+          "nqswap_1033",
+          "nqswap_105",
+          "nqswap_1058",
+          "nqswap_108",
+          "nqswap_1089",
+          "nqswap_1199",
+          "nqswap_1240",
+          "nqswap_1245",
+          "nqswap_1257",
+          "nqswap_1260",
+          "nqswap_127",
+          "nqswap_1287",
+          "nqswap_1300",
+          "nqswap_1349",
+          "nqswap_1352",
+          "nqswap_1357",
+          "nqswap_1397",
+          "nqswap_1420",
+          "nqswap_1468",
+          "nqswap_1480",
+          "nqswap_1503",
+          "nqswap_1511",
+          "nqswap_1539",
+          "nqswap_1554",
+          "nqswap_158",
+          "nqswap_1602",
+          "nqswap_1616",
+          "nqswap_1642",
+          "nqswap_1646",
+          "nqswap_1694",
+          "nqswap_1713",
+          "nqswap_1773",
+          "nqswap_1787",
+          "nqswap_1816",
+          "nqswap_1820",
+          "nqswap_1824",
+          "nqswap_1856",
+          "nqswap_1892",
+          "nqswap_1903",
+          "nqswap_1935",
+          "nqswap_1963",
+          "nqswap_1968",
+          "nqswap_1992",
+          "nqswap_2",
+          "nqswap_2009",
+          "nqswap_2010",
+          "nqswap_2041",
+          "nqswap_2088",
+          "nqswap_210",
+          "nqswap_2136",
+          "nqswap_2139",
+          "nqswap_2164",
+          "nqswap_2206",
+          "nqswap_2209",
+          "nqswap_229",
+          "nqswap_2315",
+          "nqswap_2337",
+          "nqswap_2361",
+          "nqswap_238",
+          "nqswap_2409",
+          "nqswap_2435",
+          "nqswap_2480",
+          "nqswap_2600",
+          "nqswap_2623",
+          "nqswap_2627",
+          "nqswap_267",
+          "nqswap_2681",
+          "nqswap_2723",
+          "nqswap_2750",
+          "nqswap_2757",
+          "nqswap_2792",
+          "nqswap_2842",
+          "nqswap_2847",
+          "nqswap_2848",
+          "nqswap_2912",
+          "nqswap_2938",
+          "nqswap_2961",
+          "nqswap_2991",
+          "nqswap_3011",
+          "nqswap_3013",
+          "nqswap_3153",
+          "nqswap_3160",
+          "nqswap_3219",
+          "nqswap_3226",
+          "nqswap_3247",
+          "nqswap_3264",
+          "nqswap_3265",
+          "nqswap_3266",
+          "nqswap_328",
+          "nqswap_3338",
+          "nqswap_334",
+          "nqswap_3352",
+          "nqswap_3420",
+          "nqswap_3442",
+          "nqswap_3491",
+          "nqswap_3564",
+          "nqswap_360",
+          "nqswap_3664",
+          "nqswap_3686",
+          "nqswap_3695",
+          "nqswap_3748",
+          "nqswap_3750",
+          "nqswap_3770",
+          "nqswap_3782",
+          "nqswap_3799",
+          "nqswap_3810",
+          "nqswap_3816",
+          "nqswap_3833",
+          "nqswap_3882",
+          "nqswap_3900",
+          "nqswap_3937",
+          "nqswap_4030",
+          "nqswap_4036",
+          "nqswap_4064",
+          "nqswap_4067",
+          "nqswap_4068",
+          "nqswap_408",
+          "nqswap_411",
+          "nqswap_419",
+          "nqswap_420",
+          "nqswap_4350",
+          "nqswap_4369",
+          "nqswap_4419",
+          "nqswap_444",
+          "nqswap_4448",
+          "nqswap_4460",
+          "nqswap_4500",
+          "nqswap_4586",
+          "nqswap_4642",
+          "nqswap_4665",
+          "nqswap_494",
+          "nqswap_521",
+          "nqswap_53",
+          "nqswap_586",
+          "nqswap_62",
+          "nqswap_684",
+          "nqswap_71",
+          "nqswap_711",
+          "nqswap_728",
+          "nqswap_760",
+          "nqswap_762",
+          "nqswap_763",
+          "nqswap_765",
+          "nqswap_772",
+          "nqswap_784",
+          "nqswap_79",
+          "nqswap_796",
+          "nqswap_821",
+          "nqswap_931"
+        ],
+        "pca_all_variance_ratio": 0.7429644390043144,
+        "pca_known_variance_ratio": 0.9487641350201828,
+        "pca_all_retained_energy_known_mean_difference_direction": 0.45845086290516335,
+        "classifier_spec": "C1 L2 Logistic, lbfgs, tol1e-7, max_iter1500, seed42; all scalers/PCA/signs/coefficients fitted only on calibration",
+        "diagnostic_model_count": 17,
+        "blind_scored_with_new_diagnostic_models": false
+      }
+    }
+  },
+  "existing_seals": {
+    "results/phase4_qwen7b_v1/three_b_seal.json": {
+      "checked": 25,
+      "unchanged": true
+    },
+    "results/phase4_qwen7b_delivery_manifest.json": {
+      "checked": 20,
+      "unchanged": true
+    },
+    "results/active_block_closure_delivery_manifest.json": {
+      "checked": 37,
+      "unchanged": true
+    },
+    "results/final_paper_statistics_manifest.json": {
+      "checked": 6,
+      "unchanged": true
+    },
+    "results/reviewer_gap_resolution_manifest.json": {
+      "checked": 108,
+      "unchanged": true
+    },
+    "results/reviewer_step_b_delivery_manifest.json": {
+      "checked": 117,
+      "unchanged": true
+    },
+    "results/nqswap_v2/debug_v3/delivery_manifest.json": {
+      "checked": 22,
+      "unchanged": true
+    },
+    "results/nqswap_v2_delivery_manifest.json": {
+      "checked": 170,
+      "unchanged": true
+    }
+  },
+  "source_sha256": {
+    "results/phase4_qwen7b_v1/three_b_seal.json": "b177de96f2154ba0e80e8eaa071b228137855d3a4e890b181944e475d22ab51f",
+    "results/phase4_qwen7b_delivery_manifest.json": "03a1f12b810884c49f4dd995a75aa589465bbc7df0e98190e5c982eb58492849",
+    "results/active_block_closure_delivery_manifest.json": "b1229d2506d6ce4732944b522cffed1d22cc4162c08026c49c7f29398f7adc27",
+    "results/final_paper_statistics_manifest.json": "dfea762d4330309111321beeae19ab1beb8f42e7373f8b00128e8becacb61a00",
+    "results/reviewer_gap_resolution_manifest.json": "bd19e5ea2ecf7fd23e745d0b32520e5d1765136e85e0735b42e14215450153fb",
+    "results/reviewer_step_b_delivery_manifest.json": "d4c4b88a27b3b96a6ea425f06e3e45f4d6208e90b3da26d740ef5a67aa9e726a",
+    "results/nqswap_v2/debug_v3/delivery_manifest.json": "9ea2301a0bf5706689565915bd59c8a0e740575207393773661f76f189e10b67",
+    "results/nqswap_v2_delivery_manifest.json": "8090bff7b4979466c35958dde98e4d01eec4548a61cc7f62083eaf8d0b6f17b8",
+    "configs/nqswap_source_profiles_v2.json": "2edf7e2085447fb4748431a1b0796bfd1c806b971850b36717b1e0de7e481b4c",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/native_development.jsonl": "ab1183e4e7deceeec8ff695928c0d9e8521fe88d7a8546b97278f73ee61d1efc",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/native_blind.jsonl": "7268346bb90dd9564e2185684dcbc6529753b84219f2bb20ec54f4c69bf6953c",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/development_features.npz": "bf4fd358b4902c2dcaac148e3715f13dfbf35b9317693d473165316c64a60ea6",
+    "data/processed/nqswap_source_v2/qwen3b/source_gate.npz": "4fb39158ebff71508e0bab76ffbb25b0c2717f85c75d0c2aff974a1c94e94255",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/zero_shot_blind_gate_outputs.npz": "eec240f720275376c9a67a88fa66094308e89e9d8c77e241b0eee5bf59ee4790",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/calibrated_probe.npz": "63dbb99691ca9e2cc00a644179471b792a062f588c85151a5e4c769e4efa8ae2",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/calibrated_blind_gate_outputs.npz": "3b358515abef62c336dd2e8bd2923e2bf9ec63e519a3509d7a29e7bf82b44460",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/calibration/vanilla.jsonl": "76b56f6d52b307be28e5ed6ff96391dff0b86b0f66b3cd0f59afc9f44f47318d",
+    "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/validation/vanilla.jsonl": "7a0c0e80aedf7e18b5f0b5f3d8db9ae9b742a84f538ea379631ec8fe740ba4fd",
+    "results/confirmation_evaluate_cloud/results/confirmation_evaluation_v1/confirmation/early_gate.jsonl": "55cb66f955c83fcaf073b57bb1626caef5ba72aa63150ec64133fe6569fa449c",
+    "data/processed/cast_sensitivity_v2/qwen3b/development.jsonl": "d2b7b05220f51d1a846bcd4420bfd1703cdc6494c7a089396ef7833beca41d1c",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/native_development.jsonl": "2e41064ce4a66b37e0fdc780d09aec1700af3cb7974c1283cd1735c720423bf4",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/native_blind.jsonl": "257786ef258b153216ba1cf5d4f31b88ef0da92d546499ca3aee61d2a42d515f",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/development_features.npz": "0f21aec1c66a5860eca0f1d28ab6d1e3b6454ed3f4047d20ffc4df5f61ff080e",
+    "data/processed/nqswap_source_v2/qwen7b/source_gate.npz": "712dec943309492fd7720a3c94291b4c960b058e1c0f69f6c2f4a7978a8717f3",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/zero_shot_blind_gate_outputs.npz": "c7f335ae9b2ef558609eec144766137dd8b10d2d2e1046fb79eafe12cd8c2d0e",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/calibrated_probe.npz": "d05df4b4bc6bda258a9bd22ae85d860939440ce03f813b771ce4cce9ce54da3e",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/calibrated_blind_gate_outputs.npz": "89975d4d0eccc82327fe61c272333bef9e5a2c436fabdff1a9f8bcd374f0fea2",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/calibration/vanilla.jsonl": "b32e04cea3577c27ce202928048db486931902c6c9d3cfdd1416254163b9da1e",
+    "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/validation/vanilla.jsonl": "1f2c37692bdd72745a68fc5eafc1d048193eae4434d6409ef7c604f1dff3741a",
+    "results/phase4_qwen7b_v1/blind_cloud_v1/results/phase4_qwen7b_v1/blind/quality/early_gate.jsonl": "e861befe4ba5218ec98ca0b4064ba6916f8922d31e95f536ab3ae28574615109",
+    "data/processed/cast_sensitivity_v2/qwen7b/development.jsonl": "a314e828b3335e1de3c01837eb1cfb413cde75fbfda0ca104740f300ea749a02",
+    "results/nqswap_results_v2.json": "46c7cf66bcc27c27f915f093b95d08392aba4cc9dbaa927aafa61cd23eac723c"
+  },
+  "corrected_metric_scope": {
+    "seven_b_calibrated_raw_ece": 0.2719665615424357,
+    "seven_b_calibrated_prior_ece": 0.27463477837117634
+  },
+  "interpretive_limits": [
+    "Near-chance empirical AUC of these probes does not establish zero mutual information or impossibility for all single-pass functions",
+    "Knowledge-stratum imbalance is distinct from conflict class imbalance: every split has exactly 50 percent true and 50 percent substituted contexts",
+    "Known-only hidden-state/token diagnostics use calibration labels and are evaluated only on validation; no frozen threshold/method change",
+    "Full-vocabulary entropy is an originally cached scalar; top10-renormalized entropy is not full-vocabulary entropy",
+    "First-token LM-head features arise after the full prefill and are not available for the original earlier layer decision without a different timing boundary",
+    "Small known validation cohorts, exploratory comparisons and calibration-fit uncertainty limit causal interpretation"
+  ]
+}

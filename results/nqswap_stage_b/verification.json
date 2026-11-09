@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "local_backbone_calls": 0,
+  "new_cloud_submissions": 0,
+  "freeze_sha256": "8f7e77718ade67239c286dbe42bb1b82a7f87d92d6e987b1fe33c65a25ec164f",
+  "sample_lock_sha256": "e110c8be18cac45c647b35787fb98d2f73a4a6855db7c803f9056688528d8878",
+  "checks": [
+    "input and label hashes",
+    "646 whole facts and paired labels",
+    "1292 IDs per branch",
+    "token/text/first-logit audit",
+    "stepwise KV and layer calls",
+    "fixed primary and balanced routes",
+    "cloud point estimates",
+    "36 plus 63 tests",
+    "all descriptive thresholds"
+  ]
+}

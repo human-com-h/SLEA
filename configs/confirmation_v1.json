@@ -1,0 +1,79 @@
+{
+  "seed": 42,
+  "layer": 10,
+  "eta": 0,
+  "gate_key": "6934411d4e73dcda",
+  "policy": {
+    "param_cost": 8.0,
+    "abstain_cost": 0.5,
+    "param_threshold": 0.2,
+    "abstain_threshold": 0.35
+  },
+  "weights_sha256": "4fb39158ebff71508e0bab76ffbb25b0c2717f85c75d0c2aff974a1c94e94255",
+  "frozen_artifact_sha256": "113c628c902e44d908e42424253512a3b74a2d2d50be1d6e70f2800fe2bc661e",
+  "fold_temperatures": [
+    2.0,
+    4.0,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "global_temperature": 2.0,
+  "external_calibration": "mean of five frozen sigmoid(logit(confidence)/T) probabilities, no refit",
+  "refusal": "post_generation_replace; ordinary EOS/cap generation retained",
+  "baseline_thresholds": {
+    "entropy": "negative_infinity",
+    "margin": "positive_infinity",
+    "interaction": 0.47119140625
+  },
+  "baseline_temperatures": {
+    "vanilla": 8.0,
+    "closed_book": 8.0,
+    "entropy": 8.0,
+    "margin": 8.0,
+    "interaction": 8.0,
+    "channel1": 8.0,
+    "channel2": 4.0,
+    "channel1_tuned": 4.0,
+    "channel2_tuned": 4.0,
+    "dual": 4.0,
+    "static_span": 8.0,
+    "oracle": 4.0,
+    "random": 8.0,
+    "cad": 8.0
+  },
+  "static_span": {
+    "layer": 21,
+    "residual_strength": 0.0,
+    "span_bias": 3.0
+  },
+  "cad_alpha": 1.0,
+  "max_input_tokens": 512,
+  "max_new_tokens": 12,
+  "methods": [
+    "vanilla",
+    "cad",
+    "early_gate",
+    "oracle",
+    "interaction",
+    "static_span",
+    "entropy",
+    "margin",
+    "last_query",
+    "static_hard"
+  ],
+  "known_fact_target": 50,
+  "unknown_fact_target": 100,
+  "max_prescreen_facts": 1200,
+  "native_known_prior": 0.1,
+  "bootstrap_repeats": 10000,
+  "permutation_repeats": 10000,
+  "primary_tests": "two-sided paired fact swaps for H vs Interaction and vs LastQuery, Holm correction over these two",
+  "old_test_scope": "254 rows, one frozen early-gate generation per row; historical version/baseline rows reused only for longitudinal comparison",
+  "frozen_code_sha256": {
+    "early_controller.py": "44aa22b81fd1c8c81381755911620b92801d2234b6b5ccab84f199f189e178ff",
+    "model_runtime.py": "343f84deab460a4d9df76b27d6580d4d6edeae3b39baad77d7a2059df18235bc",
+    "slea_controller.py": "ce37c146c5c16ec65a7b89688e75116d9a00ce90cb714ab5d66510e149a2730e",
+    "output_gates.py": "d7796b72d11bb4af6b24b68d43185a17f222607c36fd1d2edb5564f704122c3f"
+  }
+}

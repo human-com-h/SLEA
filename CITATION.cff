@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use SLEA. Publication metadata will be added when available."
+title: "Single-Trajectory Latent Early Arbitration for Retrieval–Memory Conflicts"
+type: software
+authors:
+  - family-names: Hao
+    given-names: Zida
+    orcid: "https://orcid.org/0009-0006-7718-2000"
+  - family-names: Li
+    given-names: Yubo
+version: 0.9.0-rc1
+license: MIT
+repository-code: "https://github.com/human-com-h/SLEA"

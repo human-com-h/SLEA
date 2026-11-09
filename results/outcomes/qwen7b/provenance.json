@@ -1,0 +1,47 @@
+{
+  "original.jsonl": {
+    "original_sha256": "48b185b331ac3ed123b5bbcf71653c3e9d745f524d920978bde4cc0914d2e341",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "interaction.jsonl": {
+    "original_sha256": "df28f80af002d7f32dda867ef3fa2bb89687bd0e4f5d25b3c779e831f4ae794a",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "vanilla.jsonl": {
+    "original_sha256": "31f1385a4ebc31588ebbeb358ef8fa20ca182504284bf8c512245e056f710249",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "cast_strong.jsonl": {
+    "original_sha256": "808a4d77725be3e599e5a033b144beaf1acc2611fc49bf0171c6f2cc9317ada0",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "oracle_l11.jsonl": {
+    "original_sha256": "50fc5ff928eff8ac1ef572dd583baa0344dcddf5b423ffadfa48338cba05276b",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "primary.jsonl": {
+    "original_sha256": "143f3d1f64ce1f69d60523d07e5820073d15ecabfcf4f04bd9941f04a8ea4339",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "hard_l11.jsonl": {
+    "original_sha256": "be52dd6f8fd1716be5063f60ffd02a3bdf8496194f1f7fcf452db6f9ca9063ca",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "contextfocus.jsonl": {
+    "original_sha256": "bfc75ea3df0c6ba53d507ba65024b9060014c55e5bc6ec69be3f74bfc02f7a15",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "balanced.jsonl": {
+    "original_sha256": "4c99beef21fc0cc0a1deb30d92c9c8ffd30ec438cedc0f95a3fdda918b1e8fed",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  }
+}

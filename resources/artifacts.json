@@ -1,0 +1,72 @@
+[
+  {
+    "model": "qwen3b",
+    "path": "results/causalgate_stage_a_v1/qwen3b_v2_1_development_candidate.npz",
+    "sha256": "4515ff2ba06553fec00b816a3fbfc63d7e67bc861e85a0242ebe6056153e2cca",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen3b",
+    "path": "results/nqswap_v2_cloud/qwen3b/results/nqswap_v2/qwen3b/calibrated_probe.npz",
+    "sha256": "63dbb99691ca9e2cc00a644179471b792a062f588c85151a5e4c769e4efa8ae2",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen3b",
+    "path": "data/processed/nqswap_source_v2/qwen3b/baseline_directions.npz",
+    "sha256": "9be98a897b0aa0c7a8dd807f52ccfd73d53ab5ad02cced1fd070f30d6fc7622f",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen3b",
+    "path": "results/cast_sensitivity_v2/qwen3b/nq_cast_freeze.json",
+    "sha256": "351621594433f7118ebe76f718001c0ddf165bab8f29cd9bf9e0d388fe974a0c",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen3b",
+    "path": "results/cast_sensitivity_v2/qwen3b/multilayer_directions.npz",
+    "sha256": "f925c9724fd56461ee17dc0e508e77dae7f046f3bd9b253e6fc9b9e6d172bf79",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen7b",
+    "path": "results/causalgate_stage_a_v1/qwen7b_v2_development_candidate.npz",
+    "sha256": "f38538dbf7a71c833603716feffc6ef66a65cd1129ed7964731a76e763d02787",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen7b",
+    "path": "results/nqswap_v2_cloud/qwen7b/results/nqswap_v2/qwen7b/calibrated_probe.npz",
+    "sha256": "d05df4b4bc6bda258a9bd22ae85d860939440ce03f813b771ce4cce9ce54da3e",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen7b",
+    "path": "data/processed/nqswap_source_v2/qwen7b/baseline_directions.npz",
+    "sha256": "ef729379a55649035e4a99a4e40c4a0853f302272d698ac181a7ac80fe4e7da6",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen7b",
+    "path": "results/cast_sensitivity_v2/qwen7b/nq_cast_freeze.json",
+    "sha256": "e692f6a73b66980f5d34d4ecf11a93d4816dbeb86b45413052c06fa5e97b20c1",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  },
+  {
+    "model": "qwen7b",
+    "path": "results/cast_sensitivity_v2/qwen7b/multilayer_directions.npz",
+    "sha256": "ab3d8f1217499ab14f90e707b99822c50f4da8871bcb1e8938e80120792b257b",
+    "type": "frozen calibration/baseline asset",
+    "base_model_weights": false
+  }
+]

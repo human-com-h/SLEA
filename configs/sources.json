@@ -1,0 +1,120 @@
+{
+  "Qwen/Qwen2.5-3B-Instruct": {
+    "repo_type": "model",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "files": [
+      ".gitattributes",
+      "LICENSE",
+      "README.md",
+      "config.json",
+      "generation_config.json",
+      "merges.txt",
+      "model-00001-of-00002.safetensors",
+      "model-00002-of-00002.safetensors",
+      "model.safetensors.index.json",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "vocab.json"
+    ],
+    "sha256": {
+      "model-00001-of-00002.safetensors": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+      "model-00002-of-00002.safetensors": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d"
+    }
+  },
+  "osunlp/ConflictQA": {
+    "repo_type": "dataset",
+    "revision": "056384049e63c1ddae853891c24610fa07d85744",
+    "files": [
+      ".gitattributes",
+      "ConflictQA.py",
+      "README.md",
+      "conflictQA-popQA-chatgpt.json",
+      "conflictQA-popQA-gpt4.json",
+      "conflictQA-popQA-llama2-70b.json",
+      "conflictQA-popQA-llama2-7b.json",
+      "conflictQA-popQA-palm2.json",
+      "conflictQA-popQA-qwen7b.json",
+      "conflictQA-popQA-vicuna33b.json",
+      "conflictQA-popQA-vicuna7b.json",
+      "conflictQA-strategyQA-chatgpt.json",
+      "conflictQA-strategyQA-gpt4.json",
+      "conflictQA-strategyQA-llama2-70b.json",
+      "conflictQA-strategyQA-llama2-7b.json",
+      "conflictQA-strategyQA-palm2.json",
+      "conflictQA-strategyQA-qwen7b.json",
+      "conflictQA-strategyQA-vicuna33b.json",
+      "conflictQA-strategyQA-vicuna7b.json"
+    ],
+    "sha256": {
+      "conflictQA-popQA-chatgpt.json": "835f7d80d009d10b077551779c0decfae6ede4ef7cfcfdc0c5148eda30516a2f",
+      "conflictQA-popQA-gpt4.json": "c9921b733f45c5f473d2ef9ed242b5a04c195d0cc1ae002ba014cf351b847aca",
+      "conflictQA-popQA-llama2-70b.json": "f814a1a0464b7b3f87996f8e78d8e913d8bb18fd1bd11590aa11eba312a6e664",
+      "conflictQA-popQA-llama2-7b.json": "2621fb5279d780d7e103bc4b1e9299cb13dd83223002daf9e6486fcd7842326a",
+      "conflictQA-popQA-palm2.json": "5ecec0009b3407a921570146f9cfabe3c32534c4f5598a82860854ec1bad945d",
+      "conflictQA-popQA-qwen7b.json": "8e5e190ba46445587bfe9c057bd1f039a724c3d5fb111b4d531eb0c8fde03ef4"
+    }
+  },
+  "akariasai/PopQA": {
+    "repo_type": "dataset",
+    "revision": "098765c79ea10a2cb19c828324e33281b8336ec0",
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "test.tsv"
+    ],
+    "sha256": {}
+  },
+  "sentence-transformers/all-MiniLM-L6-v2": {
+    "repo_type": "model",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "files": [
+      ".gitattributes",
+      "1_Pooling/config.json",
+      "README.md",
+      "config.json",
+      "config_sentence_transformers.json",
+      "data_config.json",
+      "model.safetensors",
+      "modules.json",
+      "onnx/model.onnx",
+      "onnx/model_O1.onnx",
+      "onnx/model_O2.onnx",
+      "onnx/model_O3.onnx",
+      "onnx/model_O4.onnx",
+      "onnx/model_qint8_arm64.onnx",
+      "onnx/model_qint8_avx512.onnx",
+      "onnx/model_qint8_avx512_vnni.onnx",
+      "onnx/model_quint8_avx2.onnx",
+      "openvino/openvino_model.bin",
+      "openvino/openvino_model.xml",
+      "openvino/openvino_model_qint8_quantized.bin",
+      "openvino/openvino_model_qint8_quantized.xml",
+      "pytorch_model.bin",
+      "rust_model.ot",
+      "sentence_bert_config.json",
+      "special_tokens_map.json",
+      "tf_model.h5",
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "train_script.py",
+      "vocab.txt"
+    ],
+    "sha256": {
+      "model.safetensors": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+      "onnx/model.onnx": "6fd5d72fe4589f189f8ebc006442dbb529bb7ce38f8082112682524616046452",
+      "onnx/model_O1.onnx": "1391c6fc20b5530250bc15cbe1f47578ffeca55ab0551d335cc668b6299a88ec",
+      "onnx/model_O2.onnx": "1de3905029190b398c7d300b530e320cf4b5e7d3dfb9af1429ebd73fd9a16faf",
+      "onnx/model_O3.onnx": "a44f671e364dddbac31f203f07b91be6b0a35e51936e5ebfab65b6d9538b83ff",
+      "onnx/model_O4.onnx": "1667d7f3ba669048b13a96ee3a44456d5e42c8f44588ae8b603430e16160c485",
+      "onnx/model_qint8_arm64.onnx": "4278337fd0ff3c68bfb6291042cad8ab363e1d9fbc43dcb499fe91c871902474",
+      "onnx/model_qint8_avx512.onnx": "4278337fd0ff3c68bfb6291042cad8ab363e1d9fbc43dcb499fe91c871902474",
+      "onnx/model_qint8_avx512_vnni.onnx": "4278337fd0ff3c68bfb6291042cad8ab363e1d9fbc43dcb499fe91c871902474",
+      "onnx/model_quint8_avx2.onnx": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21",
+      "openvino/openvino_model.bin": "8b86cab4722e2aefab310cf96d4d5a9eb3b187f7d9670a082afc55c7fa0d392a",
+      "openvino/openvino_model_qint8_quantized.bin": "c92ea4af3c6bc7b4a0f3b3d61b147c850f4dbdd7c9e7beee0c0c70dc12da289b",
+      "pytorch_model.bin": "c3a85f238711653950f6a79ece63eb0ea93d76f6a6284be04019c53733baf256",
+      "rust_model.ot": "2d98d96d278348988f2744e6445b8bc16d921c3f6e17c667362f3cb353007aea",
+      "tf_model.h5": "24c06a7429b843d46e40c6b167122053921bf94dce2e5550ea5c07fabc597646"
+    }
+  }
+}

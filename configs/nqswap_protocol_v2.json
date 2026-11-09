@@ -1,0 +1,128 @@
+{
+  "study_id": "nqswap_independent_confirmation_v2",
+  "status": "INPUT_LOCKED_READY_AFTER_TESTS",
+  "severe_blocker": null,
+  "dataset": "pminervini/NQ-Swap",
+  "revision": "3801dbf037c6f58b0e79246f2a8073ebe5656dad",
+  "seed": 42,
+  "requested_split_facts": {
+    "calibration": 250,
+    "validation": 150,
+    "blind": 300
+  },
+  "dedup": "revised question/passage256/(question,original answer) components; no bare-answer edges; old PopQA same-question OR subject phrase>=4+original gold match",
+  "primary_method": "Unified ActiveBlock-All; binary frozen gate, eta0, all-query hard attention block for all routes1 or3; no explicit refusal",
+  "early_layers": {
+    "qwen3b": 10,
+    "qwen7b": 11
+  },
+  "tracks": {
+    "zero_shot": "unchanged PopQA weights/costs/thresholds/temperatures, source-frozen CAST and ContextFocus; primary generalization track",
+    "calibrated": "new independent NQ calibration/validation PCA32 Logistic C1 at same early layer; new artifacts only; supporting adaptation track with disclosed data advantage over source-frozen baselines"
+  },
+  "trajectory_reuse": "identical same-layer Vanilla and unconditional All-Hard trajectories feed both gate routings; a second probe adds zero blind generation branches",
+  "replay_limitation": "cache-composed quality is not an automatic-path timing/call verification; technical automatic checks must be measured separately",
+  "calibrated_probe_fit": "source-protocol PCA32 Logistic C1 on calibration only; policy grid param_cost[1,2,4,8],abstain_cost[.5,1,2],param_threshold[.2,.35,.5],abstain_threshold[.2,.35,.5]; Active route1 union route3; validation Macro with ext-drop<=1pp then H, lexicographic policy ties",
+  "calibrated_temperature": "five fact-grouped validation folds, candidate temperatures [.25,.5,1,2,4,8]; utility-token-proxy confidence; no blind fit",
+  "families": [
+    {
+      "order": 1,
+      "track": "zero_shot",
+      "endpoint": "MacroUtility",
+      "tests": 6,
+      "correction": "Holm",
+      "alpha": 0.05
+    },
+    {
+      "order": 2,
+      "track": "zero_shot",
+      "endpoint": "HScore",
+      "tests": 6,
+      "correction": "Holm",
+      "alpha": 0.05
+    },
+    {
+      "order": 3,
+      "track": "calibrated",
+      "endpoint": "MacroUtility",
+      "tests": 6,
+      "correction": "Holm",
+      "alpha": 0.05
+    },
+    {
+      "order": 4,
+      "track": "calibrated",
+      "endpoint": "HScore",
+      "tests": 6,
+      "correction": "Holm",
+      "alpha": 0.05
+    }
+  ],
+  "gatekeeping": "fixed sequence of four families: formal alpha opens only if every hypothesis of the previous family rejects; show all raw/adjusted p values but mark unopened families descriptive",
+  "comparators": [
+    "interaction",
+    "cast_frozen",
+    "contextfocus_frozen"
+  ],
+  "guardrail": "ext paired factual-accuracy difference vs Vanilla: one-sided 95% lower bound >= -0.01; missing or wide interval is inconclusive, not passed",
+  "unit": "locked independent fact/component, both contexts paired; labels model-specific from offline Closed-Book; no enrichment after seeing SLEA",
+  "statistics": "10000 fact-group paired bootstrap replicates and paired fact-wise swap randomization; fixed seed42; two-sided p=(b+1)/(B+1); four-state missing denominator -> non-estimable",
+  "cb_prior": "p_CB measured on all un-enriched calibration+validation facts before blind generation; blind prior also reported separately, never silently substituted",
+  "factual_target": "original NQ answer for ext/param/align utility; abstain utility is refusal when CB wrong and context counterfactual; original benchmark swapped-answer faithfulness reported separately",
+  "quality_budget": "32 new tokens or EOS for all new-dataset branches; 512 input tokens, no truncation; old PopQA supplement stays12",
+  "top10": "first token vocabulary top10 IDs and raw logits captured in ordinary forward; for CAD distinguish raw branches and effective combined distribution",
+  "performance": "fixed8 inputs, 2 per state, 3 repetitions, 12tokens, warmup/sync/rotating order; measure actual automatic active paths separately from cached replay; report active counts/calls/KV",
+  "source_fidelity": "NQ natural questions/passages with synthetic entity substitutions; CAST task adaptation and ContextFocus prefill boundary adaptation disclosed",
+  "cloud_submission_enabled": true,
+  "sample_lock_sha256": "ef9bc05278b5d65cdf5613d189e03ef3bef4045c80bbae187ba0febd7871f758",
+  "cast_comparator": "source-validation strongest among original frozen canonical CAST and 18 high-alpha/single/multi diagnostics; frozen before ANY NQ generation; StepB blind tables unchanged",
+  "source_diagnostic_grid": {
+    "single_layers": {
+      "qwen3b": [
+        10,
+        21
+      ],
+      "qwen7b": [
+        11,
+        16
+      ]
+    },
+    "alpha": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "behaviors": [
+      "cast_rag",
+      "cast_refusal"
+    ],
+    "multi": "per-layer calibrated behavior directions from l* through final residual, condition at l* only",
+    "validation_configurations_per_model": 18,
+    "old_blind_quality_generations": 0
+  },
+  "source_cast_selection": "Macro then H on source validation; exact tie keeps canonical; new variants tie-break lower alpha, layer, lexical variant",
+  "matched_timing": {
+    "inputs": 8,
+    "repeats": 3,
+    "fixed_tokens": 12,
+    "canonical_methods": [
+      "vanilla",
+      "cad",
+      "interaction",
+      "cast",
+      "contextfocus",
+      "active_block"
+    ],
+    "optional_method": "cast_strong, if distinct from StepB canonical",
+    "vocabulary_logging": false,
+    "rotation": true,
+    "warmup": "one ext and one param for each method",
+    "scope": "same job, synchronized end-to-end generation incl policy/encoder; shared resident modules; hook registration/static setup excluded",
+    "active_hard_requests": 12
+  },
+  "joint_job_stages": [
+    "source_cast_sensitivity_and_matched_timing",
+    "independent_nq_confirmation"
+  ],
+  "local_environment_addition": "duckdb1.2.2 isolated .cache reader only; frozen model dependencies unchanged"
+}

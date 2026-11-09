@@ -1,0 +1,26 @@
+{
+  "status": "VALID_INPUT_LOCK_BEFORE_MODEL_CALLS",
+  "valid_cohort": true,
+  "seed": 42,
+  "split_id": "f33f1d5b11bab0d5",
+  "dataset": "pminervini/NQ-Swap",
+  "revision": "3801dbf037c6f58b0e79246f2a8073ebe5656dad",
+  "independent_available": 1346,
+  "counts": {
+    "calibration_facts": 250,
+    "val_facts": 150,
+    "blind_facts": 300,
+    "total_contexts": 1400
+  },
+  "model_calls_before_lock": 0,
+  "locked_before_slea": true,
+  "files": {
+    "blind_facts.jsonl": "15cefa44fced26d67981f113824e9f637838f1d5cac5d813e29875134eea6620",
+    "calibration_facts.jsonl": "fd33c5046128391e78bf6f2e234c51a96242a4908be6f38512d9a841eccd7cd3",
+    "val_facts.jsonl": "17cdfe8d1d035dfc232ae2757765c6d6ae4bd0c4c6021b58f251a19e32abd0aa"
+  },
+  "audit_sha256": "dfc2de8fd3bf3417345550ed7f9635c839bc68efe95a2d9d0bfc7430c30fa229",
+  "parquet_sha256": "7114c7d1c8a7343f7754b12487272b3c9cf5a5ba0f5fce298c0b8d9a6130fe4c",
+  "grouping_rule_version": "user_revised_question_passage_fact_v2",
+  "limitations": "independent under specified question/passage/fact keys; answer entities may recur across different questions; not arbitrary all-entity-disjoint"
+}

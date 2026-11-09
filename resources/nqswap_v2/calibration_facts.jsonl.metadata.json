@@ -1,0 +1,5729 @@
+{
+  "output": "data/processed/nqswap_v2/calibration_facts.jsonl",
+  "sha256": "fd33c5046128391e78bf6f2e234c51a96242a4908be6f38512d9a841eccd7cd3",
+  "newline": "\r\n",
+  "rows": [
+    {
+      "source_row_idx": 337,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 226,
+          "sub_context": 229
+        },
+        "qwen7b": {
+          "org_context": 226,
+          "sub_context": 229
+        }
+      },
+      "component_id": "c7a7c72e749b92f67f6c",
+      "component_source_rows": [
+        337,
+        338,
+        339
+      ],
+      "fact_id": "nqswap_337",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3656,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 218,
+          "sub_context": 220
+        },
+        "qwen7b": {
+          "org_context": 218,
+          "sub_context": 220
+        }
+      },
+      "component_id": "105ddc32705fd566b16b",
+      "component_source_rows": [
+        3656,
+        3657,
+        3658,
+        3660
+      ],
+      "fact_id": "nqswap_3656",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4056,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 228,
+          "sub_context": 228
+        },
+        "qwen7b": {
+          "org_context": 228,
+          "sub_context": 228
+        }
+      },
+      "component_id": "eafec6834ca266c37a5e",
+      "component_source_rows": [
+        4056,
+        4059
+      ],
+      "fact_id": "nqswap_4056",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2061,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 98,
+          "sub_context": 98
+        },
+        "qwen7b": {
+          "org_context": 98,
+          "sub_context": 98
+        }
+      },
+      "component_id": "8a351c0f9ad1e3fe1b80",
+      "component_source_rows": [
+        2061
+      ],
+      "fact_id": "nqswap_2061",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1516,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 127,
+          "sub_context": 125
+        },
+        "qwen7b": {
+          "org_context": 127,
+          "sub_context": 125
+        }
+      },
+      "component_id": "70476f8b355af039c429",
+      "component_source_rows": [
+        1515,
+        1516,
+        1517,
+        1523
+      ],
+      "fact_id": "nqswap_1516",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1183,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 255,
+          "sub_context": 255
+        },
+        "qwen7b": {
+          "org_context": 255,
+          "sub_context": 255
+        }
+      },
+      "component_id": "6d91f2c840358eafa89b",
+      "component_source_rows": [
+        1182,
+        1183,
+        1186
+      ],
+      "fact_id": "nqswap_1183",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 0,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 153,
+          "sub_context": 154
+        },
+        "qwen7b": {
+          "org_context": 153,
+          "sub_context": 154
+        }
+      },
+      "component_id": "8d8856caa03f7909085d",
+      "component_source_rows": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "fact_id": "nqswap_0",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2147,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 123,
+          "sub_context": 123
+        },
+        "qwen7b": {
+          "org_context": 123,
+          "sub_context": 123
+        }
+      },
+      "component_id": "f5380cb2ed3ae635eda7",
+      "component_source_rows": [
+        2147
+      ],
+      "fact_id": "nqswap_2147",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3211,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 246,
+          "sub_context": 246
+        },
+        "qwen7b": {
+          "org_context": 246,
+          "sub_context": 246
+        }
+      },
+      "component_id": "82aa14260d7da684d39c",
+      "component_source_rows": [
+        3211,
+        3213,
+        3215
+      ],
+      "fact_id": "nqswap_3211",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3058,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 143,
+          "sub_context": 142
+        },
+        "qwen7b": {
+          "org_context": 143,
+          "sub_context": 142
+        }
+      },
+      "component_id": "4885230f7db2ff34a181",
+      "component_source_rows": [
+        3058
+      ],
+      "fact_id": "nqswap_3058",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2236,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 197,
+          "sub_context": 196
+        },
+        "qwen7b": {
+          "org_context": 197,
+          "sub_context": 196
+        }
+      },
+      "component_id": "9e1d993283071868e9b3",
+      "component_source_rows": [
+        2217,
+        2235,
+        2236
+      ],
+      "fact_id": "nqswap_2236",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 778,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 113,
+          "sub_context": 112
+        },
+        "qwen7b": {
+          "org_context": 113,
+          "sub_context": 112
+        }
+      },
+      "component_id": "f78d60627f7be5dd6751",
+      "component_source_rows": [
+        778,
+        779,
+        780,
+        781,
+        792
+      ],
+      "fact_id": "nqswap_778",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2862,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 214,
+          "sub_context": 214
+        },
+        "qwen7b": {
+          "org_context": 214,
+          "sub_context": 214
+        }
+      },
+      "component_id": "e871a193418d50f1cc4b",
+      "component_source_rows": [
+        2862
+      ],
+      "fact_id": "nqswap_2862",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1356,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 448,
+          "sub_context": 446
+        },
+        "qwen7b": {
+          "org_context": 448,
+          "sub_context": 446
+        }
+      },
+      "component_id": "80b3801680a271b7aeb1",
+      "component_source_rows": [
+        1356
+      ],
+      "fact_id": "nqswap_1356",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3851,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 113,
+          "sub_context": 112
+        },
+        "qwen7b": {
+          "org_context": 113,
+          "sub_context": 112
+        }
+      },
+      "component_id": "c1cf961bdcb8b8f016c5",
+      "component_source_rows": [
+        3851,
+        3852,
+        3853
+      ],
+      "fact_id": "nqswap_3851",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3966,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 188,
+          "sub_context": 186
+        },
+        "qwen7b": {
+          "org_context": 188,
+          "sub_context": 186
+        }
+      },
+      "component_id": "dff332b4d0ca3463f008",
+      "component_source_rows": [
+        3966,
+        3969
+      ],
+      "fact_id": "nqswap_3966",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3271,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 126,
+          "sub_context": 126
+        },
+        "qwen7b": {
+          "org_context": 126,
+          "sub_context": 126
+        }
+      },
+      "component_id": "7edab18a92f2224cbaed",
+      "component_source_rows": [
+        3271,
+        3272
+      ],
+      "fact_id": "nqswap_3271",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3361,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 233,
+          "sub_context": 234
+        },
+        "qwen7b": {
+          "org_context": 233,
+          "sub_context": 234
+        }
+      },
+      "component_id": "e58666f2d047a3fc8df1",
+      "component_source_rows": [
+        3337,
+        3358,
+        3360,
+        3361
+      ],
+      "fact_id": "nqswap_3361",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2988,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 300,
+          "sub_context": 293
+        },
+        "qwen7b": {
+          "org_context": 300,
+          "sub_context": 293
+        }
+      },
+      "component_id": "b002bcfe07b9fb7b12c6",
+      "component_source_rows": [
+        2987,
+        2988
+      ],
+      "fact_id": "nqswap_2988",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4017,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 78,
+          "sub_context": 79
+        },
+        "qwen7b": {
+          "org_context": 78,
+          "sub_context": 79
+        }
+      },
+      "component_id": "bfb1b35dbcf3a3c1c5e9",
+      "component_source_rows": [
+        4014,
+        4015,
+        4016,
+        4017
+      ],
+      "fact_id": "nqswap_4017",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4021,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 440,
+          "sub_context": 431
+        },
+        "qwen7b": {
+          "org_context": 440,
+          "sub_context": 431
+        }
+      },
+      "component_id": "951ee73771d94f900641",
+      "component_source_rows": [
+        4021
+      ],
+      "fact_id": "nqswap_4021",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3187,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 122,
+          "sub_context": 131
+        },
+        "qwen7b": {
+          "org_context": 122,
+          "sub_context": 131
+        }
+      },
+      "component_id": "4678bc2b4425dd1f05b9",
+      "component_source_rows": [
+        3187,
+        3188
+      ],
+      "fact_id": "nqswap_3187",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3877,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 213,
+          "sub_context": 215
+        },
+        "qwen7b": {
+          "org_context": 213,
+          "sub_context": 215
+        }
+      },
+      "component_id": "ec916c52e7f146333b3f",
+      "component_source_rows": [
+        3877,
+        3878
+      ],
+      "fact_id": "nqswap_3877",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 709,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 306,
+          "sub_context": 305
+        },
+        "qwen7b": {
+          "org_context": 306,
+          "sub_context": 305
+        }
+      },
+      "component_id": "8856b87f30bc071c57d1",
+      "component_source_rows": [
+        705,
+        709,
+        710
+      ],
+      "fact_id": "nqswap_709",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2556,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 391,
+          "sub_context": 391
+        },
+        "qwen7b": {
+          "org_context": 391,
+          "sub_context": 391
+        }
+      },
+      "component_id": "77b2c381f16f9ab2730f",
+      "component_source_rows": [
+        2556
+      ],
+      "fact_id": "nqswap_2556",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 833,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 213,
+          "sub_context": 211
+        },
+        "qwen7b": {
+          "org_context": 213,
+          "sub_context": 211
+        }
+      },
+      "component_id": "b26a0079a0bf43fc65fc",
+      "component_source_rows": [
+        831,
+        833,
+        835
+      ],
+      "fact_id": "nqswap_833",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4188,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 165,
+          "sub_context": 167
+        },
+        "qwen7b": {
+          "org_context": 165,
+          "sub_context": 167
+        }
+      },
+      "component_id": "99fb8470054271c74a9d",
+      "component_source_rows": [
+        4188,
+        4195,
+        4199
+      ],
+      "fact_id": "nqswap_4188",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 37,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 113,
+          "sub_context": 116
+        },
+        "qwen7b": {
+          "org_context": 113,
+          "sub_context": 116
+        }
+      },
+      "component_id": "a9dc5210dc859a9ee568",
+      "component_source_rows": [
+        37,
+        38
+      ],
+      "fact_id": "nqswap_37",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4279,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 186,
+          "sub_context": 188
+        },
+        "qwen7b": {
+          "org_context": 186,
+          "sub_context": 188
+        }
+      },
+      "component_id": "dc27afe26cc99fd047f5",
+      "component_source_rows": [
+        4272,
+        4276,
+        4279,
+        4280,
+        4282
+      ],
+      "fact_id": "nqswap_4279",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 320,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 248,
+          "sub_context": 248
+        },
+        "qwen7b": {
+          "org_context": 248,
+          "sub_context": 248
+        }
+      },
+      "component_id": "609cd20888fed93d470f",
+      "component_source_rows": [
+        320
+      ],
+      "fact_id": "nqswap_320",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2132,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 256,
+          "sub_context": 257
+        },
+        "qwen7b": {
+          "org_context": 256,
+          "sub_context": 257
+        }
+      },
+      "component_id": "894872227eadc669e505",
+      "component_source_rows": [
+        2120,
+        2130,
+        2132,
+        2141,
+        2146
+      ],
+      "fact_id": "nqswap_2132",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3702,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 402,
+          "sub_context": 406
+        },
+        "qwen7b": {
+          "org_context": 402,
+          "sub_context": 406
+        }
+      },
+      "component_id": "483a08d81794c425252e",
+      "component_source_rows": [
+        3702
+      ],
+      "fact_id": "nqswap_3702",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2323,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 225,
+          "sub_context": 219
+        },
+        "qwen7b": {
+          "org_context": 225,
+          "sub_context": 219
+        }
+      },
+      "component_id": "c9ee68adf3d1e4cdda01",
+      "component_source_rows": [
+        2323,
+        2324
+      ],
+      "fact_id": "nqswap_2323",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3486,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 76,
+          "sub_context": 77
+        },
+        "qwen7b": {
+          "org_context": 76,
+          "sub_context": 77
+        }
+      },
+      "component_id": "f7a4a9aca5f1fd51a6c8",
+      "component_source_rows": [
+        3468,
+        3469,
+        3474,
+        3478,
+        3486
+      ],
+      "fact_id": "nqswap_3486",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3725,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 140,
+          "sub_context": 143
+        },
+        "qwen7b": {
+          "org_context": 140,
+          "sub_context": 143
+        }
+      },
+      "component_id": "1823d958fbbe0aea5332",
+      "component_source_rows": [
+        3725
+      ],
+      "fact_id": "nqswap_3725",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3395,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 264,
+          "sub_context": 264
+        },
+        "qwen7b": {
+          "org_context": 264,
+          "sub_context": 264
+        }
+      },
+      "component_id": "328da2cf74539da6d9b4",
+      "component_source_rows": [
+        3381,
+        3395
+      ],
+      "fact_id": "nqswap_3395",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4422,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 133,
+          "sub_context": 133
+        },
+        "qwen7b": {
+          "org_context": 133,
+          "sub_context": 133
+        }
+      },
+      "component_id": "3598ff3497498d6b89de",
+      "component_source_rows": [
+        4420,
+        4422
+      ],
+      "fact_id": "nqswap_4422",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1152,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 280,
+          "sub_context": 279
+        },
+        "qwen7b": {
+          "org_context": 280,
+          "sub_context": 279
+        }
+      },
+      "component_id": "dce0f206f23730be41bf",
+      "component_source_rows": [
+        1150,
+        1151,
+        1152
+      ],
+      "fact_id": "nqswap_1152",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3261,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 158,
+          "sub_context": 158
+        },
+        "qwen7b": {
+          "org_context": 158,
+          "sub_context": 158
+        }
+      },
+      "component_id": "75250b2ad2a1e81739c1",
+      "component_source_rows": [
+        207,
+        211,
+        214,
+        227,
+        3249,
+        3261
+      ],
+      "fact_id": "nqswap_3261",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1487,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 217,
+          "sub_context": 215
+        },
+        "qwen7b": {
+          "org_context": 217,
+          "sub_context": 215
+        }
+      },
+      "component_id": "510551e375b4d7da51b8",
+      "component_source_rows": [
+        1464,
+        1467,
+        1471,
+        1474,
+        1487
+      ],
+      "fact_id": "nqswap_1487",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4102,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 224,
+          "sub_context": 224
+        },
+        "qwen7b": {
+          "org_context": 224,
+          "sub_context": 224
+        }
+      },
+      "component_id": "17a172559264c9d86827",
+      "component_source_rows": [
+        4102,
+        4106,
+        4108,
+        4111,
+        4120
+      ],
+      "fact_id": "nqswap_4102",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1799,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 198,
+          "sub_context": 200
+        },
+        "qwen7b": {
+          "org_context": 198,
+          "sub_context": 200
+        }
+      },
+      "component_id": "fe8650e3af76173f1f20",
+      "component_source_rows": [
+        1797,
+        1799,
+        1807,
+        1810
+      ],
+      "fact_id": "nqswap_1799",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 530,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 368,
+          "sub_context": 368
+        },
+        "qwen7b": {
+          "org_context": 368,
+          "sub_context": 368
+        }
+      },
+      "component_id": "885633475917cb01fa53",
+      "component_source_rows": [
+        512,
+        526,
+        527,
+        530
+      ],
+      "fact_id": "nqswap_530",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2443,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 237,
+          "sub_context": 238
+        },
+        "qwen7b": {
+          "org_context": 237,
+          "sub_context": 238
+        }
+      },
+      "component_id": "dee2824a20f7119102c5",
+      "component_source_rows": [
+        2420,
+        2421,
+        2433,
+        2443
+      ],
+      "fact_id": "nqswap_2443",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3764,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 203,
+          "sub_context": 200
+        },
+        "qwen7b": {
+          "org_context": 203,
+          "sub_context": 200
+        }
+      },
+      "component_id": "154f93ffc8fafe86880d",
+      "component_source_rows": [
+        3764,
+        3776
+      ],
+      "fact_id": "nqswap_3764",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4352,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 116,
+          "sub_context": 118
+        },
+        "qwen7b": {
+          "org_context": 116,
+          "sub_context": 118
+        }
+      },
+      "component_id": "04fa88e78dd42ddc0f64",
+      "component_source_rows": [
+        4352
+      ],
+      "fact_id": "nqswap_4352",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4439,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 75,
+          "sub_context": 74
+        },
+        "qwen7b": {
+          "org_context": 75,
+          "sub_context": 74
+        }
+      },
+      "component_id": "94631ea42ad5ba1609b1",
+      "component_source_rows": [
+        4439,
+        4441,
+        4442,
+        4457
+      ],
+      "fact_id": "nqswap_4439",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3988,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 349,
+          "sub_context": 350
+        },
+        "qwen7b": {
+          "org_context": 349,
+          "sub_context": 350
+        }
+      },
+      "component_id": "0d3f17a8fcf16273820a",
+      "component_source_rows": [
+        3982,
+        3983,
+        3984,
+        3988
+      ],
+      "fact_id": "nqswap_3988",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3025,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 185,
+          "sub_context": 185
+        },
+        "qwen7b": {
+          "org_context": 185,
+          "sub_context": 185
+        }
+      },
+      "component_id": "e3dbc375a241733c09bb",
+      "component_source_rows": [
+        1410,
+        1416,
+        1428,
+        1449,
+        3025,
+        3026,
+        3027,
+        3039,
+        3040
+      ],
+      "fact_id": "nqswap_3025",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 155,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 143,
+          "sub_context": 142
+        },
+        "qwen7b": {
+          "org_context": 143,
+          "sub_context": 142
+        }
+      },
+      "component_id": "5999d7fb628dae3b1894",
+      "component_source_rows": [
+        146,
+        155
+      ],
+      "fact_id": "nqswap_155",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3001,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 190,
+          "sub_context": 189
+        },
+        "qwen7b": {
+          "org_context": 190,
+          "sub_context": 189
+        }
+      },
+      "component_id": "04a4930222ba92942c14",
+      "component_source_rows": [
+        2999,
+        3001
+      ],
+      "fact_id": "nqswap_3001",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 655,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 378,
+          "sub_context": 377
+        },
+        "qwen7b": {
+          "org_context": 378,
+          "sub_context": 377
+        }
+      },
+      "component_id": "7acd1ac94ad7023e566e",
+      "component_source_rows": [
+        655
+      ],
+      "fact_id": "nqswap_655",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3612,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 124,
+          "sub_context": 124
+        },
+        "qwen7b": {
+          "org_context": 124,
+          "sub_context": 124
+        }
+      },
+      "component_id": "f13184255c8b0b6a6034",
+      "component_source_rows": [
+        3610,
+        3611,
+        3612
+      ],
+      "fact_id": "nqswap_3612",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4596,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 422,
+          "sub_context": 419
+        },
+        "qwen7b": {
+          "org_context": 422,
+          "sub_context": 419
+        }
+      },
+      "component_id": "637d16e31747894bbac4",
+      "component_source_rows": [
+        4596
+      ],
+      "fact_id": "nqswap_4596",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3789,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 145,
+          "sub_context": 145
+        },
+        "qwen7b": {
+          "org_context": 145,
+          "sub_context": 145
+        }
+      },
+      "component_id": "cb905418b01aa83e7b0c",
+      "component_source_rows": [
+        3789,
+        3809,
+        3811
+      ],
+      "fact_id": "nqswap_3789",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3880,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 161,
+          "sub_context": 155
+        },
+        "qwen7b": {
+          "org_context": 161,
+          "sub_context": 155
+        }
+      },
+      "component_id": "0bbcd4eecb160539d4dd",
+      "component_source_rows": [
+        3880
+      ],
+      "fact_id": "nqswap_3880",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2920,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 288,
+          "sub_context": 284
+        },
+        "qwen7b": {
+          "org_context": 288,
+          "sub_context": 284
+        }
+      },
+      "component_id": "09589f19b3a6b2e2550e",
+      "component_source_rows": [
+        2916,
+        2920,
+        2922
+      ],
+      "fact_id": "nqswap_2920",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1510,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 123,
+          "sub_context": 123
+        },
+        "qwen7b": {
+          "org_context": 123,
+          "sub_context": 123
+        }
+      },
+      "component_id": "507dfc844e25747db2f0",
+      "component_source_rows": [
+        1509,
+        1510
+      ],
+      "fact_id": "nqswap_1510",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2020,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 196,
+          "sub_context": 194
+        },
+        "qwen7b": {
+          "org_context": 196,
+          "sub_context": 194
+        }
+      },
+      "component_id": "96db4a226c045af1115e",
+      "component_source_rows": [
+        2018,
+        2020,
+        2036,
+        2037,
+        2039
+      ],
+      "fact_id": "nqswap_2020",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3034,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 381,
+          "sub_context": 380
+        },
+        "qwen7b": {
+          "org_context": 381,
+          "sub_context": 380
+        }
+      },
+      "component_id": "b34a10fe4b2cb7ac94a5",
+      "component_source_rows": [
+        3021,
+        3034,
+        3036,
+        3037
+      ],
+      "fact_id": "nqswap_3034",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1497,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 220,
+          "sub_context": 218
+        },
+        "qwen7b": {
+          "org_context": 220,
+          "sub_context": 218
+        }
+      },
+      "component_id": "802c6f47320938c24cbe",
+      "component_source_rows": [
+        1492,
+        1493,
+        1494,
+        1497
+      ],
+      "fact_id": "nqswap_1497",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2651,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 359,
+          "sub_context": 357
+        },
+        "qwen7b": {
+          "org_context": 359,
+          "sub_context": 357
+        }
+      },
+      "component_id": "b881b121367a51faf4ee",
+      "component_source_rows": [
+        2646,
+        2651
+      ],
+      "fact_id": "nqswap_2651",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 121,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 150,
+          "sub_context": 149
+        },
+        "qwen7b": {
+          "org_context": 150,
+          "sub_context": 149
+        }
+      },
+      "component_id": "6b36ae9cf2c1c78e9651",
+      "component_source_rows": [
+        115,
+        116,
+        121,
+        131
+      ],
+      "fact_id": "nqswap_121",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1469,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 152,
+          "sub_context": 150
+        },
+        "qwen7b": {
+          "org_context": 152,
+          "sub_context": 150
+        }
+      },
+      "component_id": "a776850da9ef9608196c",
+      "component_source_rows": [
+        1462,
+        1465,
+        1469
+      ],
+      "fact_id": "nqswap_1469",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1700,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 182,
+          "sub_context": 181
+        },
+        "qwen7b": {
+          "org_context": 182,
+          "sub_context": 181
+        }
+      },
+      "component_id": "23db151861f6f3aec7be",
+      "component_source_rows": [
+        1692,
+        1700,
+        1702
+      ],
+      "fact_id": "nqswap_1700",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 981,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 146,
+          "sub_context": 143
+        },
+        "qwen7b": {
+          "org_context": 146,
+          "sub_context": 143
+        }
+      },
+      "component_id": "f198bd505e131411d58d",
+      "component_source_rows": [
+        981,
+        984
+      ],
+      "fact_id": "nqswap_981",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1271,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 178,
+          "sub_context": 179
+        },
+        "qwen7b": {
+          "org_context": 178,
+          "sub_context": 179
+        }
+      },
+      "component_id": "fd0dd18abaea8e45e2d3",
+      "component_source_rows": [
+        1271,
+        1273,
+        1276,
+        1281
+      ],
+      "fact_id": "nqswap_1271",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 59,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 172,
+          "sub_context": 170
+        },
+        "qwen7b": {
+          "org_context": 172,
+          "sub_context": 170
+        }
+      },
+      "component_id": "824ed7bf60f4da8e391b",
+      "component_source_rows": [
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "fact_id": "nqswap_59",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1409,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 297,
+          "sub_context": 290
+        },
+        "qwen7b": {
+          "org_context": 297,
+          "sub_context": 290
+        }
+      },
+      "component_id": "a505a19060f6ba6d04e1",
+      "component_source_rows": [
+        1408,
+        1409
+      ],
+      "fact_id": "nqswap_1409",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2094,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 208,
+          "sub_context": 206
+        },
+        "qwen7b": {
+          "org_context": 208,
+          "sub_context": 206
+        }
+      },
+      "component_id": "6f13a22727ddfbcf77d9",
+      "component_source_rows": [
+        2094
+      ],
+      "fact_id": "nqswap_2094",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1520,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 216,
+          "sub_context": 219
+        },
+        "qwen7b": {
+          "org_context": 216,
+          "sub_context": 219
+        }
+      },
+      "component_id": "9d3b3529033dae9f0837",
+      "component_source_rows": [
+        1519,
+        1520,
+        1531,
+        1535,
+        1537
+      ],
+      "fact_id": "nqswap_1520",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2133,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 233,
+          "sub_context": 233
+        },
+        "qwen7b": {
+          "org_context": 233,
+          "sub_context": 233
+        }
+      },
+      "component_id": "1ed2697e0015e8bec8dc",
+      "component_source_rows": [
+        2126,
+        2127,
+        2128,
+        2133,
+        2140
+      ],
+      "fact_id": "nqswap_2133",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1460,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 226,
+          "sub_context": 230
+        },
+        "qwen7b": {
+          "org_context": 226,
+          "sub_context": 230
+        }
+      },
+      "component_id": "5b5a8b69cee401815d96",
+      "component_source_rows": [
+        1460
+      ],
+      "fact_id": "nqswap_1460",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2579,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 375,
+          "sub_context": 374
+        },
+        "qwen7b": {
+          "org_context": 375,
+          "sub_context": 374
+        }
+      },
+      "component_id": "67d7359b99f129a0ca7a",
+      "component_source_rows": [
+        2579,
+        2584
+      ],
+      "fact_id": "nqswap_2579",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3709,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 150,
+          "sub_context": 151
+        },
+        "qwen7b": {
+          "org_context": 150,
+          "sub_context": 151
+        }
+      },
+      "component_id": "2c28dae0250d7890df70",
+      "component_source_rows": [
+        3698,
+        3703,
+        3707,
+        3709,
+        3710
+      ],
+      "fact_id": "nqswap_3709",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4351,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 191,
+          "sub_context": 162
+        },
+        "qwen7b": {
+          "org_context": 191,
+          "sub_context": 162
+        }
+      },
+      "component_id": "6930e3b936a657fe308b",
+      "component_source_rows": [
+        4351
+      ],
+      "fact_id": "nqswap_4351",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2834,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 228,
+          "sub_context": 227
+        },
+        "qwen7b": {
+          "org_context": 228,
+          "sub_context": 227
+        }
+      },
+      "component_id": "c92d2ca69ab9356bf33e",
+      "component_source_rows": [
+        2834,
+        2838,
+        2839
+      ],
+      "fact_id": "nqswap_2834",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3889,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 135,
+          "sub_context": 135
+        },
+        "qwen7b": {
+          "org_context": 135,
+          "sub_context": 135
+        }
+      },
+      "component_id": "225b7d774ca4eb3c9294",
+      "component_source_rows": [
+        3889,
+        3897
+      ],
+      "fact_id": "nqswap_3889",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4600,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 201,
+          "sub_context": 201
+        },
+        "qwen7b": {
+          "org_context": 201,
+          "sub_context": 201
+        }
+      },
+      "component_id": "35611553a7a3731f6a23",
+      "component_source_rows": [
+        4589,
+        4600,
+        4602,
+        4607
+      ],
+      "fact_id": "nqswap_4600",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3602,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 170,
+          "sub_context": 170
+        },
+        "qwen7b": {
+          "org_context": 170,
+          "sub_context": 170
+        }
+      },
+      "component_id": "0859d14167d179787019",
+      "component_source_rows": [
+        3600,
+        3601,
+        3602
+      ],
+      "fact_id": "nqswap_3602",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1383,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 128,
+          "sub_context": 128
+        },
+        "qwen7b": {
+          "org_context": 128,
+          "sub_context": 128
+        }
+      },
+      "component_id": "e31ad90f7c571817cd93",
+      "component_source_rows": [
+        1383,
+        1908
+      ],
+      "fact_id": "nqswap_1383",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3681,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 132,
+          "sub_context": 133
+        },
+        "qwen7b": {
+          "org_context": 132,
+          "sub_context": 133
+        }
+      },
+      "component_id": "554e2a9b4c0890d0c9a9",
+      "component_source_rows": [
+        3681,
+        3682,
+        3684,
+        3688,
+        3692
+      ],
+      "fact_id": "nqswap_3681",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2667,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 302,
+          "sub_context": 302
+        },
+        "qwen7b": {
+          "org_context": 302,
+          "sub_context": 302
+        }
+      },
+      "component_id": "13bc3a0248f7e7ff4374",
+      "component_source_rows": [
+        2666,
+        2667,
+        2670
+      ],
+      "fact_id": "nqswap_2667",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1708,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 77,
+          "sub_context": 77
+        },
+        "qwen7b": {
+          "org_context": 77,
+          "sub_context": 77
+        }
+      },
+      "component_id": "a5bd3ce2c8cb8c0f0373",
+      "component_source_rows": [
+        1698,
+        1707,
+        1708,
+        1712,
+        1715
+      ],
+      "fact_id": "nqswap_1708",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3445,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 75,
+          "sub_context": 74
+        },
+        "qwen7b": {
+          "org_context": 75,
+          "sub_context": 74
+        }
+      },
+      "component_id": "58c268c3feacad32a88a",
+      "component_source_rows": [
+        3444,
+        3445,
+        3447,
+        3448
+      ],
+      "fact_id": "nqswap_3445",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1965,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 115,
+          "sub_context": 114
+        },
+        "qwen7b": {
+          "org_context": 115,
+          "sub_context": 114
+        }
+      },
+      "component_id": "c8f9cb633bdfa2a38121",
+      "component_source_rows": [
+        1965,
+        1966,
+        1971,
+        1975,
+        1978
+      ],
+      "fact_id": "nqswap_1965",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2290,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 122,
+          "sub_context": 122
+        },
+        "qwen7b": {
+          "org_context": 122,
+          "sub_context": 122
+        }
+      },
+      "component_id": "4c1641daf9e55586abe5",
+      "component_source_rows": [
+        2290,
+        2291,
+        2292,
+        2307
+      ],
+      "fact_id": "nqswap_2290",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3920,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 181,
+          "sub_context": 182
+        },
+        "qwen7b": {
+          "org_context": 181,
+          "sub_context": 182
+        }
+      },
+      "component_id": "6809df14762c76fdf039",
+      "component_source_rows": [
+        3920,
+        3921
+      ],
+      "fact_id": "nqswap_3920",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4436,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 167,
+          "sub_context": 168
+        },
+        "qwen7b": {
+          "org_context": 167,
+          "sub_context": 168
+        }
+      },
+      "component_id": "57247a81bc47748d070a",
+      "component_source_rows": [
+        4436,
+        4445,
+        4456
+      ],
+      "fact_id": "nqswap_4436",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1857,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 160,
+          "sub_context": 160
+        },
+        "qwen7b": {
+          "org_context": 160,
+          "sub_context": 160
+        }
+      },
+      "component_id": "d94542e54eb256b234b5",
+      "component_source_rows": [
+        1857,
+        1859,
+        1860,
+        1861
+      ],
+      "fact_id": "nqswap_1857",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2837,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 164,
+          "sub_context": 164
+        },
+        "qwen7b": {
+          "org_context": 164,
+          "sub_context": 164
+        }
+      },
+      "component_id": "0143024cfa235310c4ff",
+      "component_source_rows": [
+        2835,
+        2837
+      ],
+      "fact_id": "nqswap_2837",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4497,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 219,
+          "sub_context": 219
+        },
+        "qwen7b": {
+          "org_context": 219,
+          "sub_context": 219
+        }
+      },
+      "component_id": "af3cc16d06da3896f7fb",
+      "component_source_rows": [
+        4497
+      ],
+      "fact_id": "nqswap_4497",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4051,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 168,
+          "sub_context": 171
+        },
+        "qwen7b": {
+          "org_context": 168,
+          "sub_context": 171
+        }
+      },
+      "component_id": "3b87f2ed3489606249f6",
+      "component_source_rows": [
+        64,
+        72,
+        73,
+        4051,
+        4052
+      ],
+      "fact_id": "nqswap_4051",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3831,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 239,
+          "sub_context": 242
+        },
+        "qwen7b": {
+          "org_context": 239,
+          "sub_context": 242
+        }
+      },
+      "component_id": "3d458eb46ee1c40f7c0d",
+      "component_source_rows": [
+        3828,
+        3831,
+        3838,
+        3847
+      ],
+      "fact_id": "nqswap_3831",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3182,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 296,
+          "sub_context": 296
+        },
+        "qwen7b": {
+          "org_context": 296,
+          "sub_context": 296
+        }
+      },
+      "component_id": "d3de15f57892ef5645b1",
+      "component_source_rows": [
+        3166,
+        3182
+      ],
+      "fact_id": "nqswap_3182",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2763,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 212,
+          "sub_context": 211
+        },
+        "qwen7b": {
+          "org_context": 212,
+          "sub_context": 211
+        }
+      },
+      "component_id": "e17b48a28d9b4494d147",
+      "component_source_rows": [
+        2746,
+        2758,
+        2763,
+        2765
+      ],
+      "fact_id": "nqswap_2763",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 15,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 113,
+          "sub_context": 119
+        },
+        "qwen7b": {
+          "org_context": 113,
+          "sub_context": 119
+        }
+      },
+      "component_id": "b8333faa1de7d9ce11e8",
+      "component_source_rows": [
+        15,
+        17
+      ],
+      "fact_id": "nqswap_15",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1237,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 211,
+          "sub_context": 211
+        },
+        "qwen7b": {
+          "org_context": 211,
+          "sub_context": 211
+        }
+      },
+      "component_id": "b022c70c2d01819153f1",
+      "component_source_rows": [
+        1237
+      ],
+      "fact_id": "nqswap_1237",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 657,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 185,
+          "sub_context": 181
+        },
+        "qwen7b": {
+          "org_context": 185,
+          "sub_context": 181
+        }
+      },
+      "component_id": "804074524f8d723c972e",
+      "component_source_rows": [
+        657
+      ],
+      "fact_id": "nqswap_657",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 363,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 100,
+          "sub_context": 100
+        },
+        "qwen7b": {
+          "org_context": 100,
+          "sub_context": 100
+        }
+      },
+      "component_id": "913e0e4c2ef6d0285db6",
+      "component_source_rows": [
+        342,
+        354,
+        355,
+        357,
+        363
+      ],
+      "fact_id": "nqswap_363",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 859,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 144,
+          "sub_context": 142
+        },
+        "qwen7b": {
+          "org_context": 144,
+          "sub_context": 142
+        }
+      },
+      "component_id": "8662cfc3cd8c9aeb7084",
+      "component_source_rows": [
+        848,
+        858,
+        859
+      ],
+      "fact_id": "nqswap_859",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1610,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 136,
+          "sub_context": 142
+        },
+        "qwen7b": {
+          "org_context": 136,
+          "sub_context": 142
+        }
+      },
+      "component_id": "4e1141788e593f01e258",
+      "component_source_rows": [
+        1606,
+        1610,
+        1611
+      ],
+      "fact_id": "nqswap_1610",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1946,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 118,
+          "sub_context": 118
+        },
+        "qwen7b": {
+          "org_context": 118,
+          "sub_context": 118
+        }
+      },
+      "component_id": "2fcd2a7e5f7ac5fe845b",
+      "component_source_rows": [
+        1946
+      ],
+      "fact_id": "nqswap_1946",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 613,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 149,
+          "sub_context": 148
+        },
+        "qwen7b": {
+          "org_context": 149,
+          "sub_context": 148
+        }
+      },
+      "component_id": "2c7772ce3ba4d9f9fc5b",
+      "component_source_rows": [
+        613,
+        614
+      ],
+      "fact_id": "nqswap_613",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4119,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 295,
+          "sub_context": 298
+        },
+        "qwen7b": {
+          "org_context": 295,
+          "sub_context": 298
+        }
+      },
+      "component_id": "b34bd96f0cc8cfcc6ebb",
+      "component_source_rows": [
+        4119,
+        4123,
+        4125
+      ],
+      "fact_id": "nqswap_4119",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2522,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 383,
+          "sub_context": 381
+        },
+        "qwen7b": {
+          "org_context": 383,
+          "sub_context": 381
+        }
+      },
+      "component_id": "eda11be5ed4856876972",
+      "component_source_rows": [
+        2522
+      ],
+      "fact_id": "nqswap_2522",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2874,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 135,
+          "sub_context": 135
+        },
+        "qwen7b": {
+          "org_context": 135,
+          "sub_context": 135
+        }
+      },
+      "component_id": "18329b9cd9d3ee4e63e1",
+      "component_source_rows": [
+        2874
+      ],
+      "fact_id": "nqswap_2874",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 403,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 330,
+          "sub_context": 330
+        },
+        "qwen7b": {
+          "org_context": 330,
+          "sub_context": 330
+        }
+      },
+      "component_id": "81cb75afe4dbdf3283e9",
+      "component_source_rows": [
+        403
+      ],
+      "fact_id": "nqswap_403",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3229,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 82,
+          "sub_context": 80
+        },
+        "qwen7b": {
+          "org_context": 82,
+          "sub_context": 80
+        }
+      },
+      "component_id": "83164122f65802649b59",
+      "component_source_rows": [
+        3228,
+        3229,
+        3230,
+        3243,
+        3244
+      ],
+      "fact_id": "nqswap_3229",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 293,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 102,
+          "sub_context": 100
+        },
+        "qwen7b": {
+          "org_context": 102,
+          "sub_context": 100
+        }
+      },
+      "component_id": "54b2abc794b1441d715a",
+      "component_source_rows": [
+        291,
+        293,
+        294
+      ],
+      "fact_id": "nqswap_293",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2496,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 247,
+          "sub_context": 246
+        },
+        "qwen7b": {
+          "org_context": 247,
+          "sub_context": 246
+        }
+      },
+      "component_id": "07b49c175940bb202581",
+      "component_source_rows": [
+        2486,
+        2487,
+        2489,
+        2492,
+        2496
+      ],
+      "fact_id": "nqswap_2496",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1087,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 317,
+          "sub_context": 320
+        },
+        "qwen7b": {
+          "org_context": 317,
+          "sub_context": 320
+        }
+      },
+      "component_id": "f5299e60a68ba23f422e",
+      "component_source_rows": [
+        1087,
+        1091,
+        1093,
+        1095
+      ],
+      "fact_id": "nqswap_1087",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3787,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 392,
+          "sub_context": 392
+        },
+        "qwen7b": {
+          "org_context": 392,
+          "sub_context": 392
+        }
+      },
+      "component_id": "1da1823da24e89aa14a0",
+      "component_source_rows": [
+        3771,
+        3773,
+        3784,
+        3787
+      ],
+      "fact_id": "nqswap_3787",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1026,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 320,
+          "sub_context": 316
+        },
+        "qwen7b": {
+          "org_context": 320,
+          "sub_context": 316
+        }
+      },
+      "component_id": "eaec2109f4a523608b4f",
+      "component_source_rows": [
+        1017,
+        1026
+      ],
+      "fact_id": "nqswap_1026",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2780,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 190,
+          "sub_context": 190
+        },
+        "qwen7b": {
+          "org_context": 190,
+          "sub_context": 190
+        }
+      },
+      "component_id": "2fdf70bce2820b0cab8a",
+      "component_source_rows": [
+        2780,
+        4148,
+        4149,
+        4150
+      ],
+      "fact_id": "nqswap_2780",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1605,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 183,
+          "sub_context": 189
+        },
+        "qwen7b": {
+          "org_context": 183,
+          "sub_context": 189
+        }
+      },
+      "component_id": "f72c8b92035fd13c340d",
+      "component_source_rows": [
+        1605,
+        1614
+      ],
+      "fact_id": "nqswap_1605",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3932,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 193,
+          "sub_context": 195
+        },
+        "qwen7b": {
+          "org_context": 193,
+          "sub_context": 195
+        }
+      },
+      "component_id": "9211482d1a2687c1a382",
+      "component_source_rows": [
+        3932,
+        3933,
+        3934,
+        3935
+      ],
+      "fact_id": "nqswap_3932",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1720,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 106,
+          "sub_context": 110
+        },
+        "qwen7b": {
+          "org_context": 106,
+          "sub_context": 110
+        }
+      },
+      "component_id": "d6bc871da98ce85892d3",
+      "component_source_rows": [
+        1716,
+        1717,
+        1718,
+        1720,
+        1722
+      ],
+      "fact_id": "nqswap_1720",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4028,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 154,
+          "sub_context": 156
+        },
+        "qwen7b": {
+          "org_context": 154,
+          "sub_context": 156
+        }
+      },
+      "component_id": "4656ae5a5a9958042719",
+      "component_source_rows": [
+        4022,
+        4024,
+        4026,
+        4028,
+        4029
+      ],
+      "fact_id": "nqswap_4028",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3095,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 124,
+          "sub_context": 122
+        },
+        "qwen7b": {
+          "org_context": 124,
+          "sub_context": 122
+        }
+      },
+      "component_id": "f00acc0f8ceec55f2239",
+      "component_source_rows": [
+        3095,
+        3099
+      ],
+      "fact_id": "nqswap_3095",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2003,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 264,
+          "sub_context": 265
+        },
+        "qwen7b": {
+          "org_context": 264,
+          "sub_context": 265
+        }
+      },
+      "component_id": "4f2ea38e762c9a15479a",
+      "component_source_rows": [
+        2003,
+        2011
+      ],
+      "fact_id": "nqswap_2003",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2198,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 184,
+          "sub_context": 184
+        },
+        "qwen7b": {
+          "org_context": 184,
+          "sub_context": 184
+        }
+      },
+      "component_id": "b80fd9212b74d87a81d6",
+      "component_source_rows": [
+        2198
+      ],
+      "fact_id": "nqswap_2198",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3567,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 94,
+          "sub_context": 98
+        },
+        "qwen7b": {
+          "org_context": 94,
+          "sub_context": 98
+        }
+      },
+      "component_id": "6aa8f87cd641756f4f27",
+      "component_source_rows": [
+        3567
+      ],
+      "fact_id": "nqswap_3567",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4473,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 176,
+          "sub_context": 177
+        },
+        "qwen7b": {
+          "org_context": 176,
+          "sub_context": 177
+        }
+      },
+      "component_id": "548954b41dcfd028bb0e",
+      "component_source_rows": [
+        4473
+      ],
+      "fact_id": "nqswap_4473",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2264,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 239,
+          "sub_context": 240
+        },
+        "qwen7b": {
+          "org_context": 239,
+          "sub_context": 240
+        }
+      },
+      "component_id": "ccf84dc53184c9bceaf5",
+      "component_source_rows": [
+        2264
+      ],
+      "fact_id": "nqswap_2264",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4515,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 347,
+          "sub_context": 346
+        },
+        "qwen7b": {
+          "org_context": 347,
+          "sub_context": 346
+        }
+      },
+      "component_id": "17e94c205166547b2efb",
+      "component_source_rows": [
+        4506,
+        4509,
+        4515
+      ],
+      "fact_id": "nqswap_4515",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1864,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 126,
+          "sub_context": 125
+        },
+        "qwen7b": {
+          "org_context": 126,
+          "sub_context": 125
+        }
+      },
+      "component_id": "7bc8eec71e80e7b169c2",
+      "component_source_rows": [
+        1864,
+        1865,
+        1870,
+        1871,
+        1872
+      ],
+      "fact_id": "nqswap_1864",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2592,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 148,
+          "sub_context": 167
+        },
+        "qwen7b": {
+          "org_context": 148,
+          "sub_context": 167
+        }
+      },
+      "component_id": "4d6ad4507e8d826b7b80",
+      "component_source_rows": [
+        2592
+      ],
+      "fact_id": "nqswap_2592",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 906,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 419,
+          "sub_context": 418
+        },
+        "qwen7b": {
+          "org_context": 419,
+          "sub_context": 418
+        }
+      },
+      "component_id": "567c8fef9555f1170075",
+      "component_source_rows": [
+        899,
+        904,
+        906
+      ],
+      "fact_id": "nqswap_906",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2233,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 215,
+          "sub_context": 215
+        },
+        "qwen7b": {
+          "org_context": 215,
+          "sub_context": 215
+        }
+      },
+      "component_id": "60a4453d5b2f32ffee29",
+      "component_source_rows": [
+        2229,
+        2232,
+        2233
+      ],
+      "fact_id": "nqswap_2233",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1076,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 234,
+          "sub_context": 238
+        },
+        "qwen7b": {
+          "org_context": 234,
+          "sub_context": 238
+        }
+      },
+      "component_id": "e015e3034d38c71904b1",
+      "component_source_rows": [
+        1060,
+        1063,
+        1076
+      ],
+      "fact_id": "nqswap_1076",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4481,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 159,
+          "sub_context": 161
+        },
+        "qwen7b": {
+          "org_context": 159,
+          "sub_context": 161
+        }
+      },
+      "component_id": "a14d44ccc09392e9fcee",
+      "component_source_rows": [
+        4481,
+        4483,
+        4484,
+        4488
+      ],
+      "fact_id": "nqswap_4481",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 160,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 173,
+          "sub_context": 172
+        },
+        "qwen7b": {
+          "org_context": 173,
+          "sub_context": 172
+        }
+      },
+      "component_id": "0617b22b221008ae56ea",
+      "component_source_rows": [
+        147,
+        148,
+        160
+      ],
+      "fact_id": "nqswap_160",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3548,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 79,
+          "sub_context": 79
+        },
+        "qwen7b": {
+          "org_context": 79,
+          "sub_context": 79
+        }
+      },
+      "component_id": "5ef91a6a5ebf2fe5f646",
+      "component_source_rows": [
+        3547,
+        3548,
+        3549,
+        3556
+      ],
+      "fact_id": "nqswap_3548",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3636,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 145,
+          "sub_context": 146
+        },
+        "qwen7b": {
+          "org_context": 145,
+          "sub_context": 146
+        }
+      },
+      "component_id": "87497d14ee9a1930d380",
+      "component_source_rows": [
+        3636
+      ],
+      "fact_id": "nqswap_3636",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 660,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 187,
+          "sub_context": 188
+        },
+        "qwen7b": {
+          "org_context": 187,
+          "sub_context": 188
+        }
+      },
+      "component_id": "aabd21b14aeb56c971dd",
+      "component_source_rows": [
+        660
+      ],
+      "fact_id": "nqswap_660",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3314,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 205,
+          "sub_context": 204
+        },
+        "qwen7b": {
+          "org_context": 205,
+          "sub_context": 204
+        }
+      },
+      "component_id": "90a6b88ed8bb6ff147be",
+      "component_source_rows": [
+        3312,
+        3314
+      ],
+      "fact_id": "nqswap_3314",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 922,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 174,
+          "sub_context": 171
+        },
+        "qwen7b": {
+          "org_context": 174,
+          "sub_context": 171
+        }
+      },
+      "component_id": "f4af2b8a795217a4d970",
+      "component_source_rows": [
+        887,
+        890,
+        891,
+        892,
+        922
+      ],
+      "fact_id": "nqswap_922",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 218,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 79,
+          "sub_context": 79
+        },
+        "qwen7b": {
+          "org_context": 79,
+          "sub_context": 79
+        }
+      },
+      "component_id": "b3b55fe5b7bd37613b46",
+      "component_source_rows": [
+        217,
+        218,
+        220,
+        222,
+        233
+      ],
+      "fact_id": "nqswap_218",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 454,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 273,
+          "sub_context": 273
+        },
+        "qwen7b": {
+          "org_context": 273,
+          "sub_context": 273
+        }
+      },
+      "component_id": "1c1bc641e82627c908db",
+      "component_source_rows": [
+        454
+      ],
+      "fact_id": "nqswap_454",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3919,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 100,
+          "sub_context": 98
+        },
+        "qwen7b": {
+          "org_context": 100,
+          "sub_context": 98
+        }
+      },
+      "component_id": "2d33715bd1c10945ef5a",
+      "component_source_rows": [
+        3919,
+        3922,
+        3923,
+        3924
+      ],
+      "fact_id": "nqswap_3919",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4087,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 258,
+          "sub_context": 267
+        },
+        "qwen7b": {
+          "org_context": 258,
+          "sub_context": 267
+        }
+      },
+      "component_id": "1afb301b441d00f35e90",
+      "component_source_rows": [
+        4079,
+        4084,
+        4087,
+        4088
+      ],
+      "fact_id": "nqswap_4087",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1848,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 157,
+          "sub_context": 157
+        },
+        "qwen7b": {
+          "org_context": 157,
+          "sub_context": 157
+        }
+      },
+      "component_id": "fe1ed6f92ba92c221d42",
+      "component_source_rows": [
+        1844,
+        1845,
+        1847,
+        1848
+      ],
+      "fact_id": "nqswap_1848",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1784,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 194,
+          "sub_context": 194
+        },
+        "qwen7b": {
+          "org_context": 194,
+          "sub_context": 194
+        }
+      },
+      "component_id": "412f78ca83d567bb3528",
+      "component_source_rows": [
+        1783,
+        1784,
+        1785
+      ],
+      "fact_id": "nqswap_1784",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 783,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 131,
+          "sub_context": 134
+        },
+        "qwen7b": {
+          "org_context": 131,
+          "sub_context": 134
+        }
+      },
+      "component_id": "8d560f3489ed62f886f1",
+      "component_source_rows": [
+        783,
+        798,
+        799,
+        800
+      ],
+      "fact_id": "nqswap_783",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 563,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 202,
+          "sub_context": 201
+        },
+        "qwen7b": {
+          "org_context": 202,
+          "sub_context": 201
+        }
+      },
+      "component_id": "fbeaedd8522fcabb87d2",
+      "component_source_rows": [
+        560,
+        563,
+        565,
+        590
+      ],
+      "fact_id": "nqswap_563",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4201,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 199,
+          "sub_context": 199
+        },
+        "qwen7b": {
+          "org_context": 199,
+          "sub_context": 199
+        }
+      },
+      "component_id": "54af895d150915884df3",
+      "component_source_rows": [
+        4201,
+        4202,
+        4204
+      ],
+      "fact_id": "nqswap_4201",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3356,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 225,
+          "sub_context": 224
+        },
+        "qwen7b": {
+          "org_context": 225,
+          "sub_context": 224
+        }
+      },
+      "component_id": "95f3fdca2f4e9571e7db",
+      "component_source_rows": [
+        3336,
+        3354,
+        3355,
+        3356,
+        3357
+      ],
+      "fact_id": "nqswap_3356",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3413,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 167,
+          "sub_context": 169
+        },
+        "qwen7b": {
+          "org_context": 167,
+          "sub_context": 169
+        }
+      },
+      "component_id": "e254c200b265d1ffeffb",
+      "component_source_rows": [
+        3413,
+        3414,
+        3415
+      ],
+      "fact_id": "nqswap_3413",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3016,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 148,
+          "sub_context": 152
+        },
+        "qwen7b": {
+          "org_context": 148,
+          "sub_context": 152
+        }
+      },
+      "component_id": "7415fa6af21978a9ce6a",
+      "component_source_rows": [
+        3014,
+        3016,
+        3017
+      ],
+      "fact_id": "nqswap_3016",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4394,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 260,
+          "sub_context": 261
+        },
+        "qwen7b": {
+          "org_context": 260,
+          "sub_context": 261
+        }
+      },
+      "component_id": "4f174d7cc609c8db738a",
+      "component_source_rows": [
+        4394
+      ],
+      "fact_id": "nqswap_4394",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3461,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 150,
+          "sub_context": 146
+        },
+        "qwen7b": {
+          "org_context": 150,
+          "sub_context": 146
+        }
+      },
+      "component_id": "e515bce506ffd24612b8",
+      "component_source_rows": [
+        3459,
+        3461,
+        3462
+      ],
+      "fact_id": "nqswap_3461",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3825,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 337,
+          "sub_context": 335
+        },
+        "qwen7b": {
+          "org_context": 337,
+          "sub_context": 335
+        }
+      },
+      "component_id": "c9eb324363bb53b913ec",
+      "component_source_rows": [
+        3798,
+        3801,
+        3825
+      ],
+      "fact_id": "nqswap_3825",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 173,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 185,
+          "sub_context": 185
+        },
+        "qwen7b": {
+          "org_context": 185,
+          "sub_context": 185
+        }
+      },
+      "component_id": "4ff9163082be75a6c801",
+      "component_source_rows": [
+        173,
+        175,
+        176,
+        190
+      ],
+      "fact_id": "nqswap_173",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 7,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 89,
+          "sub_context": 90
+        },
+        "qwen7b": {
+          "org_context": 89,
+          "sub_context": 90
+        }
+      },
+      "component_id": "c4461cca81cc2d79b1b9",
+      "component_source_rows": [
+        5,
+        6,
+        7
+      ],
+      "fact_id": "nqswap_7",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1874,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 135,
+          "sub_context": 135
+        },
+        "qwen7b": {
+          "org_context": 135,
+          "sub_context": 135
+        }
+      },
+      "component_id": "0275b8ddcbb2f4015ba3",
+      "component_source_rows": [
+        1874,
+        1876,
+        1877
+      ],
+      "fact_id": "nqswap_1874",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1141,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 297,
+          "sub_context": 297
+        },
+        "qwen7b": {
+          "org_context": 297,
+          "sub_context": 297
+        }
+      },
+      "component_id": "1c98e05a751db67b1396",
+      "component_source_rows": [
+        1122,
+        1123,
+        1135,
+        1141
+      ],
+      "fact_id": "nqswap_1141",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1483,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 213,
+          "sub_context": 215
+        },
+        "qwen7b": {
+          "org_context": 213,
+          "sub_context": 215
+        }
+      },
+      "component_id": "bd6203ac676547157fa3",
+      "component_source_rows": [
+        1478,
+        1479,
+        1483,
+        1486
+      ],
+      "fact_id": "nqswap_1483",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4152,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 103,
+          "sub_context": 101
+        },
+        "qwen7b": {
+          "org_context": 103,
+          "sub_context": 101
+        }
+      },
+      "component_id": "57cae669fb6c18b6ebbf",
+      "component_source_rows": [
+        4151,
+        4152,
+        4153
+      ],
+      "fact_id": "nqswap_4152",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1455,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 152,
+          "sub_context": 151
+        },
+        "qwen7b": {
+          "org_context": 152,
+          "sub_context": 151
+        }
+      },
+      "component_id": "71fc80ca239a7140b3ad",
+      "component_source_rows": [
+        1454,
+        1455,
+        1466
+      ],
+      "fact_id": "nqswap_1455",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1217,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 153,
+          "sub_context": 153
+        },
+        "qwen7b": {
+          "org_context": 153,
+          "sub_context": 153
+        }
+      },
+      "component_id": "b36abcbc9280940c774b",
+      "component_source_rows": [
+        1217
+      ],
+      "fact_id": "nqswap_1217",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 34,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 166,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 166,
+          "sub_context": 166
+        }
+      },
+      "component_id": "3eec821f4889499ad603",
+      "component_source_rows": [
+        34,
+        35,
+        36,
+        39
+      ],
+      "fact_id": "nqswap_34",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3263,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 251,
+          "sub_context": 252
+        },
+        "qwen7b": {
+          "org_context": 251,
+          "sub_context": 252
+        }
+      },
+      "component_id": "90b8d962e374af621aa2",
+      "component_source_rows": [
+        3263
+      ],
+      "fact_id": "nqswap_3263",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4671,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 233,
+          "sub_context": 233
+        },
+        "qwen7b": {
+          "org_context": 233,
+          "sub_context": 233
+        }
+      },
+      "component_id": "f46cff8b43068422bb22",
+      "component_source_rows": [
+        4671,
+        4687
+      ],
+      "fact_id": "nqswap_4671",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4494,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 88,
+          "sub_context": 87
+        },
+        "qwen7b": {
+          "org_context": 88,
+          "sub_context": 87
+        }
+      },
+      "component_id": "3bf042ab4fd9c438ac8f",
+      "component_source_rows": [
+        4493,
+        4494,
+        4504,
+        4505
+      ],
+      "fact_id": "nqswap_4494",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 52,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 163,
+          "sub_context": 164
+        },
+        "qwen7b": {
+          "org_context": 163,
+          "sub_context": 164
+        }
+      },
+      "component_id": "f699107cc33df199d8dd",
+      "component_source_rows": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "fact_id": "nqswap_52",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3094,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 166,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 166,
+          "sub_context": 166
+        }
+      },
+      "component_id": "62c292efcb560810a30f",
+      "component_source_rows": [
+        3094
+      ],
+      "fact_id": "nqswap_3094",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3369,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 295,
+          "sub_context": 296
+        },
+        "qwen7b": {
+          "org_context": 295,
+          "sub_context": 296
+        }
+      },
+      "component_id": "6e41cd7d899bdb72d5ce",
+      "component_source_rows": [
+        3346,
+        3369
+      ],
+      "fact_id": "nqswap_3369",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4392,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 179,
+          "sub_context": 179
+        },
+        "qwen7b": {
+          "org_context": 179,
+          "sub_context": 179
+        }
+      },
+      "component_id": "257ecd766f1971525f3f",
+      "component_source_rows": [
+        4392
+      ],
+      "fact_id": "nqswap_4392",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1473,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 201,
+          "sub_context": 205
+        },
+        "qwen7b": {
+          "org_context": 201,
+          "sub_context": 205
+        }
+      },
+      "component_id": "910799ba840890ec0960",
+      "component_source_rows": [
+        1459,
+        1473,
+        1485,
+        1514
+      ],
+      "fact_id": "nqswap_1473",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4736,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 78,
+          "sub_context": 79
+        },
+        "qwen7b": {
+          "org_context": 78,
+          "sub_context": 79
+        }
+      },
+      "component_id": "3eb635a936730fb24506",
+      "component_source_rows": [
+        4736
+      ],
+      "fact_id": "nqswap_4736",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1522,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 87,
+          "sub_context": 90
+        },
+        "qwen7b": {
+          "org_context": 87,
+          "sub_context": 90
+        }
+      },
+      "component_id": "73136f9c0243446dce32",
+      "component_source_rows": [
+        1521,
+        1522,
+        1524,
+        1533,
+        1534
+      ],
+      "fact_id": "nqswap_1522",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2272,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 201,
+          "sub_context": 206
+        },
+        "qwen7b": {
+          "org_context": 201,
+          "sub_context": 206
+        }
+      },
+      "component_id": "055f7da3dfae8ccaa4d0",
+      "component_source_rows": [
+        2272
+      ],
+      "fact_id": "nqswap_2272",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3837,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 176,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 176,
+          "sub_context": 174
+        }
+      },
+      "component_id": "9edb855f519e28253558",
+      "component_source_rows": [
+        3837
+      ],
+      "fact_id": "nqswap_3837",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2081,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 277,
+          "sub_context": 279
+        },
+        "qwen7b": {
+          "org_context": 277,
+          "sub_context": 279
+        }
+      },
+      "component_id": "a54439f57bf3cbf07c32",
+      "component_source_rows": [
+        2081
+      ],
+      "fact_id": "nqswap_2081",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3620,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 94,
+          "sub_context": 95
+        },
+        "qwen7b": {
+          "org_context": 94,
+          "sub_context": 95
+        }
+      },
+      "component_id": "99e863d2c36e7e3c2dbf",
+      "component_source_rows": [
+        3618,
+        3620,
+        3621,
+        3628,
+        3632
+      ],
+      "fact_id": "nqswap_3620",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2398,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 153,
+          "sub_context": 154
+        },
+        "qwen7b": {
+          "org_context": 153,
+          "sub_context": 154
+        }
+      },
+      "component_id": "c086c91e8b4a9eb37947",
+      "component_source_rows": [
+        2386,
+        2395,
+        2397,
+        2398,
+        2399
+      ],
+      "fact_id": "nqswap_2398",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3590,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 74,
+          "sub_context": 75
+        },
+        "qwen7b": {
+          "org_context": 74,
+          "sub_context": 75
+        }
+      },
+      "component_id": "f73da6c97783c7641822",
+      "component_source_rows": [
+        3581,
+        3586,
+        3589,
+        3590,
+        3591
+      ],
+      "fact_id": "nqswap_3590",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4525,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 242,
+          "sub_context": 241
+        },
+        "qwen7b": {
+          "org_context": 242,
+          "sub_context": 241
+        }
+      },
+      "component_id": "ff969c9a7ab926844894",
+      "component_source_rows": [
+        4525,
+        4528
+      ],
+      "fact_id": "nqswap_4525",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2066,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 444,
+          "sub_context": 444
+        },
+        "qwen7b": {
+          "org_context": 444,
+          "sub_context": 444
+        }
+      },
+      "component_id": "4e4da107df8b4158f7f1",
+      "component_source_rows": [
+        2066
+      ],
+      "fact_id": "nqswap_2066",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3613,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 216,
+          "sub_context": 228
+        },
+        "qwen7b": {
+          "org_context": 216,
+          "sub_context": 228
+        }
+      },
+      "component_id": "ea8c08ccbab73794b91e",
+      "component_source_rows": [
+        3613
+      ],
+      "fact_id": "nqswap_3613",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2914,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 220,
+          "sub_context": 219
+        },
+        "qwen7b": {
+          "org_context": 220,
+          "sub_context": 219
+        }
+      },
+      "component_id": "e2834d84c3667dc92614",
+      "component_source_rows": [
+        2905,
+        2914
+      ],
+      "fact_id": "nqswap_2914",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3287,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 231,
+          "sub_context": 226
+        },
+        "qwen7b": {
+          "org_context": 231,
+          "sub_context": 226
+        }
+      },
+      "component_id": "28cd422818976c48b29d",
+      "component_source_rows": [
+        3285,
+        3287,
+        3288
+      ],
+      "fact_id": "nqswap_3287",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4131,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 172,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 172,
+          "sub_context": 174
+        }
+      },
+      "component_id": "e6d793046dbe131c53e2",
+      "component_source_rows": [
+        4129,
+        4131,
+        4132,
+        4134,
+        4146
+      ],
+      "fact_id": "nqswap_4131",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1327,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 186,
+          "sub_context": 187
+        },
+        "qwen7b": {
+          "org_context": 186,
+          "sub_context": 187
+        }
+      },
+      "component_id": "bdcc3696a77ba5850579",
+      "component_source_rows": [
+        1327
+      ],
+      "fact_id": "nqswap_1327",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1369,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 155,
+          "sub_context": 148
+        },
+        "qwen7b": {
+          "org_context": 155,
+          "sub_context": 148
+        }
+      },
+      "component_id": "072820a80b98b83f8946",
+      "component_source_rows": [
+        1369
+      ],
+      "fact_id": "nqswap_1369",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 485,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 94,
+          "sub_context": 93
+        },
+        "qwen7b": {
+          "org_context": 94,
+          "sub_context": 93
+        }
+      },
+      "component_id": "8ee4a69ec74506678974",
+      "component_source_rows": [
+        485
+      ],
+      "fact_id": "nqswap_485",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 785,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 161,
+          "sub_context": 164
+        },
+        "qwen7b": {
+          "org_context": 161,
+          "sub_context": 164
+        }
+      },
+      "component_id": "a23c83f7f1938ff7a183",
+      "component_source_rows": [
+        785
+      ],
+      "fact_id": "nqswap_785",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 192,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 207,
+          "sub_context": 205
+        },
+        "qwen7b": {
+          "org_context": 207,
+          "sub_context": 205
+        }
+      },
+      "component_id": "2bad5fde96507792fbbe",
+      "component_source_rows": [
+        192
+      ],
+      "fact_id": "nqswap_192",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2983,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 182,
+          "sub_context": 197
+        },
+        "qwen7b": {
+          "org_context": 182,
+          "sub_context": 197
+        }
+      },
+      "component_id": "e57215c149e1cc46c0fb",
+      "component_source_rows": [
+        2975,
+        2979,
+        2981,
+        2982,
+        2983
+      ],
+      "fact_id": "nqswap_2983",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 162,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 132,
+          "sub_context": 131
+        },
+        "qwen7b": {
+          "org_context": 132,
+          "sub_context": 131
+        }
+      },
+      "component_id": "02fe25ed826fd17d6f02",
+      "component_source_rows": [
+        162
+      ],
+      "fact_id": "nqswap_162",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1505,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 101,
+          "sub_context": 101
+        },
+        "qwen7b": {
+          "org_context": 101,
+          "sub_context": 101
+        }
+      },
+      "component_id": "b8a4562b414e135dc3df",
+      "component_source_rows": [
+        1491,
+        1505,
+        1506,
+        1507
+      ],
+      "fact_id": "nqswap_1505",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2506,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 83,
+          "sub_context": 84
+        },
+        "qwen7b": {
+          "org_context": 83,
+          "sub_context": 84
+        }
+      },
+      "component_id": "324833e58b901a27e9f7",
+      "component_source_rows": [
+        2506,
+        2519
+      ],
+      "fact_id": "nqswap_2506",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4197,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 463,
+          "sub_context": 463
+        },
+        "qwen7b": {
+          "org_context": 463,
+          "sub_context": 463
+        }
+      },
+      "component_id": "3f8743ebff26b781b993",
+      "component_source_rows": [
+        4182,
+        4183,
+        4185,
+        4186,
+        4197
+      ],
+      "fact_id": "nqswap_4197",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3396,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 140
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 140
+        }
+      },
+      "component_id": "e75fba1a6fdb93be14b5",
+      "component_source_rows": [
+        3396
+      ],
+      "fact_id": "nqswap_3396",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2309,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 188,
+          "sub_context": 187
+        },
+        "qwen7b": {
+          "org_context": 188,
+          "sub_context": 187
+        }
+      },
+      "component_id": "1b382cb8fbea9e449c0b",
+      "component_source_rows": [
+        2309
+      ],
+      "fact_id": "nqswap_2309",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3715,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 136,
+          "sub_context": 140
+        },
+        "qwen7b": {
+          "org_context": 136,
+          "sub_context": 140
+        }
+      },
+      "component_id": "0d8a011964c2b70531a8",
+      "component_source_rows": [
+        3715,
+        3719
+      ],
+      "fact_id": "nqswap_3715",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1275,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 219,
+          "sub_context": 219
+        },
+        "qwen7b": {
+          "org_context": 219,
+          "sub_context": 219
+        }
+      },
+      "component_id": "3c3342a59a30db971a61",
+      "component_source_rows": [
+        1274,
+        1275
+      ],
+      "fact_id": "nqswap_1275",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2286,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 87,
+          "sub_context": 89
+        },
+        "qwen7b": {
+          "org_context": 87,
+          "sub_context": 89
+        }
+      },
+      "component_id": "cfe90a44dbe9dfe8b4f1",
+      "component_source_rows": [
+        2286,
+        2287
+      ],
+      "fact_id": "nqswap_2286",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 10,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 230,
+          "sub_context": 235
+        },
+        "qwen7b": {
+          "org_context": 230,
+          "sub_context": 235
+        }
+      },
+      "component_id": "c12aa32f7d518d965686",
+      "component_source_rows": [
+        10,
+        2084,
+        2095
+      ],
+      "fact_id": "nqswap_10",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3178,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 250,
+          "sub_context": 250
+        },
+        "qwen7b": {
+          "org_context": 250,
+          "sub_context": 250
+        }
+      },
+      "component_id": "fbe238e3a595de34468d",
+      "component_source_rows": [
+        3159,
+        3162,
+        3178,
+        3180
+      ],
+      "fact_id": "nqswap_3178",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 962,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 284,
+          "sub_context": 282
+        },
+        "qwen7b": {
+          "org_context": 284,
+          "sub_context": 282
+        }
+      },
+      "component_id": "b9de4679ca8195352e1d",
+      "component_source_rows": [
+        962,
+        963,
+        964,
+        965,
+        972
+      ],
+      "fact_id": "nqswap_962",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3054,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 123,
+          "sub_context": 125
+        },
+        "qwen7b": {
+          "org_context": 123,
+          "sub_context": 125
+        }
+      },
+      "component_id": "a100aca88218881e281d",
+      "component_source_rows": [
+        3044,
+        3054,
+        3066
+      ],
+      "fact_id": "nqswap_3054",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3718,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 148,
+          "sub_context": 147
+        },
+        "qwen7b": {
+          "org_context": 148,
+          "sub_context": 147
+        }
+      },
+      "component_id": "ea8157f6f824138d74eb",
+      "component_source_rows": [
+        3705,
+        3713,
+        3718
+      ],
+      "fact_id": "nqswap_3718",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4048,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 391,
+          "sub_context": 442
+        },
+        "qwen7b": {
+          "org_context": 391,
+          "sub_context": 442
+        }
+      },
+      "component_id": "5806ae00beb086da0268",
+      "component_source_rows": [
+        4040,
+        4043,
+        4048
+      ],
+      "fact_id": "nqswap_4048",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1142,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 174,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 174,
+          "sub_context": 174
+        }
+      },
+      "component_id": "3e9f24eb4558d610e395",
+      "component_source_rows": [
+        1142
+      ],
+      "fact_id": "nqswap_1142",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2858,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 134,
+          "sub_context": 135
+        },
+        "qwen7b": {
+          "org_context": 134,
+          "sub_context": 135
+        }
+      },
+      "component_id": "d7e4f06efab70522176d",
+      "component_source_rows": [
+        2858
+      ],
+      "fact_id": "nqswap_2858",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2524,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 135,
+          "sub_context": 136
+        },
+        "qwen7b": {
+          "org_context": 135,
+          "sub_context": 136
+        }
+      },
+      "component_id": "4456e632fdf99939a03d",
+      "component_source_rows": [
+        2502,
+        2503,
+        2507,
+        2508,
+        2524
+      ],
+      "fact_id": "nqswap_2524",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2730,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 94,
+          "sub_context": 93
+        },
+        "qwen7b": {
+          "org_context": 94,
+          "sub_context": 93
+        }
+      },
+      "component_id": "03a563614ed26f9548bb",
+      "component_source_rows": [
+        2730
+      ],
+      "fact_id": "nqswap_2730",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1853,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 193,
+          "sub_context": 196
+        },
+        "qwen7b": {
+          "org_context": 193,
+          "sub_context": 196
+        }
+      },
+      "component_id": "72eca504601e03a2f5cd",
+      "component_source_rows": [
+        1852,
+        1853,
+        1854,
+        1855,
+        1867
+      ],
+      "fact_id": "nqswap_1853",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4495,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 170,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 170,
+          "sub_context": 166
+        }
+      },
+      "component_id": "608f626ed968ec9f244d",
+      "component_source_rows": [
+        4495,
+        4496
+      ],
+      "fact_id": "nqswap_4495",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2832,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 288,
+          "sub_context": 296
+        },
+        "qwen7b": {
+          "org_context": 288,
+          "sub_context": 296
+        }
+      },
+      "component_id": "9d2ad6504678f7f0d5af",
+      "component_source_rows": [
+        2815,
+        2830,
+        2832,
+        2833,
+        3881
+      ],
+      "fact_id": "nqswap_2832",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1681,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 219,
+          "sub_context": 217
+        },
+        "qwen7b": {
+          "org_context": 219,
+          "sub_context": 217
+        }
+      },
+      "component_id": "2bd8cce650fca10d3e5c",
+      "component_source_rows": [
+        1681
+      ],
+      "fact_id": "nqswap_1681",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1103,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 159,
+          "sub_context": 159
+        },
+        "qwen7b": {
+          "org_context": 159,
+          "sub_context": 159
+        }
+      },
+      "component_id": "5e432952677acecf8b72",
+      "component_source_rows": [
+        1103,
+        1104,
+        1105,
+        1111
+      ],
+      "fact_id": "nqswap_1103",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 83,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 114,
+          "sub_context": 115
+        },
+        "qwen7b": {
+          "org_context": 114,
+          "sub_context": 115
+        }
+      },
+      "component_id": "2c3f15d2e3959a17fc49",
+      "component_source_rows": [
+        80,
+        83
+      ],
+      "fact_id": "nqswap_83",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1102,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 211,
+          "sub_context": 211
+        },
+        "qwen7b": {
+          "org_context": 211,
+          "sub_context": 211
+        }
+      },
+      "component_id": "2d541a6c039f4847f437",
+      "component_source_rows": [
+        1102,
+        1107,
+        1110,
+        1112,
+        1125
+      ],
+      "fact_id": "nqswap_1102",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3063,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 124,
+          "sub_context": 103
+        },
+        "qwen7b": {
+          "org_context": 124,
+          "sub_context": 103
+        }
+      },
+      "component_id": "58fa587c17bb46023319",
+      "component_source_rows": [
+        3041,
+        3047,
+        3050,
+        3063
+      ],
+      "fact_id": "nqswap_3063",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2470,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 146,
+          "sub_context": 145
+        },
+        "qwen7b": {
+          "org_context": 146,
+          "sub_context": 145
+        }
+      },
+      "component_id": "99be7148c739183ced03",
+      "component_source_rows": [
+        2462,
+        2463,
+        2467,
+        2469,
+        2470
+      ],
+      "fact_id": "nqswap_2470",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4252,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 81,
+          "sub_context": 81
+        },
+        "qwen7b": {
+          "org_context": 81,
+          "sub_context": 81
+        }
+      },
+      "component_id": "c1f472a8e0aedb685575",
+      "component_source_rows": [
+        4251,
+        4252
+      ],
+      "fact_id": "nqswap_4252",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3297,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 221,
+          "sub_context": 223
+        },
+        "qwen7b": {
+          "org_context": 221,
+          "sub_context": 223
+        }
+      },
+      "component_id": "9fdf7166553197fbcb48",
+      "component_source_rows": [
+        3294,
+        3297,
+        3306,
+        3311
+      ],
+      "fact_id": "nqswap_3297",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4572,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 136,
+          "sub_context": 111
+        },
+        "qwen7b": {
+          "org_context": 136,
+          "sub_context": 111
+        }
+      },
+      "component_id": "1fe43b525b78ca9ca582",
+      "component_source_rows": [
+        4572,
+        4574
+      ],
+      "fact_id": "nqswap_4572",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2379,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 169,
+          "sub_context": 165
+        },
+        "qwen7b": {
+          "org_context": 169,
+          "sub_context": 165
+        }
+      },
+      "component_id": "104169b2794327c7a438",
+      "component_source_rows": [
+        2379
+      ],
+      "fact_id": "nqswap_2379",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1811,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 255,
+          "sub_context": 255
+        },
+        "qwen7b": {
+          "org_context": 255,
+          "sub_context": 255
+        }
+      },
+      "component_id": "5fce9b772d4ebe68c6ae",
+      "component_source_rows": [
+        1811
+      ],
+      "fact_id": "nqswap_1811",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2586,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 148,
+          "sub_context": 151
+        },
+        "qwen7b": {
+          "org_context": 148,
+          "sub_context": 151
+        }
+      },
+      "component_id": "088e060613d0b2307147",
+      "component_source_rows": [
+        2585,
+        2586,
+        2589,
+        2598
+      ],
+      "fact_id": "nqswap_2586",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1159,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 172,
+          "sub_context": 171
+        },
+        "qwen7b": {
+          "org_context": 172,
+          "sub_context": 171
+        }
+      },
+      "component_id": "70fc1db60056945c3c89",
+      "component_source_rows": [
+        1148,
+        1158,
+        1159,
+        1160
+      ],
+      "fact_id": "nqswap_1159",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2426,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 144,
+          "sub_context": 143
+        },
+        "qwen7b": {
+          "org_context": 144,
+          "sub_context": 143
+        }
+      },
+      "component_id": "adfd9757f2058daee789",
+      "component_source_rows": [
+        2426,
+        2427,
+        2428
+      ],
+      "fact_id": "nqswap_2426",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 234,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 152,
+          "sub_context": 151
+        },
+        "qwen7b": {
+          "org_context": 152,
+          "sub_context": 151
+        }
+      },
+      "component_id": "112f2985b8550a428e0c",
+      "component_source_rows": [
+        225,
+        226,
+        231,
+        234,
+        235
+      ],
+      "fact_id": "nqswap_234",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2718,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 256,
+          "sub_context": 256
+        },
+        "qwen7b": {
+          "org_context": 256,
+          "sub_context": 256
+        }
+      },
+      "component_id": "5852d86e8bc03c0437ef",
+      "component_source_rows": [
+        2718
+      ],
+      "fact_id": "nqswap_2718",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 268,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 145,
+          "sub_context": 145
+        },
+        "qwen7b": {
+          "org_context": 145,
+          "sub_context": 145
+        }
+      },
+      "component_id": "0c18b8a57cd20f9be9a0",
+      "component_source_rows": [
+        268,
+        270,
+        274,
+        275,
+        277
+      ],
+      "fact_id": "nqswap_268",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1171,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 74,
+          "sub_context": 76
+        },
+        "qwen7b": {
+          "org_context": 74,
+          "sub_context": 76
+        }
+      },
+      "component_id": "6084c9935e04346950c7",
+      "component_source_rows": [
+        1171,
+        1174,
+        1177,
+        1192,
+        2788,
+        2805,
+        2806,
+        2807,
+        2827
+      ],
+      "fact_id": "nqswap_1171",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2795,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 240,
+          "sub_context": 239
+        },
+        "qwen7b": {
+          "org_context": 240,
+          "sub_context": 239
+        }
+      },
+      "component_id": "03bb1f62204238b4be0a",
+      "component_source_rows": [
+        2784,
+        2793,
+        2795,
+        2796,
+        2798
+      ],
+      "fact_id": "nqswap_2795",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 345,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 122,
+          "sub_context": 122
+        },
+        "qwen7b": {
+          "org_context": 122,
+          "sub_context": 122
+        }
+      },
+      "component_id": "7d69c266c39f23698a22",
+      "component_source_rows": [
+        344,
+        345,
+        346
+      ],
+      "fact_id": "nqswap_345",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2281,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 130,
+          "sub_context": 132
+        },
+        "qwen7b": {
+          "org_context": 130,
+          "sub_context": 132
+        }
+      },
+      "component_id": "eb11f9851c20c4c59358",
+      "component_source_rows": [
+        2281
+      ],
+      "fact_id": "nqswap_2281",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1910,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 388,
+          "sub_context": 387
+        },
+        "qwen7b": {
+          "org_context": 388,
+          "sub_context": 387
+        }
+      },
+      "component_id": "2a0ee29110aedd910baf",
+      "component_source_rows": [
+        1899,
+        1900,
+        1907,
+        1910,
+        1911
+      ],
+      "fact_id": "nqswap_1910",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4034,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 190,
+          "sub_context": 192
+        },
+        "qwen7b": {
+          "org_context": 190,
+          "sub_context": 192
+        }
+      },
+      "component_id": "d63784178d39ef330e63",
+      "component_source_rows": [
+        4034,
+        4035,
+        4038
+      ],
+      "fact_id": "nqswap_4034",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1239,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 171,
+          "sub_context": 171
+        },
+        "qwen7b": {
+          "org_context": 171,
+          "sub_context": 171
+        }
+      },
+      "component_id": "c9b642cc060ec885f5db",
+      "component_source_rows": [
+        1239
+      ],
+      "fact_id": "nqswap_1239",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 200,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 326,
+          "sub_context": 325
+        },
+        "qwen7b": {
+          "org_context": 326,
+          "sub_context": 325
+        }
+      },
+      "component_id": "957a424800ddb50aaa4d",
+      "component_source_rows": [
+        198,
+        199,
+        200,
+        201,
+        204
+      ],
+      "fact_id": "nqswap_200",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 820,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 175,
+          "sub_context": 172
+        },
+        "qwen7b": {
+          "org_context": 175,
+          "sub_context": 172
+        }
+      },
+      "component_id": "dc45d9da79f51d0be440",
+      "component_source_rows": [
+        820
+      ],
+      "fact_id": "nqswap_820",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2215,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 189,
+          "sub_context": 190
+        },
+        "qwen7b": {
+          "org_context": 189,
+          "sub_context": 190
+        }
+      },
+      "component_id": "1ce2342fd554523f46df",
+      "component_source_rows": [
+        2215
+      ],
+      "fact_id": "nqswap_2215",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 884,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 212,
+          "sub_context": 213
+        },
+        "qwen7b": {
+          "org_context": 212,
+          "sub_context": 213
+        }
+      },
+      "component_id": "7f738972992e7e7d2080",
+      "component_source_rows": [
+        884
+      ],
+      "fact_id": "nqswap_884",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3493,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 175,
+          "sub_context": 173
+        },
+        "qwen7b": {
+          "org_context": 175,
+          "sub_context": 173
+        }
+      },
+      "component_id": "965c7984b1d1e4f767ea",
+      "component_source_rows": [
+        3487,
+        3493
+      ],
+      "fact_id": "nqswap_3493",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2491,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 216,
+          "sub_context": 208
+        },
+        "qwen7b": {
+          "org_context": 216,
+          "sub_context": 208
+        }
+      },
+      "component_id": "40e2e77f5c4607444ff3",
+      "component_source_rows": [
+        2491
+      ],
+      "fact_id": "nqswap_2491",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4429,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 390,
+          "sub_context": 392
+        },
+        "qwen7b": {
+          "org_context": 390,
+          "sub_context": 392
+        }
+      },
+      "component_id": "8fa23a79db14e7678379",
+      "component_source_rows": [
+        4429,
+        4431,
+        4434,
+        4435
+      ],
+      "fact_id": "nqswap_4429",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 159,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 254,
+          "sub_context": 253
+        },
+        "qwen7b": {
+          "org_context": 254,
+          "sub_context": 253
+        }
+      },
+      "component_id": "081c8590e7dc0a3bdfc5",
+      "component_source_rows": [
+        156,
+        159,
+        161,
+        166,
+        168
+      ],
+      "fact_id": "nqswap_159",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 830,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 415,
+          "sub_context": 415
+        },
+        "qwen7b": {
+          "org_context": 415,
+          "sub_context": 415
+        }
+      },
+      "component_id": "18b6adfeb80b373cba1c",
+      "component_source_rows": [
+        830
+      ],
+      "fact_id": "nqswap_830",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4101,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 227,
+          "sub_context": 227
+        },
+        "qwen7b": {
+          "org_context": 227,
+          "sub_context": 227
+        }
+      },
+      "component_id": "d71d9623083e7773e7f3",
+      "component_source_rows": [
+        4101,
+        4113,
+        4117
+      ],
+      "fact_id": "nqswap_4101",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3939,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 74,
+          "sub_context": 76
+        },
+        "qwen7b": {
+          "org_context": 74,
+          "sub_context": 76
+        }
+      },
+      "component_id": "458354107122f1e86f75",
+      "component_source_rows": [
+        3929,
+        3930,
+        3939,
+        3943,
+        3945
+      ],
+      "fact_id": "nqswap_3939",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 888,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 210,
+          "sub_context": 212
+        },
+        "qwen7b": {
+          "org_context": 210,
+          "sub_context": 212
+        }
+      },
+      "component_id": "f4676ce216948e0c8a8f",
+      "component_source_rows": [
+        868,
+        888
+      ],
+      "fact_id": "nqswap_888",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2611,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 124,
+          "sub_context": 125
+        },
+        "qwen7b": {
+          "org_context": 124,
+          "sub_context": 125
+        }
+      },
+      "component_id": "678d53f3b781c003ee10",
+      "component_source_rows": [
+        2611
+      ],
+      "fact_id": "nqswap_2611",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4324,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 227,
+          "sub_context": 224
+        },
+        "qwen7b": {
+          "org_context": 227,
+          "sub_context": 224
+        }
+      },
+      "component_id": "e4ea0de52095ffe6e6e0",
+      "component_source_rows": [
+        4324
+      ],
+      "fact_id": "nqswap_4324",
+      "split": "calibration",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    }
+  ]
+}

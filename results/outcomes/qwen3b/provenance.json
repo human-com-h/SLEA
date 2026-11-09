@@ -1,0 +1,57 @@
+{
+  "primary.jsonl": {
+    "original_sha256": "2f0e23225f93c5214b6ff9a2bd0992fd8d20f70529df25a15c6b5d5e3badca11",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "contextfocus.jsonl": {
+    "original_sha256": "80e5941445ea56c97566f57fec72bb306011c2e0a2c95dfbf832928cfaeb7ddd",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "vanilla.jsonl": {
+    "original_sha256": "9015bd6b03017337000dd373e9955ade88368e951f51cf8f009282c14a7bfabc",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "balanced.jsonl": {
+    "original_sha256": "af9501240be753942d6b3a78354ff1a5121dabf2c78bd4169c16432a3459dacf",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "original.jsonl": {
+    "original_sha256": "63eb7bd2f4a227cbbd885124a753be9b78161b0b78afec765029dc1640eb9ed5",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "interaction.jsonl": {
+    "original_sha256": "1ab416ece393f4c91d4279ae3e11b3a408006eced6d557ddd686f882a4de48a2",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "oracle_l16.jsonl": {
+    "original_sha256": "9554fa8c81132cca6c152bf87b13ed339ddc1979246f1d27d27a19f78919257b",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "hard_l10.jsonl": {
+    "original_sha256": "37dcb7e7e8b5e0d93f546fefed8a922bf921a592973f39b8208bd6bbe1a9c959",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "cast_strong.jsonl": {
+    "original_sha256": "4de0783e9d50fdac9e8955fcd9f4f298e070da6a491572e5af0e9455eee4a4e5",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "oracle_l10.jsonl": {
+    "original_sha256": "05fa8dba73b8fafdd65e2d8d4063327b38c643922d51063573c9eafec69d4f15",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  },
+  "hard_l16.jsonl": {
+    "original_sha256": "02a55bd647c7cdba312b67be3f72359c457fd2dc16594ef039e2ee2fbb265f3c",
+    "rows": 1292,
+    "transformation": "retain IDs, state, correctness and numeric run metadata; remove all question/answer text"
+  }
+}

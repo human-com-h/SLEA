@@ -1,0 +1,14 @@
+SLEA research implementation, Copyright 2026 Zida Hao and Yubo Li.
+
+This repository contains project implementations/adaptations of published
+baselines, including CAD, Interaction Score, CAST and ContextFocus.
+CAST reference: https://github.com/IBM/activation-steering
+The archived protocol records the consulted reference commit
+52be60235ee309b46c49d6d5877f36e20c52e6ab.
+These task adaptations are not claims of source-exact reproduction on the
+original baseline papers' evaluation tasks.
+
+Third-party base model weights, dataset passages, journal templates and papers
+are not redistributed. Their licenses are not replaced by the MIT license for
+this project's code. Qwen2.5-3B-Instruct uses the Qwen Research License;
+Qwen2.5-7B-Instruct uses Apache-2.0. Consult the original providers before use.

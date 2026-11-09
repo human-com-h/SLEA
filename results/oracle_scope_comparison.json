@@ -1,0 +1,268 @@
+{
+  "validation_only": true,
+  "test_generations": 0,
+  "scope_comparison": [
+    {
+      "layer": 8,
+      "last_query_correct": 4,
+      "all_query_correct": 9
+    },
+    {
+      "layer": 12,
+      "last_query_correct": 4,
+      "all_query_correct": 8
+    },
+    {
+      "layer": 16,
+      "last_query_correct": 4,
+      "all_query_correct": 7
+    },
+    {
+      "layer": 21,
+      "last_query_correct": 4,
+      "all_query_correct": 4
+    }
+  ],
+  "selected": {
+    "config": {
+      "layer": 8,
+      "kind": "none",
+      "strength": 0.0,
+      "rank": 0,
+      "span_mode": "hard",
+      "attention_scope": "all_queries"
+    },
+    "cache_key": "726875f7731cdac2",
+    "param_correct": 9,
+    "param_n": 13,
+    "latency_mean_ms": 202.7643918461483,
+    "correct_ids": [
+      "popqa_6282605_counter",
+      "popqa_1354806_counter",
+      "popqa_997848_counter",
+      "popqa_2013401_counter",
+      "popqa_6315935_counter",
+      "popqa_44382_counter",
+      "popqa_7986_counter",
+      "popqa_500365_counter",
+      "popqa_1504173_counter"
+    ]
+  },
+  "search_family_maxima": {
+    "none": 9,
+    "classification": 9,
+    "mean_shift": 9,
+    "subspace": 8
+  },
+  "cases": [
+    {
+      "id": "popqa_6282605_counter",
+      "question": "In what country is Bethel?",
+      "gold_answers": [
+        "United States of America",
+        "the United States of America",
+        "America",
+        "U.S.A.",
+        "USA",
+        "U.S.",
+        "US",
+        "the US",
+        "the USA",
+        "US of A",
+        "the United States",
+        "U. S. A.",
+        "U. S.",
+        "the States",
+        "the U.S.",
+        "'Merica",
+        "U.S",
+        "United States",
+        "'Murica"
+      ],
+      "native_closed_book_answer": "United States",
+      "last_query_selected_answer": "Israel",
+      "fullmask_selected_answer": "USA",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_1245440_memory",
+      "question": "What is Billy Flynn's occupation?",
+      "gold_answers": [
+        "actor",
+        "actress",
+        "actors",
+        "actresses"
+      ],
+      "native_closed_book_answer": "Actor",
+      "last_query_selected_answer": "Lawyer",
+      "fullmask_selected_answer": "I do not know.",
+      "fullmask_correct": false
+    },
+    {
+      "id": "popqa_1354806_counter",
+      "question": "Who was the director of Cars?",
+      "gold_answers": [
+        "John Lasseter",
+        "John Alan Lasseter",
+        "John A. Lasseter",
+        "Joe Ranft",
+        "Joseph Henry Ranft"
+      ],
+      "native_closed_book_answer": "John Lasseter",
+      "last_query_selected_answer": "John Lasseter",
+      "fullmask_selected_answer": "John Lasseter",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_997848_counter",
+      "question": "What genre is Counter-Strike?",
+      "gold_answers": [
+        "tactical shooter",
+        "first-person shooter",
+        "fps",
+        "first person shooter video games",
+        "first-person shooter video game",
+        "FPS",
+        "FPS game",
+        "FPS video game",
+        "first-person shooter game"
+      ],
+      "native_closed_book_answer": "First-person shooter",
+      "last_query_selected_answer": "None.",
+      "fullmask_selected_answer": "First-person shooter",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_2013401_counter",
+      "question": "Who is the author of White Noise?",
+      "gold_answers": [
+        "Don DeLillo",
+        "Don Delillo",
+        "Donald Richard DeLillo"
+      ],
+      "native_closed_book_answer": "Don DeLillo",
+      "last_query_selected_answer": "Stephen King",
+      "fullmask_selected_answer": "Don DeLillo",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_2777709_counter",
+      "question": "What genre is Suits?",
+      "gold_answers": [
+        "legal drama",
+        "courtroom drama",
+        "comedy-drama",
+        "dramedy",
+        "comedic drama",
+        "tragicomedy",
+        "seriocomedy",
+        "comedy drama",
+        "dramatic comedy",
+        "Comedy-drama, dramedy"
+      ],
+      "native_closed_book_answer": "Legal drama",
+      "last_query_selected_answer": "Drama",
+      "fullmask_selected_answer": "drama",
+      "fullmask_correct": false
+    },
+    {
+      "id": "popqa_6315935_counter",
+      "question": "In what city was Endre Bálint born?",
+      "gold_answers": [
+        "Budapest",
+        "Buda Pest",
+        "Buda-Pest",
+        "Budapešť",
+        "Budapesta",
+        "Budapeszt",
+        "Buda",
+        "Ofen",
+        "Budín",
+        "Budim",
+        "Budon",
+        "Pest",
+        "Pešť",
+        "Pešta",
+        "Óbuda",
+        "Alt-Ofen",
+        "Kőbánya"
+      ],
+      "native_closed_book_answer": "Budapest",
+      "last_query_selected_answer": "City of birth is not specified, do not know.",
+      "fullmask_selected_answer": "Budapest",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_44382_counter",
+      "question": "What is the capital of Rwanda?",
+      "gold_answers": [
+        "Kigali"
+      ],
+      "native_closed_book_answer": "Kigali",
+      "last_query_selected_answer": "Kigali",
+      "fullmask_selected_answer": "Kigali",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_7986_counter",
+      "question": "What is the capital of Ivory Coast?",
+      "gold_answers": [
+        "Yamoussoukro"
+      ],
+      "native_closed_book_answer": "Yamoussoukro",
+      "last_query_selected_answer": "Abidjan",
+      "fullmask_selected_answer": "Yamoussoukro",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_500365_counter",
+      "question": "What genre is Kirby 64: The Crystal Shards?",
+      "gold_answers": [
+        "platform game",
+        "platformer",
+        "Platform video games"
+      ],
+      "native_closed_book_answer": "Platformer",
+      "last_query_selected_answer": "Action RPG",
+      "fullmask_selected_answer": "platformer",
+      "fullmask_correct": true
+    },
+    {
+      "id": "popqa_3015392_memory",
+      "question": "What genre is Ministry?",
+      "gold_answers": [
+        "industrial metal",
+        "Industrial Metal"
+      ],
+      "native_closed_book_answer": "Industrial metal",
+      "last_query_selected_answer": "Industrial rock",
+      "fullmask_selected_answer": "Thrash metal",
+      "fullmask_correct": false
+    },
+    {
+      "id": "popqa_376088_counter",
+      "question": "What is the capital of Marche?",
+      "gold_answers": [
+        "Ancona"
+      ],
+      "native_closed_book_answer": "Ancona",
+      "last_query_selected_answer": "Ancona",
+      "fullmask_selected_answer": "Perugia",
+      "fullmask_correct": false
+    },
+    {
+      "id": "popqa_1504173_counter",
+      "question": "What genre is Billy Joel?",
+      "gold_answers": [
+        "rock music",
+        "rock and roll",
+        "rock",
+        "Rock"
+      ],
+      "native_closed_book_answer": "Rock",
+      "last_query_selected_answer": "Rock",
+      "fullmask_selected_answer": "Rock",
+      "fullmask_correct": true
+    }
+  ]
+}

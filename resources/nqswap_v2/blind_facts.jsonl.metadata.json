@@ -1,0 +1,6859 @@
+{
+  "output": "data/processed/nqswap_v2/blind_facts.jsonl",
+  "sha256": "15cefa44fced26d67981f113824e9f637838f1d5cac5d813e29875134eea6620",
+  "newline": "\r\n",
+  "rows": [
+    {
+      "source_row_idx": 4237,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 119,
+          "sub_context": 118
+        },
+        "qwen7b": {
+          "org_context": 119,
+          "sub_context": 118
+        }
+      },
+      "component_id": "6c35e3471426c7c05606",
+      "component_source_rows": [
+        4237,
+        4238
+      ],
+      "fact_id": "nqswap_4237",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 28,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 151,
+          "sub_context": 152
+        },
+        "qwen7b": {
+          "org_context": 151,
+          "sub_context": 152
+        }
+      },
+      "component_id": "2df48c55024636ceb34e",
+      "component_source_rows": [
+        28,
+        29,
+        30,
+        33
+      ],
+      "fact_id": "nqswap_28",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4061,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 79,
+          "sub_context": 74
+        },
+        "qwen7b": {
+          "org_context": 79,
+          "sub_context": 74
+        }
+      },
+      "component_id": "0ee819692dfd51fa9033",
+      "component_source_rows": [
+        4060,
+        4061
+      ],
+      "fact_id": "nqswap_4061",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2197,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 197,
+          "sub_context": 200
+        },
+        "qwen7b": {
+          "org_context": 197,
+          "sub_context": 200
+        }
+      },
+      "component_id": "e6d27db8f3ede8784fd3",
+      "component_source_rows": [
+        2197
+      ],
+      "fact_id": "nqswap_2197",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2366,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 226,
+          "sub_context": 224
+        },
+        "qwen7b": {
+          "org_context": 226,
+          "sub_context": 224
+        }
+      },
+      "component_id": "e36e12a6b25fa886a237",
+      "component_source_rows": [
+        2356,
+        2363,
+        2366,
+        2377
+      ],
+      "fact_id": "nqswap_2366",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 826,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 186,
+          "sub_context": 186
+        },
+        "qwen7b": {
+          "org_context": 186,
+          "sub_context": 186
+        }
+      },
+      "component_id": "8b5f10f43d207054f46c",
+      "component_source_rows": [
+        822,
+        824,
+        825,
+        826
+      ],
+      "fact_id": "nqswap_826",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3274,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 321,
+          "sub_context": 318
+        },
+        "qwen7b": {
+          "org_context": 321,
+          "sub_context": 318
+        }
+      },
+      "component_id": "e9e70f533fbf34951ee2",
+      "component_source_rows": [
+        3274
+      ],
+      "fact_id": "nqswap_3274",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3043,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 118,
+          "sub_context": 118
+        },
+        "qwen7b": {
+          "org_context": 118,
+          "sub_context": 118
+        }
+      },
+      "component_id": "666a8a88a081221759e3",
+      "component_source_rows": [
+        3043
+      ],
+      "fact_id": "nqswap_3043",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4375,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 151,
+          "sub_context": 151
+        },
+        "qwen7b": {
+          "org_context": 151,
+          "sub_context": 151
+        }
+      },
+      "component_id": "2c681dff3c88675a162e",
+      "component_source_rows": [
+        4372,
+        4373,
+        4374,
+        4375,
+        4376
+      ],
+      "fact_id": "nqswap_4375",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2305,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 167,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 167,
+          "sub_context": 166
+        }
+      },
+      "component_id": "c068a6ccfe4de329cedc",
+      "component_source_rows": [
+        2282,
+        2285,
+        2305,
+        2306
+      ],
+      "fact_id": "nqswap_2305",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3359,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 146,
+          "sub_context": 146
+        },
+        "qwen7b": {
+          "org_context": 146,
+          "sub_context": 146
+        }
+      },
+      "component_id": "6b4fc06f5c5961fa97b5",
+      "component_source_rows": [
+        3339,
+        3359,
+        3362,
+        3363
+      ],
+      "fact_id": "nqswap_3359",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2915,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 412,
+          "sub_context": 411
+        },
+        "qwen7b": {
+          "org_context": 412,
+          "sub_context": 411
+        }
+      },
+      "component_id": "d4da1a93941e2faa7469",
+      "component_source_rows": [
+        2907,
+        2909,
+        2910,
+        2915,
+        2918
+      ],
+      "fact_id": "nqswap_2915",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3163,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 175,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 175,
+          "sub_context": 174
+        }
+      },
+      "component_id": "8221d17da9ed57af70e9",
+      "component_source_rows": [
+        3163,
+        3164
+      ],
+      "fact_id": "nqswap_3163",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1586,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 136,
+          "sub_context": 136
+        },
+        "qwen7b": {
+          "org_context": 136,
+          "sub_context": 136
+        }
+      },
+      "component_id": "3f66b1304d3f4c0e821e",
+      "component_source_rows": [
+        1586,
+        1587,
+        1588,
+        1589,
+        1590
+      ],
+      "fact_id": "nqswap_1586",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 88,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 176,
+          "sub_context": 176
+        },
+        "qwen7b": {
+          "org_context": 176,
+          "sub_context": 176
+        }
+      },
+      "component_id": "0b0f9dfcfd2e6d577950",
+      "component_source_rows": [
+        88,
+        89
+      ],
+      "fact_id": "nqswap_88",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1399,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 167,
+          "sub_context": 167
+        },
+        "qwen7b": {
+          "org_context": 167,
+          "sub_context": 167
+        }
+      },
+      "component_id": "3c64e80fefaeb897ca1f",
+      "component_source_rows": [
+        1399
+      ],
+      "fact_id": "nqswap_1399",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4292,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 135,
+          "sub_context": 130
+        },
+        "qwen7b": {
+          "org_context": 135,
+          "sub_context": 130
+        }
+      },
+      "component_id": "474fc25ae9dae6261f2c",
+      "component_source_rows": [
+        4292,
+        4295
+      ],
+      "fact_id": "nqswap_4292",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4647,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 184,
+          "sub_context": 183
+        },
+        "qwen7b": {
+          "org_context": 184,
+          "sub_context": 183
+        }
+      },
+      "component_id": "0cf95fd9943c954d34f1",
+      "component_source_rows": [
+        4646,
+        4647,
+        4651,
+        4670
+      ],
+      "fact_id": "nqswap_4647",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2407,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 298,
+          "sub_context": 299
+        },
+        "qwen7b": {
+          "org_context": 298,
+          "sub_context": 299
+        }
+      },
+      "component_id": "5eca3b17b2e0266ab99b",
+      "component_source_rows": [
+        2407,
+        2408,
+        2410,
+        2419,
+        4164,
+        4165
+      ],
+      "fact_id": "nqswap_2407",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3324,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 151,
+          "sub_context": 155
+        },
+        "qwen7b": {
+          "org_context": 151,
+          "sub_context": 155
+        }
+      },
+      "component_id": "db316ea9b0fe3ccfec57",
+      "component_source_rows": [
+        3319,
+        3321,
+        3322,
+        3324,
+        3325
+      ],
+      "fact_id": "nqswap_3324",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4176,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 147,
+          "sub_context": 146
+        },
+        "qwen7b": {
+          "org_context": 147,
+          "sub_context": 146
+        }
+      },
+      "component_id": "36a09cfee90d6601dd3e",
+      "component_source_rows": [
+        4176,
+        4178,
+        4179,
+        4180
+      ],
+      "fact_id": "nqswap_4176",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1248,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 238,
+          "sub_context": 238
+        },
+        "qwen7b": {
+          "org_context": 238,
+          "sub_context": 238
+        }
+      },
+      "component_id": "86b03ed26b76011aa3f6",
+      "component_source_rows": [
+        1248,
+        1251,
+        1256,
+        1259,
+        1262,
+        4581,
+        4582,
+        4583,
+        4584
+      ],
+      "fact_id": "nqswap_1248",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 364,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 158,
+          "sub_context": 157
+        },
+        "qwen7b": {
+          "org_context": 158,
+          "sub_context": 157
+        }
+      },
+      "component_id": "680beffdbc9514bc13fa",
+      "component_source_rows": [
+        364,
+        366
+      ],
+      "fact_id": "nqswap_364",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2782,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 143,
+          "sub_context": 141
+        },
+        "qwen7b": {
+          "org_context": 143,
+          "sub_context": 141
+        }
+      },
+      "component_id": "01954ddfcc3a1775c027",
+      "component_source_rows": [
+        2781,
+        2782
+      ],
+      "fact_id": "nqswap_2782",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 194,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 220,
+          "sub_context": 217
+        },
+        "qwen7b": {
+          "org_context": 220,
+          "sub_context": 217
+        }
+      },
+      "component_id": "6973d533be84579247f1",
+      "component_source_rows": [
+        194
+      ],
+      "fact_id": "nqswap_194",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 790,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 175,
+          "sub_context": 176
+        },
+        "qwen7b": {
+          "org_context": 175,
+          "sub_context": 176
+        }
+      },
+      "component_id": "6d427abf144595443a88",
+      "component_source_rows": [
+        790,
+        802,
+        805
+      ],
+      "fact_id": "nqswap_790",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3407,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 125,
+          "sub_context": 115
+        },
+        "qwen7b": {
+          "org_context": 125,
+          "sub_context": 115
+        }
+      },
+      "component_id": "e403eabaa2f2eed3a31f",
+      "component_source_rows": [
+        3402,
+        3407
+      ],
+      "fact_id": "nqswap_3407",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4072,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 140
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 140
+        }
+      },
+      "component_id": "3d07dee8f5d69c3c9241",
+      "component_source_rows": [
+        4069,
+        4072,
+        4080
+      ],
+      "fact_id": "nqswap_4072",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4635,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 210,
+          "sub_context": 211
+        },
+        "qwen7b": {
+          "org_context": 210,
+          "sub_context": 211
+        }
+      },
+      "component_id": "ac6e6de3ab5b91aacb7f",
+      "component_source_rows": [
+        4621,
+        4622,
+        4623,
+        4635
+      ],
+      "fact_id": "nqswap_4635",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 242,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 263,
+          "sub_context": 264
+        },
+        "qwen7b": {
+          "org_context": 263,
+          "sub_context": 264
+        }
+      },
+      "component_id": "1bd2642e9a8e8813c6f7",
+      "component_source_rows": [
+        242,
+        243,
+        244,
+        248,
+        249
+      ],
+      "fact_id": "nqswap_242",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 935,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 128,
+          "sub_context": 125
+        },
+        "qwen7b": {
+          "org_context": 128,
+          "sub_context": 125
+        }
+      },
+      "component_id": "a997d35448aeefc6ec2c",
+      "component_source_rows": [
+        934,
+        935,
+        936,
+        949,
+        1585
+      ],
+      "fact_id": "nqswap_935",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2129,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 196,
+          "sub_context": 193
+        },
+        "qwen7b": {
+          "org_context": 196,
+          "sub_context": 193
+        }
+      },
+      "component_id": "9141148c5c3de1467812",
+      "component_source_rows": [
+        2129
+      ],
+      "fact_id": "nqswap_2129",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 353,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 202,
+          "sub_context": 201
+        },
+        "qwen7b": {
+          "org_context": 202,
+          "sub_context": 201
+        }
+      },
+      "component_id": "9cda07f11b8a03aa25ad",
+      "component_source_rows": [
+        353,
+        362
+      ],
+      "fact_id": "nqswap_353",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3562,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 144,
+          "sub_context": 141
+        },
+        "qwen7b": {
+          "org_context": 144,
+          "sub_context": 141
+        }
+      },
+      "component_id": "9e9aec25256f2889cd2b",
+      "component_source_rows": [
+        3562
+      ],
+      "fact_id": "nqswap_3562",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2116,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 173,
+          "sub_context": 180
+        },
+        "qwen7b": {
+          "org_context": 173,
+          "sub_context": 180
+        }
+      },
+      "component_id": "1d56a66deff421779f57",
+      "component_source_rows": [
+        2112,
+        2113,
+        2114,
+        2116,
+        2117
+      ],
+      "fact_id": "nqswap_2116",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1446,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 238,
+          "sub_context": 238
+        },
+        "qwen7b": {
+          "org_context": 238,
+          "sub_context": 238
+        }
+      },
+      "component_id": "54ed302e8dae1254b65b",
+      "component_source_rows": [
+        1429,
+        1435,
+        1446
+      ],
+      "fact_id": "nqswap_1446",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3856,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 347,
+          "sub_context": 351
+        },
+        "qwen7b": {
+          "org_context": 347,
+          "sub_context": 351
+        }
+      },
+      "component_id": "7248e595a5b57a28dd31",
+      "component_source_rows": [
+        3856
+      ],
+      "fact_id": "nqswap_3856",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4613,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 139,
+          "sub_context": 140
+        },
+        "qwen7b": {
+          "org_context": 139,
+          "sub_context": 140
+        }
+      },
+      "component_id": "34f0bd4bc57da8934b63",
+      "component_source_rows": [
+        4613,
+        4614,
+        4616
+      ],
+      "fact_id": "nqswap_4613",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2588,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 95,
+          "sub_context": 98
+        },
+        "qwen7b": {
+          "org_context": 95,
+          "sub_context": 98
+        }
+      },
+      "component_id": "430e7a5086ec63c6843e",
+      "component_source_rows": [
+        2587,
+        2588
+      ],
+      "fact_id": "nqswap_2588",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2406,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 162,
+          "sub_context": 162
+        },
+        "qwen7b": {
+          "org_context": 162,
+          "sub_context": 162
+        }
+      },
+      "component_id": "c0f2ec22f67eb495e2fe",
+      "component_source_rows": [
+        2406,
+        2412,
+        2413,
+        2414,
+        2431
+      ],
+      "fact_id": "nqswap_2406",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 668,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 299,
+          "sub_context": 299
+        },
+        "qwen7b": {
+          "org_context": 299,
+          "sub_context": 299
+        }
+      },
+      "component_id": "80a6e17d44f1c60e83bf",
+      "component_source_rows": [
+        668
+      ],
+      "fact_id": "nqswap_668",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2608,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 86,
+          "sub_context": 89
+        },
+        "qwen7b": {
+          "org_context": 86,
+          "sub_context": 89
+        }
+      },
+      "component_id": "3eb686778bb1493cfc8d",
+      "component_source_rows": [
+        2571,
+        2573,
+        2575,
+        2608
+      ],
+      "fact_id": "nqswap_2608",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2269,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 266,
+          "sub_context": 262
+        },
+        "qwen7b": {
+          "org_context": 266,
+          "sub_context": 262
+        }
+      },
+      "component_id": "47b924cd707f6af88203",
+      "component_source_rows": [
+        2269
+      ],
+      "fact_id": "nqswap_2269",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1731,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 255,
+          "sub_context": 255
+        },
+        "qwen7b": {
+          "org_context": 255,
+          "sub_context": 255
+        }
+      },
+      "component_id": "2f1ff3279eed79d2562c",
+      "component_source_rows": [
+        1731,
+        1733,
+        1734
+      ],
+      "fact_id": "nqswap_1731",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 927,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 296,
+          "sub_context": 295
+        },
+        "qwen7b": {
+          "org_context": 296,
+          "sub_context": 295
+        }
+      },
+      "component_id": "9946fa9ac66553ca5367",
+      "component_source_rows": [
+        924,
+        927
+      ],
+      "fact_id": "nqswap_927",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3383,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 187,
+          "sub_context": 184
+        },
+        "qwen7b": {
+          "org_context": 187,
+          "sub_context": 184
+        }
+      },
+      "component_id": "717cef1d3cddba5afb54",
+      "component_source_rows": [
+        3382,
+        3383,
+        3385
+      ],
+      "fact_id": "nqswap_3383",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3834,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 174,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 174,
+          "sub_context": 174
+        }
+      },
+      "component_id": "04c835ac1bec7b4e9748",
+      "component_source_rows": [
+        3834,
+        3842,
+        3843
+      ],
+      "fact_id": "nqswap_3834",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1518,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 123,
+          "sub_context": 120
+        },
+        "qwen7b": {
+          "org_context": 123,
+          "sub_context": 120
+        }
+      },
+      "component_id": "3c1cb02272bb17237a96",
+      "component_source_rows": [
+        1518
+      ],
+      "fact_id": "nqswap_1518",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2940,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 229,
+          "sub_context": 244
+        },
+        "qwen7b": {
+          "org_context": 229,
+          "sub_context": 244
+        }
+      },
+      "component_id": "ffea61bf19e3562957a5",
+      "component_source_rows": [
+        2936,
+        2940
+      ],
+      "fact_id": "nqswap_2940",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1317,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 317,
+          "sub_context": 317
+        },
+        "qwen7b": {
+          "org_context": 317,
+          "sub_context": 317
+        }
+      },
+      "component_id": "f1f8c66f48c1bc3c2329",
+      "component_source_rows": [
+        1306,
+        1309,
+        1312,
+        1316,
+        1317
+      ],
+      "fact_id": "nqswap_1317",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2771,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 331,
+          "sub_context": 308
+        },
+        "qwen7b": {
+          "org_context": 331,
+          "sub_context": 308
+        }
+      },
+      "component_id": "b95facb068c3e387f0e2",
+      "component_source_rows": [
+        2771
+      ],
+      "fact_id": "nqswap_2771",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4580,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 94,
+          "sub_context": 102
+        },
+        "qwen7b": {
+          "org_context": 94,
+          "sub_context": 102
+        }
+      },
+      "component_id": "7c563fd635076770a45b",
+      "component_source_rows": [
+        4580
+      ],
+      "fact_id": "nqswap_4580",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1321,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 316,
+          "sub_context": 317
+        },
+        "qwen7b": {
+          "org_context": 316,
+          "sub_context": 317
+        }
+      },
+      "component_id": "064ad7a50e4278fc5c9f",
+      "component_source_rows": [
+        1318,
+        1319,
+        1321,
+        1322
+      ],
+      "fact_id": "nqswap_1321",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4288,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 151,
+          "sub_context": 149
+        },
+        "qwen7b": {
+          "org_context": 151,
+          "sub_context": 149
+        }
+      },
+      "component_id": "e14ed113db2add66ca51",
+      "component_source_rows": [
+        4288
+      ],
+      "fact_id": "nqswap_4288",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2221,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 225,
+          "sub_context": 227
+        },
+        "qwen7b": {
+          "org_context": 225,
+          "sub_context": 227
+        }
+      },
+      "component_id": "de3c6be6f24e2b2ba993",
+      "component_source_rows": [
+        2218,
+        2219,
+        2220,
+        2221
+      ],
+      "fact_id": "nqswap_2221",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1166,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 289,
+          "sub_context": 292
+        },
+        "qwen7b": {
+          "org_context": 289,
+          "sub_context": 292
+        }
+      },
+      "component_id": "f75267c3ba004a27ebe2",
+      "component_source_rows": [
+        1163,
+        1164,
+        1165,
+        1166,
+        1167
+      ],
+      "fact_id": "nqswap_1166",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4325,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 121,
+          "sub_context": 121
+        },
+        "qwen7b": {
+          "org_context": 121,
+          "sub_context": 121
+        }
+      },
+      "component_id": "12302d15484fdc53b0c2",
+      "component_source_rows": [
+        4323,
+        4325
+      ],
+      "fact_id": "nqswap_4325",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 971,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 160,
+          "sub_context": 160
+        },
+        "qwen7b": {
+          "org_context": 160,
+          "sub_context": 160
+        }
+      },
+      "component_id": "2b361bca7d0117907abf",
+      "component_source_rows": [
+        937,
+        971
+      ],
+      "fact_id": "nqswap_971",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1307,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 122,
+          "sub_context": 123
+        },
+        "qwen7b": {
+          "org_context": 122,
+          "sub_context": 123
+        }
+      },
+      "component_id": "c331eb8b3331f7857f64",
+      "component_source_rows": [
+        1307
+      ],
+      "fact_id": "nqswap_1307",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 849,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 168,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 168,
+          "sub_context": 166
+        }
+      },
+      "component_id": "80e72d175e6f1b4ff1f9",
+      "component_source_rows": [
+        836,
+        849
+      ],
+      "fact_id": "nqswap_849",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3954,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 163,
+          "sub_context": 163
+        },
+        "qwen7b": {
+          "org_context": 163,
+          "sub_context": 163
+        }
+      },
+      "component_id": "13ec69cc00daaeba0916",
+      "component_source_rows": [
+        3954
+      ],
+      "fact_id": "nqswap_3954",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1224,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 337,
+          "sub_context": 340
+        },
+        "qwen7b": {
+          "org_context": 337,
+          "sub_context": 340
+        }
+      },
+      "component_id": "ed1cf4238e7bf9b9ae24",
+      "component_source_rows": [
+        1222,
+        1224,
+        1226,
+        1238
+      ],
+      "fact_id": "nqswap_1224",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2131,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 215,
+          "sub_context": 214
+        },
+        "qwen7b": {
+          "org_context": 215,
+          "sub_context": 214
+        }
+      },
+      "component_id": "06a551eb51db1d8e906a",
+      "component_source_rows": [
+        2131
+      ],
+      "fact_id": "nqswap_2131",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4395,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 117,
+          "sub_context": 113
+        },
+        "qwen7b": {
+          "org_context": 117,
+          "sub_context": 113
+        }
+      },
+      "component_id": "e30b0067a4f4fae4cdca",
+      "component_source_rows": [
+        4395,
+        4396
+      ],
+      "fact_id": "nqswap_4395",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2958,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 304,
+          "sub_context": 305
+        },
+        "qwen7b": {
+          "org_context": 304,
+          "sub_context": 305
+        }
+      },
+      "component_id": "e88ea69231367b982771",
+      "component_source_rows": [
+        2949,
+        2955,
+        2958,
+        2959,
+        2969
+      ],
+      "fact_id": "nqswap_2958",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3412,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 353,
+          "sub_context": 354
+        },
+        "qwen7b": {
+          "org_context": 353,
+          "sub_context": 354
+        }
+      },
+      "component_id": "2e186e95c3252099fb23",
+      "component_source_rows": [
+        3401,
+        3408,
+        3409,
+        3412
+      ],
+      "fact_id": "nqswap_3412",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 814,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 186,
+          "sub_context": 186
+        },
+        "qwen7b": {
+          "org_context": 186,
+          "sub_context": 186
+        }
+      },
+      "component_id": "f18c72bfc1da060d18d1",
+      "component_source_rows": [
+        813,
+        814,
+        815,
+        816,
+        817
+      ],
+      "fact_id": "nqswap_814",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3500,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 183,
+          "sub_context": 183
+        },
+        "qwen7b": {
+          "org_context": 183,
+          "sub_context": 183
+        }
+      },
+      "component_id": "05cf4af09b9586b5bc19",
+      "component_source_rows": [
+        3499,
+        3500,
+        3501,
+        3502,
+        3503
+      ],
+      "fact_id": "nqswap_3500",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 850,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 97,
+          "sub_context": 97
+        },
+        "qwen7b": {
+          "org_context": 97,
+          "sub_context": 97
+        }
+      },
+      "component_id": "6ace10a4dea235a87ff5",
+      "component_source_rows": [
+        850
+      ],
+      "fact_id": "nqswap_850",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 232,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 132,
+          "sub_context": 133
+        },
+        "qwen7b": {
+          "org_context": 132,
+          "sub_context": 133
+        }
+      },
+      "component_id": "53c437b6e9eda4bb0d24",
+      "component_source_rows": [
+        215,
+        219,
+        221,
+        223,
+        232
+      ],
+      "fact_id": "nqswap_232",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3078,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 113,
+          "sub_context": 113
+        },
+        "qwen7b": {
+          "org_context": 113,
+          "sub_context": 113
+        }
+      },
+      "component_id": "5d03f1756baf514d8e0b",
+      "component_source_rows": [
+        3075,
+        3077,
+        3078
+      ],
+      "fact_id": "nqswap_3078",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3803,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 235,
+          "sub_context": 235
+        },
+        "qwen7b": {
+          "org_context": 235,
+          "sub_context": 235
+        }
+      },
+      "component_id": "89caf48fcfed5d029cfd",
+      "component_source_rows": [
+        385,
+        394,
+        396,
+        398,
+        3803,
+        3805,
+        3806
+      ],
+      "fact_id": "nqswap_3803",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3962,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 136,
+          "sub_context": 134
+        },
+        "qwen7b": {
+          "org_context": 136,
+          "sub_context": 134
+        }
+      },
+      "component_id": "4f0e2b610d162b7a881e",
+      "component_source_rows": [
+        3955,
+        3957,
+        3959,
+        3962,
+        3963
+      ],
+      "fact_id": "nqswap_3962",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 677,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 108,
+          "sub_context": 110
+        },
+        "qwen7b": {
+          "org_context": 108,
+          "sub_context": 110
+        }
+      },
+      "component_id": "e7160f91d4924a6c682b",
+      "component_source_rows": [
+        676,
+        677,
+        682,
+        683,
+        693
+      ],
+      "fact_id": "nqswap_677",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2255,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 153,
+          "sub_context": 151
+        },
+        "qwen7b": {
+          "org_context": 153,
+          "sub_context": 151
+        }
+      },
+      "component_id": "f75722c880c76670a881",
+      "component_source_rows": [
+        2255
+      ],
+      "fact_id": "nqswap_2255",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3292,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 506,
+          "sub_context": 509
+        },
+        "qwen7b": {
+          "org_context": 506,
+          "sub_context": 509
+        }
+      },
+      "component_id": "943aea9e5db04ef9374d",
+      "component_source_rows": [
+        3278,
+        3280,
+        3286,
+        3292,
+        3303
+      ],
+      "fact_id": "nqswap_3292",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3749,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 182,
+          "sub_context": 184
+        },
+        "qwen7b": {
+          "org_context": 182,
+          "sub_context": 184
+        }
+      },
+      "component_id": "ba0d83f598925267999c",
+      "component_source_rows": [
+        3749,
+        3756,
+        3758
+      ],
+      "fact_id": "nqswap_3749",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2124,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 296,
+          "sub_context": 294
+        },
+        "qwen7b": {
+          "org_context": 296,
+          "sub_context": 294
+        }
+      },
+      "component_id": "3b4586055eb2f96e6207",
+      "component_source_rows": [
+        2124
+      ],
+      "fact_id": "nqswap_2124",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2090,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 199,
+          "sub_context": 199
+        },
+        "qwen7b": {
+          "org_context": 199,
+          "sub_context": 199
+        }
+      },
+      "component_id": "ade9b3da19e8c80dabcb",
+      "component_source_rows": [
+        2086,
+        2090
+      ],
+      "fact_id": "nqswap_2090",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 574,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 178,
+          "sub_context": 177
+        },
+        "qwen7b": {
+          "org_context": 178,
+          "sub_context": 177
+        }
+      },
+      "component_id": "ecb62424ebcc7e018f9c",
+      "component_source_rows": [
+        556,
+        564,
+        571,
+        574
+      ],
+      "fact_id": "nqswap_574",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1329,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 83,
+          "sub_context": 82
+        },
+        "qwen7b": {
+          "org_context": 83,
+          "sub_context": 82
+        }
+      },
+      "component_id": "fb3c7f570719c71c15a6",
+      "component_source_rows": [
+        1329,
+        1330,
+        1331,
+        1332
+      ],
+      "fact_id": "nqswap_1329",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1223,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 167,
+          "sub_context": 157
+        },
+        "qwen7b": {
+          "org_context": 167,
+          "sub_context": 157
+        }
+      },
+      "component_id": "7013cb75e613cbdbe152",
+      "component_source_rows": [
+        1223
+      ],
+      "fact_id": "nqswap_1223",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3683,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 310,
+          "sub_context": 310
+        },
+        "qwen7b": {
+          "org_context": 310,
+          "sub_context": 310
+        }
+      },
+      "component_id": "c9e65570ec0fddb6cb31",
+      "component_source_rows": [
+        3505,
+        3506,
+        3514,
+        3515,
+        3679,
+        3683,
+        3685,
+        4444
+      ],
+      "fact_id": "nqswap_3683",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1558,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 197,
+          "sub_context": 198
+        },
+        "qwen7b": {
+          "org_context": 197,
+          "sub_context": 198
+        }
+      },
+      "component_id": "6c71e39d0bae74c83b0b",
+      "component_source_rows": [
+        1558
+      ],
+      "fact_id": "nqswap_1558",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1604,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 142
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 142
+        }
+      },
+      "component_id": "c2546d27727c6bfac966",
+      "component_source_rows": [
+        1604
+      ],
+      "fact_id": "nqswap_1604",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 880,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 117,
+          "sub_context": 117
+        },
+        "qwen7b": {
+          "org_context": 117,
+          "sub_context": 117
+        }
+      },
+      "component_id": "408151893e4a20809433",
+      "component_source_rows": [
+        880
+      ],
+      "fact_id": "nqswap_880",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1205,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 158,
+          "sub_context": 158
+        },
+        "qwen7b": {
+          "org_context": 158,
+          "sub_context": 158
+        }
+      },
+      "component_id": "6aa7964f705e26b980a1",
+      "component_source_rows": [
+        1203,
+        1204,
+        1205,
+        1206
+      ],
+      "fact_id": "nqswap_1205",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4341,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 446,
+          "sub_context": 440
+        },
+        "qwen7b": {
+          "org_context": 446,
+          "sub_context": 440
+        }
+      },
+      "component_id": "19e97557ac166788c677",
+      "component_source_rows": [
+        4339,
+        4341
+      ],
+      "fact_id": "nqswap_4341",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 260,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 139,
+          "sub_context": 138
+        },
+        "qwen7b": {
+          "org_context": 139,
+          "sub_context": 138
+        }
+      },
+      "component_id": "b895d1e6b071affbb2df",
+      "component_source_rows": [
+        259,
+        260,
+        276
+      ],
+      "fact_id": "nqswap_260",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2906,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 133,
+          "sub_context": 132
+        },
+        "qwen7b": {
+          "org_context": 133,
+          "sub_context": 132
+        }
+      },
+      "component_id": "ee39e992ccb85740663b",
+      "component_source_rows": [
+        2906,
+        2911
+      ],
+      "fact_id": "nqswap_2906",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4514,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 296,
+          "sub_context": 296
+        },
+        "qwen7b": {
+          "org_context": 296,
+          "sub_context": 296
+        }
+      },
+      "component_id": "d7275f5605049b7abab8",
+      "component_source_rows": [
+        4514
+      ],
+      "fact_id": "nqswap_4514",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1941,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 158,
+          "sub_context": 160
+        },
+        "qwen7b": {
+          "org_context": 158,
+          "sub_context": 160
+        }
+      },
+      "component_id": "ef30349e86cd93e68daa",
+      "component_source_rows": [
+        1941
+      ],
+      "fact_id": "nqswap_1941",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3858,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 151,
+          "sub_context": 152
+        },
+        "qwen7b": {
+          "org_context": 151,
+          "sub_context": 152
+        }
+      },
+      "component_id": "419ff52b351f66928818",
+      "component_source_rows": [
+        3858
+      ],
+      "fact_id": "nqswap_3858",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4517,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 189,
+          "sub_context": 189
+        },
+        "qwen7b": {
+          "org_context": 189,
+          "sub_context": 189
+        }
+      },
+      "component_id": "659b7d0a21be9fb4b4c1",
+      "component_source_rows": [
+        4508,
+        4510,
+        4517
+      ],
+      "fact_id": "nqswap_4517",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4319,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 306,
+          "sub_context": 306
+        },
+        "qwen7b": {
+          "org_context": 306,
+          "sub_context": 306
+        }
+      },
+      "component_id": "94f533d3eeb7f85b8c98",
+      "component_source_rows": [
+        4317,
+        4319,
+        4321,
+        4328,
+        4330
+      ],
+      "fact_id": "nqswap_4319",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3941,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 223,
+          "sub_context": 223
+        },
+        "qwen7b": {
+          "org_context": 223,
+          "sub_context": 223
+        }
+      },
+      "component_id": "698059430257c73f5e1f",
+      "component_source_rows": [
+        3936,
+        3938,
+        3940,
+        3941,
+        3944
+      ],
+      "fact_id": "nqswap_3941",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4649,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 372,
+          "sub_context": 371
+        },
+        "qwen7b": {
+          "org_context": 372,
+          "sub_context": 371
+        }
+      },
+      "component_id": "be3d208e894e3ac8d35f",
+      "component_source_rows": [
+        4649,
+        4654,
+        4655
+      ],
+      "fact_id": "nqswap_4649",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1144,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 241,
+          "sub_context": 255
+        },
+        "qwen7b": {
+          "org_context": 241,
+          "sub_context": 255
+        }
+      },
+      "component_id": "b193aa2c0ad23d1cfeea",
+      "component_source_rows": [
+        1144,
+        1147
+      ],
+      "fact_id": "nqswap_1144",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2747,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 117,
+          "sub_context": 119
+        },
+        "qwen7b": {
+          "org_context": 117,
+          "sub_context": 119
+        }
+      },
+      "component_id": "c57e52a5735feeec8aa7",
+      "component_source_rows": [
+        2745,
+        2747,
+        2748
+      ],
+      "fact_id": "nqswap_2747",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2810,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 256,
+          "sub_context": 252
+        },
+        "qwen7b": {
+          "org_context": 256,
+          "sub_context": 252
+        }
+      },
+      "component_id": "42ea1aca404c23b3119e",
+      "component_source_rows": [
+        2810,
+        2819
+      ],
+      "fact_id": "nqswap_2810",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 994,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 296,
+          "sub_context": 294
+        },
+        "qwen7b": {
+          "org_context": 296,
+          "sub_context": 294
+        }
+      },
+      "component_id": "2d2a974c998e0cc7f7fe",
+      "component_source_rows": [
+        994
+      ],
+      "fact_id": "nqswap_994",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3256,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 198,
+          "sub_context": 196
+        },
+        "qwen7b": {
+          "org_context": 198,
+          "sub_context": 196
+        }
+      },
+      "component_id": "934183185d8282990a83",
+      "component_source_rows": [
+        3256
+      ],
+      "fact_id": "nqswap_3256",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1022,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 226,
+          "sub_context": 225
+        },
+        "qwen7b": {
+          "org_context": 226,
+          "sub_context": 225
+        }
+      },
+      "component_id": "a460c72517180c854d3d",
+      "component_source_rows": [
+        1007,
+        1008,
+        1009,
+        1021,
+        1022
+      ],
+      "fact_id": "nqswap_1022",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 548,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 219,
+          "sub_context": 218
+        },
+        "qwen7b": {
+          "org_context": 219,
+          "sub_context": 218
+        }
+      },
+      "component_id": "78e56ccfbbfd4281a7f7",
+      "component_source_rows": [
+        542,
+        548,
+        550,
+        552
+      ],
+      "fact_id": "nqswap_548",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3018,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 222,
+          "sub_context": 221
+        },
+        "qwen7b": {
+          "org_context": 222,
+          "sub_context": 221
+        }
+      },
+      "component_id": "7d8d36dba2e765ca0f42",
+      "component_source_rows": [
+        3018,
+        3019
+      ],
+      "fact_id": "nqswap_3018",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1750,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 172,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 172,
+          "sub_context": 174
+        }
+      },
+      "component_id": "0156affc546e052c5e16",
+      "component_source_rows": [
+        1750,
+        1752,
+        1753,
+        1755,
+        1756
+      ],
+      "fact_id": "nqswap_1750",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 457,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 180,
+          "sub_context": 180
+        },
+        "qwen7b": {
+          "org_context": 180,
+          "sub_context": 180
+        }
+      },
+      "component_id": "a09878020099449ac019",
+      "component_source_rows": [
+        457,
+        479
+      ],
+      "fact_id": "nqswap_457",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2268,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 337,
+          "sub_context": 338
+        },
+        "qwen7b": {
+          "org_context": 337,
+          "sub_context": 338
+        }
+      },
+      "component_id": "c5e7245378246c5c8297",
+      "component_source_rows": [
+        2268
+      ],
+      "fact_id": "nqswap_2268",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 804,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 258,
+          "sub_context": 258
+        },
+        "qwen7b": {
+          "org_context": 258,
+          "sub_context": 258
+        }
+      },
+      "component_id": "afd019440127d313c239",
+      "component_source_rows": [
+        804
+      ],
+      "fact_id": "nqswap_804",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4370,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 204,
+          "sub_context": 203
+        },
+        "qwen7b": {
+          "org_context": 204,
+          "sub_context": 203
+        }
+      },
+      "component_id": "df481ee84df4cf304302",
+      "component_source_rows": [
+        4370
+      ],
+      "fact_id": "nqswap_4370",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2148,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 172,
+          "sub_context": 176
+        },
+        "qwen7b": {
+          "org_context": 172,
+          "sub_context": 176
+        }
+      },
+      "component_id": "9bc9779dcd8adf5d5159",
+      "component_source_rows": [
+        2148
+      ],
+      "fact_id": "nqswap_2148",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 911,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 208,
+          "sub_context": 208
+        },
+        "qwen7b": {
+          "org_context": 208,
+          "sub_context": 208
+        }
+      },
+      "component_id": "65f169938960c75127f8",
+      "component_source_rows": [
+        911,
+        912,
+        926,
+        940
+      ],
+      "fact_id": "nqswap_911",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 14,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 352,
+          "sub_context": 352
+        },
+        "qwen7b": {
+          "org_context": 352,
+          "sub_context": 352
+        }
+      },
+      "component_id": "b8d52dc8aa20e6a05635",
+      "component_source_rows": [
+        14
+      ],
+      "fact_id": "nqswap_14",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3540,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 306,
+          "sub_context": 302
+        },
+        "qwen7b": {
+          "org_context": 306,
+          "sub_context": 302
+        }
+      },
+      "component_id": "cc53fa3b0f7530e14c0c",
+      "component_source_rows": [
+        3539,
+        3540,
+        3541
+      ],
+      "fact_id": "nqswap_3540",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4190,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 239,
+          "sub_context": 238
+        },
+        "qwen7b": {
+          "org_context": 239,
+          "sub_context": 238
+        }
+      },
+      "component_id": "58940cb6034998e678c5",
+      "component_source_rows": [
+        4190,
+        4194
+      ],
+      "fact_id": "nqswap_4190",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3224,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 435,
+          "sub_context": 433
+        },
+        "qwen7b": {
+          "org_context": 435,
+          "sub_context": 433
+        }
+      },
+      "component_id": "3150242696075eaa6cfe",
+      "component_source_rows": [
+        3222,
+        3223,
+        3224,
+        3227
+      ],
+      "fact_id": "nqswap_3224",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4720,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 356,
+          "sub_context": 356
+        },
+        "qwen7b": {
+          "org_context": 356,
+          "sub_context": 356
+        }
+      },
+      "component_id": "c8f56661f5ba7a4f635d",
+      "component_source_rows": [
+        4720
+      ],
+      "fact_id": "nqswap_4720",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 691,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 172,
+          "sub_context": 172
+        },
+        "qwen7b": {
+          "org_context": 172,
+          "sub_context": 172
+        }
+      },
+      "component_id": "53eaeb36d3bfc29585a0",
+      "component_source_rows": [
+        678,
+        679,
+        691
+      ],
+      "fact_id": "nqswap_691",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3737,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 144,
+          "sub_context": 144
+        },
+        "qwen7b": {
+          "org_context": 144,
+          "sub_context": 144
+        }
+      },
+      "component_id": "fdd92df62ab0b8146ef2",
+      "component_source_rows": [
+        3737
+      ],
+      "fact_id": "nqswap_3737",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4594,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 443,
+          "sub_context": 447
+        },
+        "qwen7b": {
+          "org_context": 443,
+          "sub_context": 447
+        }
+      },
+      "component_id": "2b7ef6ee869c2e4e1372",
+      "component_source_rows": [
+        4594
+      ],
+      "fact_id": "nqswap_4594",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3165,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 81,
+          "sub_context": 81
+        },
+        "qwen7b": {
+          "org_context": 81,
+          "sub_context": 81
+        }
+      },
+      "component_id": "a2fd7368f29791c5e70c",
+      "component_source_rows": [
+        3165,
+        3181,
+        3183,
+        3184,
+        3185
+      ],
+      "fact_id": "nqswap_3165",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3524,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 162,
+          "sub_context": 162
+        },
+        "qwen7b": {
+          "org_context": 162,
+          "sub_context": 162
+        }
+      },
+      "component_id": "0a97d3c39fcee6837d66",
+      "component_source_rows": [
+        3517,
+        3522,
+        3524,
+        3525
+      ],
+      "fact_id": "nqswap_3524",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1498,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 173,
+          "sub_context": 174
+        },
+        "qwen7b": {
+          "org_context": 173,
+          "sub_context": 174
+        }
+      },
+      "component_id": "15bccd115d6a992cb1cf",
+      "component_source_rows": [
+        1482,
+        1498,
+        1499
+      ],
+      "fact_id": "nqswap_1498",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2808,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 161,
+          "sub_context": 163
+        },
+        "qwen7b": {
+          "org_context": 161,
+          "sub_context": 163
+        }
+      },
+      "component_id": "433e56e57a3fee02cb60",
+      "component_source_rows": [
+        2808
+      ],
+      "fact_id": "nqswap_2808",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4639,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 224,
+          "sub_context": 225
+        },
+        "qwen7b": {
+          "org_context": 224,
+          "sub_context": 225
+        }
+      },
+      "component_id": "8428e03e49f8154e8629",
+      "component_source_rows": [
+        4625,
+        4627,
+        4629,
+        4639,
+        4664
+      ],
+      "fact_id": "nqswap_4639",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1833,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 301,
+          "sub_context": 301
+        },
+        "qwen7b": {
+          "org_context": 301,
+          "sub_context": 301
+        }
+      },
+      "component_id": "17c8a2e2f7ed0eaa55b9",
+      "component_source_rows": [
+        1832,
+        1833
+      ],
+      "fact_id": "nqswap_1833",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1028,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 274,
+          "sub_context": 262
+        },
+        "qwen7b": {
+          "org_context": 274,
+          "sub_context": 262
+        }
+      },
+      "component_id": "a092c9deeb1f849f1d2c",
+      "component_source_rows": [
+        1028
+      ],
+      "fact_id": "nqswap_1028",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2892,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 177,
+          "sub_context": 175
+        },
+        "qwen7b": {
+          "org_context": 177,
+          "sub_context": 175
+        }
+      },
+      "component_id": "1cadaf84594b5b6a0d5b",
+      "component_source_rows": [
+        2888,
+        2892,
+        2893
+      ],
+      "fact_id": "nqswap_2892",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 61,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 329,
+          "sub_context": 329
+        },
+        "qwen7b": {
+          "org_context": 329,
+          "sub_context": 329
+        }
+      },
+      "component_id": "23a688c2b5f5fc22e4c8",
+      "component_source_rows": [
+        45,
+        61,
+        63,
+        68
+      ],
+      "fact_id": "nqswap_61",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1886,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 292,
+          "sub_context": 290
+        },
+        "qwen7b": {
+          "org_context": 292,
+          "sub_context": 290
+        }
+      },
+      "component_id": "ec95b9a18d76f3fe501e",
+      "component_source_rows": [
+        1886
+      ],
+      "fact_id": "nqswap_1886",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 896,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 241,
+          "sub_context": 241
+        },
+        "qwen7b": {
+          "org_context": 241,
+          "sub_context": 241
+        }
+      },
+      "component_id": "6c606c7404387d575de2",
+      "component_source_rows": [
+        896
+      ],
+      "fact_id": "nqswap_896",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1595,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 92,
+          "sub_context": 91
+        },
+        "qwen7b": {
+          "org_context": 92,
+          "sub_context": 91
+        }
+      },
+      "component_id": "85eea9b18e1f8f0e3486",
+      "component_source_rows": [
+        1593,
+        1594,
+        1595,
+        1596,
+        1600,
+        2557,
+        2558,
+        2559
+      ],
+      "fact_id": "nqswap_1595",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3529,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 176,
+          "sub_context": 172
+        },
+        "qwen7b": {
+          "org_context": 176,
+          "sub_context": 172
+        }
+      },
+      "component_id": "6d8fc98669998aeec061",
+      "component_source_rows": [
+        3529
+      ],
+      "fact_id": "nqswap_3529",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3126,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 94,
+          "sub_context": 93
+        },
+        "qwen7b": {
+          "org_context": 94,
+          "sub_context": 93
+        }
+      },
+      "component_id": "7a4d551e134e9107b885",
+      "component_source_rows": [
+        3126
+      ],
+      "fact_id": "nqswap_3126",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4708,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 247,
+          "sub_context": 246
+        },
+        "qwen7b": {
+          "org_context": 247,
+          "sub_context": 246
+        }
+      },
+      "component_id": "e4ecc019af65873369fc",
+      "component_source_rows": [
+        4708,
+        4710,
+        4711
+      ],
+      "fact_id": "nqswap_4708",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 694,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 190,
+          "sub_context": 191
+        },
+        "qwen7b": {
+          "org_context": 190,
+          "sub_context": 191
+        }
+      },
+      "component_id": "f232ba28f25773896765",
+      "component_source_rows": [
+        694,
+        695,
+        697,
+        698
+      ],
+      "fact_id": "nqswap_694",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 956,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 117,
+          "sub_context": 121
+        },
+        "qwen7b": {
+          "org_context": 117,
+          "sub_context": 121
+        }
+      },
+      "component_id": "444b5b81efe5fa848f6f",
+      "component_source_rows": [
+        952,
+        953,
+        954,
+        956
+      ],
+      "fact_id": "nqswap_956",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4268,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 164,
+          "sub_context": 173
+        },
+        "qwen7b": {
+          "org_context": 164,
+          "sub_context": 173
+        }
+      },
+      "component_id": "220790baf3a3fd12c3d7",
+      "component_source_rows": [
+        4267,
+        4268
+      ],
+      "fact_id": "nqswap_4268",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3904,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 208,
+          "sub_context": 210
+        },
+        "qwen7b": {
+          "org_context": 208,
+          "sub_context": 210
+        }
+      },
+      "component_id": "b144378ca4b8f1345600",
+      "component_source_rows": [
+        3904
+      ],
+      "fact_id": "nqswap_3904",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2563,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 356,
+          "sub_context": 355
+        },
+        "qwen7b": {
+          "org_context": 356,
+          "sub_context": 355
+        }
+      },
+      "component_id": "590634fad6f170201f72",
+      "component_source_rows": [
+        2554,
+        2562,
+        2563,
+        2564,
+        2565
+      ],
+      "fact_id": "nqswap_2563",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3232,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 188,
+          "sub_context": 187
+        },
+        "qwen7b": {
+          "org_context": 188,
+          "sub_context": 187
+        }
+      },
+      "component_id": "098f74fe46c09c832299",
+      "component_source_rows": [
+        3221,
+        3231,
+        3232,
+        3234,
+        3235
+      ],
+      "fact_id": "nqswap_3232",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2275,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 104,
+          "sub_context": 101
+        },
+        "qwen7b": {
+          "org_context": 104,
+          "sub_context": 101
+        }
+      },
+      "component_id": "6a996db60ca9c7d1f003",
+      "component_source_rows": [
+        2271,
+        2275
+      ],
+      "fact_id": "nqswap_2275",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1579,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 152,
+          "sub_context": 148
+        },
+        "qwen7b": {
+          "org_context": 152,
+          "sub_context": 148
+        }
+      },
+      "component_id": "c9c436a0a5516fa81cb7",
+      "component_source_rows": [
+        1579,
+        1581,
+        1582,
+        1583,
+        1584
+      ],
+      "fact_id": "nqswap_1579",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 990,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 177,
+          "sub_context": 177
+        },
+        "qwen7b": {
+          "org_context": 177,
+          "sub_context": 177
+        }
+      },
+      "component_id": "43d9d4117aa46f04a6ff",
+      "component_source_rows": [
+        990,
+        991,
+        992,
+        995,
+        996
+      ],
+      "fact_id": "nqswap_990",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1176,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 222,
+          "sub_context": 220
+        },
+        "qwen7b": {
+          "org_context": 222,
+          "sub_context": 220
+        }
+      },
+      "component_id": "19f192f13ec1e4a907c9",
+      "component_source_rows": [
+        1173,
+        1175,
+        1176,
+        1190
+      ],
+      "fact_id": "nqswap_1176",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4099,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 273,
+          "sub_context": 272
+        },
+        "qwen7b": {
+          "org_context": 273,
+          "sub_context": 272
+        }
+      },
+      "component_id": "5fea2e1d8ae8ee1532c5",
+      "component_source_rows": [
+        4092,
+        4094,
+        4098,
+        4099,
+        4100
+      ],
+      "fact_id": "nqswap_4099",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2895,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 120,
+          "sub_context": 120
+        },
+        "qwen7b": {
+          "org_context": 120,
+          "sub_context": 120
+        }
+      },
+      "component_id": "4fdaccb7c61995ce91f1",
+      "component_source_rows": [
+        2889,
+        2895
+      ],
+      "fact_id": "nqswap_2895",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 22,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 358,
+          "sub_context": 352
+        },
+        "qwen7b": {
+          "org_context": 358,
+          "sub_context": 352
+        }
+      },
+      "component_id": "eb3c4eb5d08cfdfeccc1",
+      "component_source_rows": [
+        22
+      ],
+      "fact_id": "nqswap_22",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1924,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 463,
+          "sub_context": 463
+        },
+        "qwen7b": {
+          "org_context": 463,
+          "sub_context": 463
+        }
+      },
+      "component_id": "3a23b9940290ba594fae",
+      "component_source_rows": [
+        1924
+      ],
+      "fact_id": "nqswap_1924",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2829,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 373,
+          "sub_context": 367
+        },
+        "qwen7b": {
+          "org_context": 373,
+          "sub_context": 367
+        }
+      },
+      "component_id": "a2498df8dc5f166bf051",
+      "component_source_rows": [
+        2829,
+        2840,
+        2843
+      ],
+      "fact_id": "nqswap_2829",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3446,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 437,
+          "sub_context": 436
+        },
+        "qwen7b": {
+          "org_context": 437,
+          "sub_context": 436
+        }
+      },
+      "component_id": "880ae8b3471d6112b9b6",
+      "component_source_rows": [
+        3446
+      ],
+      "fact_id": "nqswap_3446",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4557,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 322,
+          "sub_context": 298
+        },
+        "qwen7b": {
+          "org_context": 322,
+          "sub_context": 298
+        }
+      },
+      "component_id": "51eb6b72d035c9b40b7a",
+      "component_source_rows": [
+        4553,
+        4557
+      ],
+      "fact_id": "nqswap_4557",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1370,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 165,
+          "sub_context": 164
+        },
+        "qwen7b": {
+          "org_context": 165,
+          "sub_context": 164
+        }
+      },
+      "component_id": "279f2dbdbee14badbc31",
+      "component_source_rows": [
+        1370,
+        1372
+      ],
+      "fact_id": "nqswap_1370",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4405,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 127,
+          "sub_context": 124
+        },
+        "qwen7b": {
+          "org_context": 127,
+          "sub_context": 124
+        }
+      },
+      "component_id": "2a19aaad5f708301f265",
+      "component_source_rows": [
+        4386,
+        4387,
+        4405
+      ],
+      "fact_id": "nqswap_4405",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 656,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 131,
+          "sub_context": 135
+        },
+        "qwen7b": {
+          "org_context": 131,
+          "sub_context": 135
+        }
+      },
+      "component_id": "0dcad2a8b6ab316e2c8f",
+      "component_source_rows": [
+        654,
+        656,
+        670,
+        673
+      ],
+      "fact_id": "nqswap_656",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1443,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 334,
+          "sub_context": 333
+        },
+        "qwen7b": {
+          "org_context": 334,
+          "sub_context": 333
+        }
+      },
+      "component_id": "f55c0e39fc0513c26f3f",
+      "component_source_rows": [
+        1436,
+        1437,
+        1439,
+        1443,
+        1447
+      ],
+      "fact_id": "nqswap_1443",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 650,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 144
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 144
+        }
+      },
+      "component_id": "3508d152e410064e3de6",
+      "component_source_rows": [
+        650,
+        661,
+        662,
+        664,
+        665
+      ],
+      "fact_id": "nqswap_650",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4032,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 315,
+          "sub_context": 315
+        },
+        "qwen7b": {
+          "org_context": 315,
+          "sub_context": 315
+        }
+      },
+      "component_id": "456425d2f6677c209fa3",
+      "component_source_rows": [
+        4019,
+        4025,
+        4032
+      ],
+      "fact_id": "nqswap_4032",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1880,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 166,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 166,
+          "sub_context": 166
+        }
+      },
+      "component_id": "7d2c5af6437eb9700af9",
+      "component_source_rows": [
+        1873,
+        1880
+      ],
+      "fact_id": "nqswap_1880",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 827,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 268,
+          "sub_context": 269
+        },
+        "qwen7b": {
+          "org_context": 268,
+          "sub_context": 269
+        }
+      },
+      "component_id": "d405808b22bc7de17787",
+      "component_source_rows": [
+        827,
+        828,
+        832,
+        834,
+        838
+      ],
+      "fact_id": "nqswap_827",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 321,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 229,
+          "sub_context": 228
+        },
+        "qwen7b": {
+          "org_context": 229,
+          "sub_context": 228
+        }
+      },
+      "component_id": "b2b7b12f572ff516a437",
+      "component_source_rows": [
+        312,
+        321,
+        322,
+        323,
+        325
+      ],
+      "fact_id": "nqswap_321",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 195,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 216,
+          "sub_context": 216
+        },
+        "qwen7b": {
+          "org_context": 216,
+          "sub_context": 216
+        }
+      },
+      "component_id": "9e1f38a671c1d3012952",
+      "component_source_rows": [
+        195
+      ],
+      "fact_id": "nqswap_195",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3453,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 183,
+          "sub_context": 182
+        },
+        "qwen7b": {
+          "org_context": 183,
+          "sub_context": 182
+        }
+      },
+      "component_id": "354115ba01d85e486001",
+      "component_source_rows": [
+        3453
+      ],
+      "fact_id": "nqswap_3453",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4147,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 189,
+          "sub_context": 181
+        },
+        "qwen7b": {
+          "org_context": 189,
+          "sub_context": 181
+        }
+      },
+      "component_id": "856a91a5cd2a9d895ed6",
+      "component_source_rows": [
+        4147
+      ],
+      "fact_id": "nqswap_4147",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2076,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 203,
+          "sub_context": 199
+        },
+        "qwen7b": {
+          "org_context": 203,
+          "sub_context": 199
+        }
+      },
+      "component_id": "7c81953197759c0a770c",
+      "component_source_rows": [
+        2076,
+        2077
+      ],
+      "fact_id": "nqswap_2076",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3465,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 302,
+          "sub_context": 303
+        },
+        "qwen7b": {
+          "org_context": 302,
+          "sub_context": 303
+        }
+      },
+      "component_id": "09531cd18dbf3d6a0db5",
+      "component_source_rows": [
+        3465,
+        3481,
+        3483
+      ],
+      "fact_id": "nqswap_3465",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3978,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 179,
+          "sub_context": 180
+        },
+        "qwen7b": {
+          "org_context": 179,
+          "sub_context": 180
+        }
+      },
+      "component_id": "e4b6274ac44953829e00",
+      "component_source_rows": [
+        3972,
+        3973,
+        3977,
+        3978
+      ],
+      "fact_id": "nqswap_3978",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1652,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 194,
+          "sub_context": 195
+        },
+        "qwen7b": {
+          "org_context": 194,
+          "sub_context": 195
+        }
+      },
+      "component_id": "91c01ec8ccd507116cc8",
+      "component_source_rows": [
+        1652
+      ],
+      "fact_id": "nqswap_1652",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1407,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 345,
+          "sub_context": 346
+        },
+        "qwen7b": {
+          "org_context": 345,
+          "sub_context": 346
+        }
+      },
+      "component_id": "82a467ca4f9af574c9f0",
+      "component_source_rows": [
+        1407
+      ],
+      "fact_id": "nqswap_1407",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4531,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 218,
+          "sub_context": 218
+        },
+        "qwen7b": {
+          "org_context": 218,
+          "sub_context": 218
+        }
+      },
+      "component_id": "8db7da8afac5876060f4",
+      "component_source_rows": [
+        4531,
+        4532,
+        4535,
+        4536
+      ],
+      "fact_id": "nqswap_4531",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2497,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 184,
+          "sub_context": 183
+        },
+        "qwen7b": {
+          "org_context": 184,
+          "sub_context": 183
+        }
+      },
+      "component_id": "a6b93b48cd615d6cdc1b",
+      "component_source_rows": [
+        2497
+      ],
+      "fact_id": "nqswap_2497",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 12,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 192,
+          "sub_context": 195
+        },
+        "qwen7b": {
+          "org_context": 192,
+          "sub_context": 195
+        }
+      },
+      "component_id": "568f15e9fe7bcf0adbe2",
+      "component_source_rows": [
+        12
+      ],
+      "fact_id": "nqswap_12",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3085,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 145,
+          "sub_context": 141
+        },
+        "qwen7b": {
+          "org_context": 145,
+          "sub_context": 141
+        }
+      },
+      "component_id": "46648f5d85d643df9b5a",
+      "component_source_rows": [
+        3085
+      ],
+      "fact_id": "nqswap_3085",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2887,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 393,
+          "sub_context": 391
+        },
+        "qwen7b": {
+          "org_context": 393,
+          "sub_context": 391
+        }
+      },
+      "component_id": "3e7fe7ee2dabca5f414e",
+      "component_source_rows": [
+        2887
+      ],
+      "fact_id": "nqswap_2887",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4090,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 275,
+          "sub_context": 277
+        },
+        "qwen7b": {
+          "org_context": 275,
+          "sub_context": 277
+        }
+      },
+      "component_id": "188f75c91007e9742120",
+      "component_source_rows": [
+        4082,
+        4089,
+        4090,
+        4091,
+        4097
+      ],
+      "fact_id": "nqswap_4090",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1181,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 164,
+          "sub_context": 167
+        },
+        "qwen7b": {
+          "org_context": 164,
+          "sub_context": 167
+        }
+      },
+      "component_id": "baea08848f501d2acf39",
+      "component_source_rows": [
+        1153,
+        1169,
+        1181
+      ],
+      "fact_id": "nqswap_1181",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1444,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 311,
+          "sub_context": 309
+        },
+        "qwen7b": {
+          "org_context": 311,
+          "sub_context": 309
+        }
+      },
+      "component_id": "b04bba6d12ab1175b36a",
+      "component_source_rows": [
+        1423,
+        1427,
+        1440,
+        1444
+      ],
+      "fact_id": "nqswap_1444",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 348,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 377,
+          "sub_context": 376
+        },
+        "qwen7b": {
+          "org_context": 377,
+          "sub_context": 376
+        }
+      },
+      "component_id": "abc0cb726056662f47a7",
+      "component_source_rows": [
+        348,
+        350,
+        351,
+        352
+      ],
+      "fact_id": "nqswap_348",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 171,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 259,
+          "sub_context": 259
+        },
+        "qwen7b": {
+          "org_context": 259,
+          "sub_context": 259
+        }
+      },
+      "component_id": "ff29cf976809ef960c2e",
+      "component_source_rows": [
+        171,
+        177,
+        178,
+        180
+      ],
+      "fact_id": "nqswap_171",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 843,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 178,
+          "sub_context": 173
+        },
+        "qwen7b": {
+          "org_context": 178,
+          "sub_context": 173
+        }
+      },
+      "component_id": "a6f1d8aa7b168d51d662",
+      "component_source_rows": [
+        829,
+        843,
+        845
+      ],
+      "fact_id": "nqswap_843",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 812,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 189,
+          "sub_context": 190
+        },
+        "qwen7b": {
+          "org_context": 189,
+          "sub_context": 190
+        }
+      },
+      "component_id": "9f4291153becf8a2e678",
+      "component_source_rows": [
+        809,
+        810,
+        811,
+        812,
+        1279,
+        1280,
+        1284
+      ],
+      "fact_id": "nqswap_812",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1863,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 139
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 139
+        }
+      },
+      "component_id": "92ac8b80a9b202593b7d",
+      "component_source_rows": [
+        1863,
+        1868
+      ],
+      "fact_id": "nqswap_1863",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4181,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 319,
+          "sub_context": 319
+        },
+        "qwen7b": {
+          "org_context": 319,
+          "sub_context": 319
+        }
+      },
+      "component_id": "beaf2a3ecfeda71fe2e9",
+      "component_source_rows": [
+        4174,
+        4181
+      ],
+      "fact_id": "nqswap_4181",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4601,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 227,
+          "sub_context": 219
+        },
+        "qwen7b": {
+          "org_context": 227,
+          "sub_context": 219
+        }
+      },
+      "component_id": "480969ee6df37acfa42c",
+      "component_source_rows": [
+        4601
+      ],
+      "fact_id": "nqswap_4601",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 851,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 166,
+          "sub_context": 173
+        },
+        "qwen7b": {
+          "org_context": 166,
+          "sub_context": 173
+        }
+      },
+      "component_id": "1c929959eb62af829361",
+      "component_source_rows": [
+        851
+      ],
+      "fact_id": "nqswap_851",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 382,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 197,
+          "sub_context": 197
+        },
+        "qwen7b": {
+          "org_context": 197,
+          "sub_context": 197
+        }
+      },
+      "component_id": "5a5545e0711903dbc8fa",
+      "component_source_rows": [
+        380,
+        382,
+        383
+      ],
+      "fact_id": "nqswap_382",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2817,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 279,
+          "sub_context": 279
+        },
+        "qwen7b": {
+          "org_context": 279,
+          "sub_context": 279
+        }
+      },
+      "component_id": "5e011633dc603c870d01",
+      "component_source_rows": [
+        2396,
+        2817,
+        2818
+      ],
+      "fact_id": "nqswap_2817",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 957,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 500,
+          "sub_context": 500
+        },
+        "qwen7b": {
+          "org_context": 500,
+          "sub_context": 500
+        }
+      },
+      "component_id": "01b6f06a998607847147",
+      "component_source_rows": [
+        951,
+        955,
+        957,
+        960,
+        975
+      ],
+      "fact_id": "nqswap_957",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2669,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 121,
+          "sub_context": 121
+        },
+        "qwen7b": {
+          "org_context": 121,
+          "sub_context": 121
+        }
+      },
+      "component_id": "367cfea9daf953de2b7a",
+      "component_source_rows": [
+        2669,
+        2694,
+        2695,
+        2696,
+        2697
+      ],
+      "fact_id": "nqswap_2669",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 948,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 327,
+          "sub_context": 328
+        },
+        "qwen7b": {
+          "org_context": 327,
+          "sub_context": 328
+        }
+      },
+      "component_id": "11a7dd0024919ac14d5c",
+      "component_source_rows": [
+        948
+      ],
+      "fact_id": "nqswap_948",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1896,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 278,
+          "sub_context": 278
+        },
+        "qwen7b": {
+          "org_context": 278,
+          "sub_context": 278
+        }
+      },
+      "component_id": "bd4519ee70e50dc9aab2",
+      "component_source_rows": [
+        1888,
+        1889,
+        1895,
+        1896,
+        1901
+      ],
+      "fact_id": "nqswap_1896",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 720,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 134,
+          "sub_context": 134
+        },
+        "qwen7b": {
+          "org_context": 134,
+          "sub_context": 134
+        }
+      },
+      "component_id": "4d54f27ca8c78b2cd3c0",
+      "component_source_rows": [
+        720
+      ],
+      "fact_id": "nqswap_720",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3398,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 146
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 146
+        }
+      },
+      "component_id": "bf01ba3421f9a4f25295",
+      "component_source_rows": [
+        3390,
+        3397,
+        3398
+      ],
+      "fact_id": "nqswap_3398",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4103,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 208,
+          "sub_context": 208
+        },
+        "qwen7b": {
+          "org_context": 208,
+          "sub_context": 208
+        }
+      },
+      "component_id": "b018a911c07637d4a41d",
+      "component_source_rows": [
+        4103,
+        4109,
+        4110
+      ],
+      "fact_id": "nqswap_4103",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 908,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 178,
+          "sub_context": 176
+        },
+        "qwen7b": {
+          "org_context": 178,
+          "sub_context": 176
+        }
+      },
+      "component_id": "cd620d28ae033abfbe0a",
+      "component_source_rows": [
+        894,
+        908,
+        2951,
+        2973
+      ],
+      "fact_id": "nqswap_908",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1530,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 158,
+          "sub_context": 154
+        },
+        "qwen7b": {
+          "org_context": 158,
+          "sub_context": 154
+        }
+      },
+      "component_id": "85f4afd14fb7420bee5c",
+      "component_source_rows": [
+        1528,
+        1530,
+        1532,
+        1536,
+        1538,
+        1875,
+        1878,
+        1879,
+        1881,
+        1882,
+        2085,
+        2089,
+        2091,
+        2092,
+        2461,
+        2464,
+        2465,
+        2466,
+        2468
+      ],
+      "fact_id": "nqswap_1530",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3020,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 203,
+          "sub_context": 215
+        },
+        "qwen7b": {
+          "org_context": 203,
+          "sub_context": 215
+        }
+      },
+      "component_id": "c371b2434556f7a9f4e2",
+      "component_source_rows": [
+        3008,
+        3020
+      ],
+      "fact_id": "nqswap_3020",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2993,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 219,
+          "sub_context": 228
+        },
+        "qwen7b": {
+          "org_context": 219,
+          "sub_context": 228
+        }
+      },
+      "component_id": "0fabab76f34048ff7cee",
+      "component_source_rows": [
+        2993
+      ],
+      "fact_id": "nqswap_2993",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2102,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 134,
+          "sub_context": 136
+        },
+        "qwen7b": {
+          "org_context": 134,
+          "sub_context": 136
+        }
+      },
+      "component_id": "e3bb1fbf7064cd2cc6ec",
+      "component_source_rows": [
+        2102,
+        2105,
+        2115
+      ],
+      "fact_id": "nqswap_2102",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 141,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 156,
+          "sub_context": 156
+        },
+        "qwen7b": {
+          "org_context": 156,
+          "sub_context": 156
+        }
+      },
+      "component_id": "e6f3539fb63b878f66a3",
+      "component_source_rows": [
+        141,
+        144,
+        145,
+        150,
+        515,
+        516,
+        519
+      ],
+      "fact_id": "nqswap_141",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2693,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 139,
+          "sub_context": 139
+        },
+        "qwen7b": {
+          "org_context": 139,
+          "sub_context": 139
+        }
+      },
+      "component_id": "dffa877f96c1ac37a00c",
+      "component_source_rows": [
+        2693,
+        2698
+      ],
+      "fact_id": "nqswap_2693",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 531,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 230,
+          "sub_context": 230
+        },
+        "qwen7b": {
+          "org_context": 230,
+          "sub_context": 230
+        }
+      },
+      "component_id": "c442824df627e8c25b72",
+      "component_source_rows": [
+        509,
+        513,
+        531
+      ],
+      "fact_id": "nqswap_531",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2762,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 143,
+          "sub_context": 144
+        },
+        "qwen7b": {
+          "org_context": 143,
+          "sub_context": 144
+        }
+      },
+      "component_id": "f2d147165ff6ae13a621",
+      "component_source_rows": [
+        2749,
+        2762
+      ],
+      "fact_id": "nqswap_2762",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1368,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 83,
+          "sub_context": 83
+        },
+        "qwen7b": {
+          "org_context": 83,
+          "sub_context": 83
+        }
+      },
+      "component_id": "68d3ce8f2dd312d91b9d",
+      "component_source_rows": [
+        1365,
+        1366,
+        1367,
+        1368
+      ],
+      "fact_id": "nqswap_1368",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1311,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 255,
+          "sub_context": 255
+        },
+        "qwen7b": {
+          "org_context": 255,
+          "sub_context": 255
+        }
+      },
+      "component_id": "48927098570860dd31d4",
+      "component_source_rows": [
+        1311
+      ],
+      "fact_id": "nqswap_1311",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1916,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 251,
+          "sub_context": 250
+        },
+        "qwen7b": {
+          "org_context": 251,
+          "sub_context": 250
+        }
+      },
+      "component_id": "1a5f87be12fcb34ef404",
+      "component_source_rows": [
+        1913,
+        1915,
+        1916,
+        1917
+      ],
+      "fact_id": "nqswap_1916",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3507,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 393,
+          "sub_context": 395
+        },
+        "qwen7b": {
+          "org_context": 393,
+          "sub_context": 395
+        }
+      },
+      "component_id": "1148b261288dd644c6c2",
+      "component_source_rows": [
+        3497,
+        3507,
+        3520,
+        3527
+      ],
+      "fact_id": "nqswap_3507",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4632,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 154,
+          "sub_context": 158
+        },
+        "qwen7b": {
+          "org_context": 154,
+          "sub_context": 158
+        }
+      },
+      "component_id": "35f55b77c96c69c8cace",
+      "component_source_rows": [
+        4630,
+        4631,
+        4632,
+        4633,
+        4643
+      ],
+      "fact_id": "nqswap_4632",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3948,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 104,
+          "sub_context": 106
+        },
+        "qwen7b": {
+          "org_context": 104,
+          "sub_context": 106
+        }
+      },
+      "component_id": "e9963472d4d02e25ef5a",
+      "component_source_rows": [
+        3946,
+        3948,
+        3949,
+        3951
+      ],
+      "fact_id": "nqswap_3948",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 968,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 235,
+          "sub_context": 234
+        },
+        "qwen7b": {
+          "org_context": 235,
+          "sub_context": 234
+        }
+      },
+      "component_id": "c1d64731beef690568d3",
+      "component_source_rows": [
+        958,
+        961,
+        968,
+        969,
+        987,
+        4023,
+        4027
+      ],
+      "fact_id": "nqswap_968",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1983,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 313,
+          "sub_context": 314
+        },
+        "qwen7b": {
+          "org_context": 313,
+          "sub_context": 314
+        }
+      },
+      "component_id": "f02cc7e186c7f8a2a640",
+      "component_source_rows": [
+        1983,
+        1985,
+        1986
+      ],
+      "fact_id": "nqswap_1983",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1219,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 128,
+          "sub_context": 128
+        },
+        "qwen7b": {
+          "org_context": 128,
+          "sub_context": 128
+        }
+      },
+      "component_id": "595a96895f70a4571c72",
+      "component_source_rows": [
+        1219
+      ],
+      "fact_id": "nqswap_1219",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3475,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 136,
+          "sub_context": 135
+        },
+        "qwen7b": {
+          "org_context": 136,
+          "sub_context": 135
+        }
+      },
+      "component_id": "38acf8a16270d800a248",
+      "component_source_rows": [
+        3475
+      ],
+      "fact_id": "nqswap_3475",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3116,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 168,
+          "sub_context": 167
+        },
+        "qwen7b": {
+          "org_context": 168,
+          "sub_context": 167
+        }
+      },
+      "component_id": "45336a967e7ac7f5f5aa",
+      "component_source_rows": [
+        3112,
+        3115,
+        3116,
+        3121
+      ],
+      "fact_id": "nqswap_3116",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1704,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 271,
+          "sub_context": 270
+        },
+        "qwen7b": {
+          "org_context": 271,
+          "sub_context": 270
+        }
+      },
+      "component_id": "f8abc4a79df576439837",
+      "component_source_rows": [
+        1704,
+        1705,
+        1706,
+        1709
+      ],
+      "fact_id": "nqswap_1704",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2898,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 236,
+          "sub_context": 241
+        },
+        "qwen7b": {
+          "org_context": 236,
+          "sub_context": 241
+        }
+      },
+      "component_id": "440100ffa15b445e8e20",
+      "component_source_rows": [
+        2891,
+        2898
+      ],
+      "fact_id": "nqswap_2898",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4684,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 106,
+          "sub_context": 106
+        },
+        "qwen7b": {
+          "org_context": 106,
+          "sub_context": 106
+        }
+      },
+      "component_id": "e6e2d705c047a55751ed",
+      "component_source_rows": [
+        4684,
+        4699
+      ],
+      "fact_id": "nqswap_4684",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2811,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 166,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 166,
+          "sub_context": 166
+        }
+      },
+      "component_id": "cc3c247164ca13d95ec7",
+      "component_source_rows": [
+        2811,
+        2812,
+        2820
+      ],
+      "fact_id": "nqswap_2811",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3024,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 141,
+          "sub_context": 142
+        },
+        "qwen7b": {
+          "org_context": 141,
+          "sub_context": 142
+        }
+      },
+      "component_id": "fe106f5832f4e57fcb65",
+      "component_source_rows": [
+        3010,
+        3023,
+        3024
+      ],
+      "fact_id": "nqswap_3024",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1036,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 177,
+          "sub_context": 176
+        },
+        "qwen7b": {
+          "org_context": 177,
+          "sub_context": 176
+        }
+      },
+      "component_id": "fc25743a6c8019cfb7e5",
+      "component_source_rows": [
+        1036
+      ],
+      "fact_id": "nqswap_1036",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2448,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 370,
+          "sub_context": 367
+        },
+        "qwen7b": {
+          "org_context": 370,
+          "sub_context": 367
+        }
+      },
+      "component_id": "d20eb548f5875a776719",
+      "component_source_rows": [
+        2447,
+        2448,
+        2449,
+        2450,
+        2451
+      ],
+      "fact_id": "nqswap_2448",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3472,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 83,
+          "sub_context": 86
+        },
+        "qwen7b": {
+          "org_context": 83,
+          "sub_context": 86
+        }
+      },
+      "component_id": "247db21ed6c218bca31d",
+      "component_source_rows": [
+        3470,
+        3471,
+        3472,
+        3473
+      ],
+      "fact_id": "nqswap_3472",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 869,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 159,
+          "sub_context": 157
+        },
+        "qwen7b": {
+          "org_context": 159,
+          "sub_context": 157
+        }
+      },
+      "component_id": "47744fcca4fef20ab1d5",
+      "component_source_rows": [
+        869,
+        871
+      ],
+      "fact_id": "nqswap_869",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 689,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 138,
+          "sub_context": 139
+        },
+        "qwen7b": {
+          "org_context": 138,
+          "sub_context": 139
+        }
+      },
+      "component_id": "26933c940e2fccb8b48a",
+      "component_source_rows": [
+        689,
+        692,
+        704,
+        2823
+      ],
+      "fact_id": "nqswap_689",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2778,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 104,
+          "sub_context": 103
+        },
+        "qwen7b": {
+          "org_context": 104,
+          "sub_context": 103
+        }
+      },
+      "component_id": "0b11ba0f08662cc470cd",
+      "component_source_rows": [
+        2778
+      ],
+      "fact_id": "nqswap_2778",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2149,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 164,
+          "sub_context": 165
+        },
+        "qwen7b": {
+          "org_context": 164,
+          "sub_context": 165
+        }
+      },
+      "component_id": "e047d9d589790c39a7c3",
+      "component_source_rows": [
+        2149
+      ],
+      "fact_id": "nqswap_2149",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2551,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 87,
+          "sub_context": 87
+        },
+        "qwen7b": {
+          "org_context": 87,
+          "sub_context": 87
+        }
+      },
+      "component_id": "2941fb928b0d6c72cb54",
+      "component_source_rows": [
+        2546,
+        2549,
+        2550,
+        2551
+      ],
+      "fact_id": "nqswap_2551",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1231,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 436,
+          "sub_context": 433
+        },
+        "qwen7b": {
+          "org_context": 436,
+          "sub_context": 433
+        }
+      },
+      "component_id": "f85f0970f0461d61e4e2",
+      "component_source_rows": [
+        1231
+      ],
+      "fact_id": "nqswap_1231",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3735,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 165,
+          "sub_context": 164
+        },
+        "qwen7b": {
+          "org_context": 165,
+          "sub_context": 164
+        }
+      },
+      "component_id": "90e51986395a07b52212",
+      "component_source_rows": [
+        3735
+      ],
+      "fact_id": "nqswap_3735",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1201,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 250,
+          "sub_context": 250
+        },
+        "qwen7b": {
+          "org_context": 250,
+          "sub_context": 250
+        }
+      },
+      "component_id": "04bbba72f681e7be45d6",
+      "component_source_rows": [
+        1201,
+        1202
+      ],
+      "fact_id": "nqswap_1201",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2347,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 155,
+          "sub_context": 155
+        },
+        "qwen7b": {
+          "org_context": 155,
+          "sub_context": 155
+        }
+      },
+      "component_id": "4e7558a6eedbe0cc8e9d",
+      "component_source_rows": [
+        2345,
+        2346,
+        2347,
+        2348,
+        2349
+      ],
+      "fact_id": "nqswap_2347",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1601,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 77,
+          "sub_context": 75
+        },
+        "qwen7b": {
+          "org_context": 77,
+          "sub_context": 75
+        }
+      },
+      "component_id": "5b3281da476953bff55b",
+      "component_source_rows": [
+        1601
+      ],
+      "fact_id": "nqswap_1601",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 640,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 301,
+          "sub_context": 301
+        },
+        "qwen7b": {
+          "org_context": 301,
+          "sub_context": 301
+        }
+      },
+      "component_id": "be568870490a84a44b3d",
+      "component_source_rows": [
+        640,
+        641,
+        647
+      ],
+      "fact_id": "nqswap_640",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2231,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 113,
+          "sub_context": 113
+        },
+        "qwen7b": {
+          "org_context": 113,
+          "sub_context": 113
+        }
+      },
+      "component_id": "731681f7e9fc506c88d8",
+      "component_source_rows": [
+        2231
+      ],
+      "fact_id": "nqswap_2231",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4605,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 129,
+          "sub_context": 130
+        },
+        "qwen7b": {
+          "org_context": 129,
+          "sub_context": 130
+        }
+      },
+      "component_id": "dff99cfbe2eca0e5012c",
+      "component_source_rows": [
+        4605,
+        4606,
+        4608
+      ],
+      "fact_id": "nqswap_4605",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4576,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 215,
+          "sub_context": 215
+        },
+        "qwen7b": {
+          "org_context": 215,
+          "sub_context": 215
+        }
+      },
+      "component_id": "ccf25c4d4ef3566f8e66",
+      "component_source_rows": [
+        4576,
+        4579
+      ],
+      "fact_id": "nqswap_4576",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4265,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 198,
+          "sub_context": 197
+        },
+        "qwen7b": {
+          "org_context": 198,
+          "sub_context": 197
+        }
+      },
+      "component_id": "4e74c1776e45b321904b",
+      "component_source_rows": [
+        4263,
+        4264,
+        4265,
+        4270
+      ],
+      "fact_id": "nqswap_4265",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4314,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 99,
+          "sub_context": 101
+        },
+        "qwen7b": {
+          "org_context": 99,
+          "sub_context": 101
+        }
+      },
+      "component_id": "5182505cc709192fe807",
+      "component_source_rows": [
+        4305,
+        4311,
+        4314
+      ],
+      "fact_id": "nqswap_4314",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1991,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 222,
+          "sub_context": 224
+        },
+        "qwen7b": {
+          "org_context": 222,
+          "sub_context": 224
+        }
+      },
+      "component_id": "361f81beb78825fd66b2",
+      "component_source_rows": [
+        1987,
+        1990,
+        1991
+      ],
+      "fact_id": "nqswap_1991",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4340,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 88,
+          "sub_context": 87
+        },
+        "qwen7b": {
+          "org_context": 88,
+          "sub_context": 87
+        }
+      },
+      "component_id": "cd0c4d8dfb54f161b302",
+      "component_source_rows": [
+        4335,
+        4340
+      ],
+      "fact_id": "nqswap_4340",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2390,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 239,
+          "sub_context": 237
+        },
+        "qwen7b": {
+          "org_context": 239,
+          "sub_context": 237
+        }
+      },
+      "component_id": "e3bb3c629048816c22e7",
+      "component_source_rows": [
+        2390,
+        2403
+      ],
+      "fact_id": "nqswap_2390",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 498,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 164,
+          "sub_context": 190
+        },
+        "qwen7b": {
+          "org_context": 164,
+          "sub_context": 190
+        }
+      },
+      "component_id": "c5c8670d1549e193842c",
+      "component_source_rows": [
+        474,
+        498
+      ],
+      "fact_id": "nqswap_498",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3575,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 377,
+          "sub_context": 383
+        },
+        "qwen7b": {
+          "org_context": 377,
+          "sub_context": 383
+        }
+      },
+      "component_id": "abbdd14f262e8527a8f4",
+      "component_source_rows": [
+        3575
+      ],
+      "fact_id": "nqswap_3575",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4081,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 146,
+          "sub_context": 148
+        },
+        "qwen7b": {
+          "org_context": 146,
+          "sub_context": 148
+        }
+      },
+      "component_id": "d7e0dc6c7cab1bf5298a",
+      "component_source_rows": [
+        4073,
+        4074,
+        4081,
+        4085
+      ],
+      "fact_id": "nqswap_4081",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3171,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 147,
+          "sub_context": 144
+        },
+        "qwen7b": {
+          "org_context": 147,
+          "sub_context": 144
+        }
+      },
+      "component_id": "01613f31e0c2fe99d911",
+      "component_source_rows": [
+        3171,
+        3172,
+        3174,
+        3176,
+        3177
+      ],
+      "fact_id": "nqswap_3171",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1748,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 187,
+          "sub_context": 191
+        },
+        "qwen7b": {
+          "org_context": 187,
+          "sub_context": 191
+        }
+      },
+      "component_id": "87b265bc00bc628343c1",
+      "component_source_rows": [
+        1745,
+        1748
+      ],
+      "fact_id": "nqswap_1748",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4619,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 247,
+          "sub_context": 238
+        },
+        "qwen7b": {
+          "org_context": 247,
+          "sub_context": 238
+        }
+      },
+      "component_id": "a3d2abf5bbfaecd69b7c",
+      "component_source_rows": [
+        4619
+      ],
+      "fact_id": "nqswap_4619",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2777,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 192,
+          "sub_context": 193
+        },
+        "qwen7b": {
+          "org_context": 192,
+          "sub_context": 193
+        }
+      },
+      "component_id": "7ac9628075e0f62a71dd",
+      "component_source_rows": [
+        2772,
+        2773,
+        2775,
+        2776,
+        2777
+      ],
+      "fact_id": "nqswap_2777",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1422,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 79,
+          "sub_context": 79
+        },
+        "qwen7b": {
+          "org_context": 79,
+          "sub_context": 79
+        }
+      },
+      "component_id": "fbee743317946db48945",
+      "component_source_rows": [
+        1422
+      ],
+      "fact_id": "nqswap_1422",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 545,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 199,
+          "sub_context": 199
+        },
+        "qwen7b": {
+          "org_context": 199,
+          "sub_context": 199
+        }
+      },
+      "component_id": "47cadd22f250f13b0663",
+      "component_source_rows": [
+        544,
+        545
+      ],
+      "fact_id": "nqswap_545",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2857,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 110,
+          "sub_context": 110
+        },
+        "qwen7b": {
+          "org_context": 110,
+          "sub_context": 110
+        }
+      },
+      "component_id": "57751bff4206c845b037",
+      "component_source_rows": [
+        2851,
+        2852,
+        2853,
+        2855,
+        2857
+      ],
+      "fact_id": "nqswap_2857",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3480,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 200,
+          "sub_context": 198
+        },
+        "qwen7b": {
+          "org_context": 200,
+          "sub_context": 198
+        }
+      },
+      "component_id": "f94c429edccc0b872ae8",
+      "component_source_rows": [
+        3480,
+        3484
+      ],
+      "fact_id": "nqswap_3480",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1527,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 187,
+          "sub_context": 191
+        },
+        "qwen7b": {
+          "org_context": 187,
+          "sub_context": 191
+        }
+      },
+      "component_id": "1f5b2dcfc0ad55555017",
+      "component_source_rows": [
+        1527,
+        1529,
+        3258
+      ],
+      "fact_id": "nqswap_1527",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 60,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 98,
+          "sub_context": 97
+        },
+        "qwen7b": {
+          "org_context": 98,
+          "sub_context": 97
+        }
+      },
+      "component_id": "b3fdec1080bd5304b174",
+      "component_source_rows": [
+        60
+      ],
+      "fact_id": "nqswap_60",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 688,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 112,
+          "sub_context": 109
+        },
+        "qwen7b": {
+          "org_context": 112,
+          "sub_context": 109
+        }
+      },
+      "component_id": "02a44037a5f758580838",
+      "component_source_rows": [
+        688
+      ],
+      "fact_id": "nqswap_688",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3736,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 198,
+          "sub_context": 195
+        },
+        "qwen7b": {
+          "org_context": 198,
+          "sub_context": 195
+        }
+      },
+      "component_id": "504dc42064f9a6db2a1e",
+      "component_source_rows": [
+        3736,
+        3739
+      ],
+      "fact_id": "nqswap_3736",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4421,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 111,
+          "sub_context": 111
+        },
+        "qwen7b": {
+          "org_context": 111,
+          "sub_context": 111
+        }
+      },
+      "component_id": "dadf70eb1a2be7e12edf",
+      "component_source_rows": [
+        4421
+      ],
+      "fact_id": "nqswap_4421",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 95,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 254,
+          "sub_context": 256
+        },
+        "qwen7b": {
+          "org_context": 254,
+          "sub_context": 256
+        }
+      },
+      "component_id": "84d709bf281c49b7b82a",
+      "component_source_rows": [
+        95,
+        97
+      ],
+      "fact_id": "nqswap_95",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 863,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 201,
+          "sub_context": 201
+        },
+        "qwen7b": {
+          "org_context": 201,
+          "sub_context": 201
+        }
+      },
+      "component_id": "87cb2a2aa75281f63d78",
+      "component_source_rows": [
+        863
+      ],
+      "fact_id": "nqswap_863",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4694,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 202,
+          "sub_context": 201
+        },
+        "qwen7b": {
+          "org_context": 202,
+          "sub_context": 201
+        }
+      },
+      "component_id": "9b1d75677bb51d3c34b0",
+      "component_source_rows": [
+        4693,
+        4694,
+        4695,
+        4696,
+        4697
+      ],
+      "fact_id": "nqswap_4694",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1314,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 323,
+          "sub_context": 323
+        },
+        "qwen7b": {
+          "org_context": 323,
+          "sub_context": 323
+        }
+      },
+      "component_id": "94a15a6a44ddd52a6672",
+      "component_source_rows": [
+        1314
+      ],
+      "fact_id": "nqswap_1314",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4424,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 240,
+          "sub_context": 241
+        },
+        "qwen7b": {
+          "org_context": 240,
+          "sub_context": 241
+        }
+      },
+      "component_id": "41a281c9ae98fc8024e0",
+      "component_source_rows": [
+        4418,
+        4423,
+        4424,
+        4425,
+        4427
+      ],
+      "fact_id": "nqswap_4424",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4501,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 202,
+          "sub_context": 200
+        },
+        "qwen7b": {
+          "org_context": 202,
+          "sub_context": 200
+        }
+      },
+      "component_id": "9ff96f4ec9ecbd4a6815",
+      "component_source_rows": [
+        4487,
+        4501
+      ],
+      "fact_id": "nqswap_4501",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1836,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 486,
+          "sub_context": 486
+        },
+        "qwen7b": {
+          "org_context": 486,
+          "sub_context": 486
+        }
+      },
+      "component_id": "8a73cc966b7be0d0c0e5",
+      "component_source_rows": [
+        1834,
+        1835,
+        1836,
+        1837
+      ],
+      "fact_id": "nqswap_1836",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 635,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 170,
+          "sub_context": 172
+        },
+        "qwen7b": {
+          "org_context": 170,
+          "sub_context": 172
+        }
+      },
+      "component_id": "379eaa4f6437fa32a41c",
+      "component_source_rows": [
+        630,
+        635,
+        637,
+        643
+      ],
+      "fact_id": "nqswap_635",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1685,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 237,
+          "sub_context": 233
+        },
+        "qwen7b": {
+          "org_context": 237,
+          "sub_context": 233
+        }
+      },
+      "component_id": "f5685c8fda0cd04d7154",
+      "component_source_rows": [
+        1667,
+        1685
+      ],
+      "fact_id": "nqswap_1685",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2310,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 160,
+          "sub_context": 157
+        },
+        "qwen7b": {
+          "org_context": 160,
+          "sub_context": 157
+        }
+      },
+      "component_id": "3136bde02b2182ad4297",
+      "component_source_rows": [
+        2310,
+        2314
+      ],
+      "fact_id": "nqswap_2310",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2525,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 364,
+          "sub_context": 364
+        },
+        "qwen7b": {
+          "org_context": 364,
+          "sub_context": 364
+        }
+      },
+      "component_id": "2dd3ec3f846578e0ef00",
+      "component_source_rows": [
+        2525
+      ],
+      "fact_id": "nqswap_2525",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 819,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 142,
+          "sub_context": 141
+        },
+        "qwen7b": {
+          "org_context": 142,
+          "sub_context": 141
+        }
+      },
+      "component_id": "994b48975aa21c33099c",
+      "component_source_rows": [
+        818,
+        819
+      ],
+      "fact_id": "nqswap_819",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3716,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 107,
+          "sub_context": 109
+        },
+        "qwen7b": {
+          "org_context": 107,
+          "sub_context": 109
+        }
+      },
+      "component_id": "6d86dd9ea45c016cd0c0",
+      "component_source_rows": [
+        3699,
+        3704,
+        3708,
+        3716,
+        3720
+      ],
+      "fact_id": "nqswap_3716",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2059,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 123,
+          "sub_context": 127
+        },
+        "qwen7b": {
+          "org_context": 123,
+          "sub_context": 127
+        }
+      },
+      "component_id": "dc00a3fce2afce4702b2",
+      "component_source_rows": [
+        2057,
+        2059
+      ],
+      "fact_id": "nqswap_2059",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2882,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 201,
+          "sub_context": 189
+        },
+        "qwen7b": {
+          "org_context": 201,
+          "sub_context": 189
+        }
+      },
+      "component_id": "18fd5d848d0c0acca37a",
+      "component_source_rows": [
+        2882,
+        2896
+      ],
+      "fact_id": "nqswap_2882",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2785,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 102,
+          "sub_context": 101
+        },
+        "qwen7b": {
+          "org_context": 102,
+          "sub_context": 101
+        }
+      },
+      "component_id": "6d1f7588d1df242b4f19",
+      "component_source_rows": [
+        2785,
+        2804
+      ],
+      "fact_id": "nqswap_2785",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2583,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 99,
+          "sub_context": 99
+        },
+        "qwen7b": {
+          "org_context": 99,
+          "sub_context": 99
+        }
+      },
+      "component_id": "8460492112d67d0755e0",
+      "component_source_rows": [
+        2582,
+        2583
+      ],
+      "fact_id": "nqswap_2583",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 87,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 189,
+          "sub_context": 190
+        },
+        "qwen7b": {
+          "org_context": 189,
+          "sub_context": 190
+        }
+      },
+      "component_id": "b897108c15c849e19448",
+      "component_source_rows": [
+        87
+      ],
+      "fact_id": "nqswap_87",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2226,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 210,
+          "sub_context": 207
+        },
+        "qwen7b": {
+          "org_context": 210,
+          "sub_context": 207
+        }
+      },
+      "component_id": "d5d981d8878162bd5685",
+      "component_source_rows": [
+        2211,
+        2224,
+        2225,
+        2226,
+        2227
+      ],
+      "fact_id": "nqswap_2226",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2645,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 270,
+          "sub_context": 269
+        },
+        "qwen7b": {
+          "org_context": 270,
+          "sub_context": 269
+        }
+      },
+      "component_id": "7612b82fecac3a237118",
+      "component_source_rows": [
+        2641,
+        2643,
+        2644,
+        2645,
+        2648
+      ],
+      "fact_id": "nqswap_2645",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4518,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 319,
+          "sub_context": 316
+        },
+        "qwen7b": {
+          "org_context": 319,
+          "sub_context": 316
+        }
+      },
+      "component_id": "bc35a33a3cf108a01e59",
+      "component_source_rows": [
+        4518
+      ],
+      "fact_id": "nqswap_4518",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2849,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 208,
+          "sub_context": 207
+        },
+        "qwen7b": {
+          "org_context": 208,
+          "sub_context": 207
+        }
+      },
+      "component_id": "c6e2e8aabf411fd69436",
+      "component_source_rows": [
+        2849
+      ],
+      "fact_id": "nqswap_2849",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 384,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 298,
+          "sub_context": 291
+        },
+        "qwen7b": {
+          "org_context": 298,
+          "sub_context": 291
+        }
+      },
+      "component_id": "25a193ea844c0ee27fab",
+      "component_source_rows": [
+        384
+      ],
+      "fact_id": "nqswap_384",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4300,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 153,
+          "sub_context": 153
+        },
+        "qwen7b": {
+          "org_context": 153,
+          "sub_context": 153
+        }
+      },
+      "component_id": "5ebc0e8b12c7a6a4bbf4",
+      "component_source_rows": [
+        4300,
+        4302,
+        4303,
+        4307,
+        4308
+      ],
+      "fact_id": "nqswap_4300",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3968,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 165,
+          "sub_context": 165
+        },
+        "qwen7b": {
+          "org_context": 165,
+          "sub_context": 165
+        }
+      },
+      "component_id": "957c806496a93db0733e",
+      "component_source_rows": [
+        3968
+      ],
+      "fact_id": "nqswap_3968",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 54,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 248,
+          "sub_context": 248
+        },
+        "qwen7b": {
+          "org_context": 248,
+          "sub_context": 248
+        }
+      },
+      "component_id": "236152a2723c2cb68838",
+      "component_source_rows": [
+        54
+      ],
+      "fact_id": "nqswap_54",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3990,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 250,
+          "sub_context": 249
+        },
+        "qwen7b": {
+          "org_context": 250,
+          "sub_context": 249
+        }
+      },
+      "component_id": "bf2442e27ddd76d64746",
+      "component_source_rows": [
+        3990,
+        3991,
+        3993,
+        3994,
+        3995
+      ],
+      "fact_id": "nqswap_3990",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4724,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 326,
+          "sub_context": 326
+        },
+        "qwen7b": {
+          "org_context": 326,
+          "sub_context": 326
+        }
+      },
+      "component_id": "df615ab1e1a6343a7e2f",
+      "component_source_rows": [
+        4507,
+        4724,
+        4725,
+        4727
+      ],
+      "fact_id": "nqswap_4724",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1998,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 311,
+          "sub_context": 312
+        },
+        "qwen7b": {
+          "org_context": 311,
+          "sub_context": 312
+        }
+      },
+      "component_id": "9413991f84a32816a93f",
+      "component_source_rows": [
+        1998
+      ],
+      "fact_id": "nqswap_1998",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1710,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 356,
+          "sub_context": 354
+        },
+        "qwen7b": {
+          "org_context": 356,
+          "sub_context": 354
+        }
+      },
+      "component_id": "febb1fc38e081b2cd190",
+      "component_source_rows": [
+        1710
+      ],
+      "fact_id": "nqswap_1710",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1866,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 166,
+          "sub_context": 166
+        },
+        "qwen7b": {
+          "org_context": 166,
+          "sub_context": 166
+        }
+      },
+      "component_id": "3e67fb98278b92624a85",
+      "component_source_rows": [
+        1866
+      ],
+      "fact_id": "nqswap_1866",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2432,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 167,
+          "sub_context": 167
+        },
+        "qwen7b": {
+          "org_context": 167,
+          "sub_context": 167
+        }
+      },
+      "component_id": "ebbe51f6223964f2bbb1",
+      "component_source_rows": [
+        2432
+      ],
+      "fact_id": "nqswap_2432",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3879,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 200,
+          "sub_context": 200
+        },
+        "qwen7b": {
+          "org_context": 200,
+          "sub_context": 200
+        }
+      },
+      "component_id": "128a1c669e56ea8f7769",
+      "component_source_rows": [
+        3879
+      ],
+      "fact_id": "nqswap_3879",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 1184,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 276,
+          "sub_context": 272
+        },
+        "qwen7b": {
+          "org_context": 276,
+          "sub_context": 272
+        }
+      },
+      "component_id": "41897f9b8073be0125cb",
+      "component_source_rows": [
+        1178,
+        1179,
+        1184,
+        1187
+      ],
+      "fact_id": "nqswap_1184",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2108,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 425,
+          "sub_context": 426
+        },
+        "qwen7b": {
+          "org_context": 425,
+          "sub_context": 426
+        }
+      },
+      "component_id": "307b580e2ae076796195",
+      "component_source_rows": [
+        2100,
+        2101,
+        2103,
+        2108,
+        2109
+      ],
+      "fact_id": "nqswap_2108",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4011,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 308,
+          "sub_context": 308
+        },
+        "qwen7b": {
+          "org_context": 308,
+          "sub_context": 308
+        }
+      },
+      "component_id": "2eb739f4171be4381634",
+      "component_source_rows": [
+        4011
+      ],
+      "fact_id": "nqswap_4011",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2172,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 296,
+          "sub_context": 296
+        },
+        "qwen7b": {
+          "org_context": 296,
+          "sub_context": 296
+        }
+      },
+      "component_id": "3dd3596e9fea39b286d5",
+      "component_source_rows": [
+        2163,
+        2172,
+        2187
+      ],
+      "fact_id": "nqswap_2172",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 2622,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 498,
+          "sub_context": 498
+        },
+        "qwen7b": {
+          "org_context": 498,
+          "sub_context": 498
+        }
+      },
+      "component_id": "7af0dc80dc5dc86e60f7",
+      "component_source_rows": [
+        2621,
+        2622
+      ],
+      "fact_id": "nqswap_2622",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4459,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 250,
+          "sub_context": 249
+        },
+        "qwen7b": {
+          "org_context": 250,
+          "sub_context": 249
+        }
+      },
+      "component_id": "5f7af537fe2b680ec11f",
+      "component_source_rows": [
+        4458,
+        4459
+      ],
+      "fact_id": "nqswap_4459",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3084,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 134,
+          "sub_context": 133
+        },
+        "qwen7b": {
+          "org_context": 134,
+          "sub_context": 133
+        }
+      },
+      "component_id": "091d7d7c86624cc23c77",
+      "component_source_rows": [
+        3084
+      ],
+      "fact_id": "nqswap_3084",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 3638,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 321,
+          "sub_context": 319
+        },
+        "qwen7b": {
+          "org_context": 321,
+          "sub_context": 319
+        }
+      },
+      "component_id": "3717a9dcee022c48c482",
+      "component_source_rows": [
+        3638,
+        3639,
+        3640,
+        3641,
+        3642
+      ],
+      "fact_id": "nqswap_3638",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 4222,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 198,
+          "sub_context": 192
+        },
+        "qwen7b": {
+          "org_context": 198,
+          "sub_context": 192
+        }
+      },
+      "component_id": "e6b6a775bc66e4257ce9",
+      "component_source_rows": [
+        4222
+      ],
+      "fact_id": "nqswap_4222",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    },
+    {
+      "source_row_idx": 490,
+      "token_lengths": {
+        "qwen3b": {
+          "org_context": 302,
+          "sub_context": 299
+        },
+        "qwen7b": {
+          "org_context": 302,
+          "sub_context": 299
+        }
+      },
+      "component_id": "f41d7ee3d04ff898496e",
+      "component_source_rows": [
+        482,
+        490,
+        510,
+        532
+      ],
+      "fact_id": "nqswap_490",
+      "split": "blind",
+      "split_id": "f33f1d5b11bab0d5",
+      "seed": 42
+    }
+  ]
+}
