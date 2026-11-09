@@ -1,6 +1,6 @@
-# Release-candidate validation
+# Release validation
 
-Executed for the initial candidate:
+The v1.0.0 paper code release was approved by the authors. The algorithms, experimental configurations, fitted assets and archived numerical results are unchanged from the initial public package. The packaging validation comprises:
 
 - Four CPU tests passed, including exact tiny-Qwen float16 logits equality between local rollback and direct earlier control, replay layer counts, and KV cache lengths through the next decode step.
 - The synthetic quick start and compilation of all public Python modules passed.
@@ -10,4 +10,4 @@ Executed for the initial candidate:
 - The publication allowlist and credential-pattern scan passed. Selected original research code/configuration/assets matched their recorded byte hashes.
 - GitHub-hosted Ubuntu/Python 3.11 CI installed the documented dependencies and passed all configured CPU checks: [initial run](https://github.com/human-com-h/SLEA/actions/runs/42602046104).
 
-The local checks used the existing project environment; the hosted CI provided the independent dependency installation. These checks are not a full pretrained GPU rerun. Remaining gaps are explicitly listed in REPRODUCIBILITY.md. No formal GPU accuracy tolerance is established.
+The local checks used the existing project environment; the hosted CI provided the independent dependency installation. These checks are not a full pretrained GPU rerun. Resource and validation scope are listed in REPRODUCIBILITY.md. No formal cross-hardware GPU accuracy tolerance is established by these packaging checks.

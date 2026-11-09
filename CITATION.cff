@@ -8,6 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0006-7718-2000"
   - family-names: Li
     given-names: Yubo
-version: 0.9.0-rc1
+version: 1.0.0
+date-released: 2026-11-09
+url: "https://github.com/human-com-h/SLEA/releases/tag/v1.0.0"
 license: MIT
 repository-code: "https://github.com/human-com-h/SLEA"

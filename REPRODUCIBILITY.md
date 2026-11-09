@@ -16,16 +16,18 @@ The manuscript may renumber tables. Evidence names, JSON pointers and frozen pol
 1. CPU synthetic execution: actual solver/rounding/causality tests, not pretrained inference.
 2. Archived-result recomputation: state point estimates computed from recorded individual Boolean outcomes; numerical analyses retain original CIs/p-values. Boolean outcomes were derived with the original answer normalization and refusal rules before removing answer text. Revalidating answer matching requires regenerated raw responses.
 3. Exact data reconstruction: all supplied cohorts match original file hashes, including original line endings. Fixed source-row IDs and component metadata define the study sample; no new split is selected.
-4. GPU end-to-end: historical runs exist, but have not been rerun from this public package. This is an explicit release-candidate limitation.
+4. GPU end-to-end: historical experiment records are included. The release packaging checks did not independently rerun the full pretrained GPU experiments.
 
 There is no empirical cross-hardware numerical tolerance estimate from independent reruns. Use exact deterministic IDs/protocols and report any differences; the 1e-12 tolerance applies only to arithmetic reconstruction of archived point estimates. Do not present it as a GPU accuracy tolerance.
 
-## Outstanding work before v1.0.0
+## Resource and validation scope
 
-- Provide and test a complete source-domain data/label reconstruction and orchestration entry point.
-- Restore the full development feature-cache construction/refitting chain with its input locks.
-- Independently rerun pretrained model loading, representative GPU generation, hook/cache equivalence and the documented confirmation entry points from a clean checkout.
-- Recompute full confidence intervals, randomization tests and correction families from public sufficient statistics rather than only retaining the archived analyses.
-- Audit dependency vulnerability results and compatibility before promoting any dependency updates.
+The v1.0.0 paper code release was approved by the authors. It preserves the original experimental implementation and frozen inference assets. Release approval and the scope of the automated packaging checks are recorded separately.
+
+- The public package reconstructs the supplied NQ-Swap cohorts. Complete source-domain data/label reconstruction and orchestration are not included as a single public pipeline.
+- The full development feature-cache construction/refitting chain is not bundled; evaluation uses the supplied frozen assets.
+- Full pretrained GPU evaluation and timing were not independently rerun during release packaging. Original runtime path checks and device-placement requirements apply, including the `/kaggle/working` environment check in the confirmation entry point.
+- The point-table exporter recalculates point metrics. Confidence intervals, randomization tests and correction families are retained in the archived numerical analyses.
+- Dependency updates are reviewed for compatibility with the frozen experimental environment before adoption.
 
 No missing checkpoint or metric is fabricated. Original small inference assets are supplied; base weights remain with their providers. The frozen research code is not replaced with a simplified reimplementation.

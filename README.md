@@ -6,7 +6,7 @@ SLEA reads latent conflict evidence and controls attention to retrieved context 
 
 This repository contains the experimental implementation, frozen small calibration assets, locked sample metadata and numerical outcomes. The paper and submission files are excluded. No publication DOI or preprint is available yet.
 
-**Status: v0.9.0-rc1, a reproducibility release candidate.** Recorded main point metrics can be independently recomputed. Full GPU reruns and the complete historical calibration pipeline have not been certified from a clean public checkout. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for exact coverage and remaining gaps. This release must not be described as a fully verified v1.0 reproduction.
+**Release: [v1.0.0](https://github.com/human-com-h/SLEA/releases/tag/v1.0.0).** This is the author-approved paper code release, including the original implementation, frozen experimental configurations and reproducibility resources. See [REPRODUCIBILITY.md](REPRODUCIBILITY.md) for the experiment map and [validation record](docs/VALIDATION.md) for the checks performed.
 
 ## Installation
 
@@ -61,11 +61,11 @@ python -m src.nqswap_stage_b --model qwen7b
 
 These are the original GPU evaluation entry points, intended for a two-GPU CUDA environment rather than portable CPU execution. Run from the repository root after preparing data and setting `SLEA_MODEL_PATH` to the official local model directory. The 7B runtime requires exactly two CUDA GPUs and preserves the archived layer placement. Use a fresh output directory: the original run creates `results/nqswap_stage_b/<model>`. It produces responses, token IDs, per-layer/cache audits, equivalence checks, environment records and completion summaries. The audited study uses batch size 1, eager attention, float16 backbone, greedy decoding, 512 input tokens and at most 32 new tokens. It includes offline closed-book labeling and reference branches for auditing; these costs are distinct from the deployed arbitration trajectory.
 
-These GPU commands have not been rerun for this release. The release candidate also lacks a complete clean-checkout source-domain GPU orchestration pipeline. Numerical verification from supplied outcomes is available now; do not infer GPU certification from a successful table rebuild.
+The release checks cover CPU tests, data reconstruction and numerical verification from recorded outcomes. GPU evaluation uses the original experimental runtime and hardware requirements; detailed validation scope is recorded in [REPRODUCIBILITY.md](REPRODUCIBILITY.md).
 
 ## Level 3: full reproduction
 
-The original fitting and engineering entry points are `src.causalgate_stage_a_job_v1` and `src.causalgate_rollback_job`, each accepting `--model qwen3b` or `--model qwen7b`. They retain the original development-data/layout contracts. The complete development feature caches and source-domain cohort reconstruction are not included in this candidate; full refitting is therefore not yet turnkey. There is no backbone training or fine-tuning procedure.
+The original fitting and engineering entry points are `src.causalgate_stage_a_job_v1` and `src.causalgate_rollback_job`, each accepting `--model qwen3b` or `--model qwen7b`. They retain the original development-data/layout contracts. Frozen fitted assets are included for evaluation. Full refitting requires the development feature caches and original source-domain cohort reconstruction, which are outside the distributed resource set. There is no backbone training or fine-tuning procedure.
 
 The public code is byte-identical to selected research sources. Original versioned module names preserve provenance. See [the experiment map](REPRODUCIBILITY.md), [resource and license notes](docs/RESOURCES.md) and [timing protocol](docs/TIMING.md).
 

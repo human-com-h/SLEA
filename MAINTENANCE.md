@@ -1,6 +1,6 @@
 # Maintenance
 
-The main branch carries reviewed maintenance changes. Published tags are immutable; never move a paper-associated tag after a fix. Use semantic versions, keep release notes explicit about validation, and retain old resources. Candidate releases remain prereleases until the outstanding reproducibility items are resolved.
+The main branch carries reviewed maintenance changes. Published tags are immutable; never move a paper-associated tag after a fix. Use semantic versions, keep release notes explicit about validation, and retain old resources. The author-approved paper code release is v1.0.0; v0.9.0-rc1 remains available as a historical prerelease.
 
 ## Platform automation
 
