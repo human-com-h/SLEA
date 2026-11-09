@@ -25,7 +25,7 @@
   "data/processed/nqswap_source_v2/qwen7b/baseline_directions.npz": "ef729379a55649035e4a99a4e40c4a0853f302272d698ac181a7ac80fe4e7da6",
   "data/processed/nqswap_stage_b_646/sample_lock.json": "e110c8be18cac45c647b35787fb98d2f73a4a6855db7c803f9056688528d8878",
   "data/processed/nqswap_v2/sample_lock.json": "ef9bc05278b5d65cdf5613d189e03ef3bef4045c80bbae187ba0febd7871f758",
-  "docs/RESOURCES.md": "fcf29520a703aec6e96c7f15683f75f3d67aa738537c15313beb007f2305839a",
+  "docs/RESOURCES.md": "895ea5ef554e8520d97c1a37e8f2948292317b9b16d6229e3b22652da10512f3",
   "docs/TIMING.md": "f53cd9763beed66c878d8a61cb9c91c3c8949e0b9c1a67e3222ff6a2171b0fc8",
   "docs/VALIDATION.md": "112e564be4015647b9899c5469151c69e469ab97aed0493f6d24e11ee45a221e",
   "examples/quick_start.py": "bc16e3798e8d42481aff8b1cacaebd4b9087ce11575bd8a51df361a163e126e8",
