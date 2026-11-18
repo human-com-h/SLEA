@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+- Publish the Route B numerical supplement as a versioned release asset. The archive includes three-model results, 819 paired tests and a script that rebuilds the Route B tables from recorded estimates.
+- Keep v1.0.0 as the fixed reference for the Route A code and reproducibility materials.
+
 ## 1.0.0
 
 - Publish the author-approved paper code release.

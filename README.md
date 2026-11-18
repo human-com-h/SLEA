@@ -1,5 +1,7 @@
 # SLEA
 
+The Route B numerical supplement is available as a fixed release for citation. It adds three-model aggregate results, 819 paired comparisons, matched timing and mechanism diagnostics. See the [Route B archive and table reconstruction instructions](https://github.com/human-com-h/SLEA/releases/tag/v1.1.0).
+
 Research code for **Single-Trajectory Latent Early Arbitration for Retrieval–Memory Conflicts**, by Zida Hao and Yubo Li.
 
 SLEA reads latent conflict evidence and controls attention to retrieved context within one contextual generation trajectory. All-Query hard blocking and a lookahead micro-rollback operator separate the read and control boundaries. The deployed 7B rollback configuration conditionally replays four local decoder layers. Backbone parameters remain frozen; probes, policy thresholds and calibration use offline development data.
